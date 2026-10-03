@@ -467,6 +467,7 @@ function drawSheet(){
       if (s.group !== g) return "";
       var hh = healthOf(s.id), sub = hh ? (hh.ok ? hh.fresh + " כתבות טריות" : "תקלה: " + (hh.error || "")) : (s.note || "ייבדק באיסוף הבא");
       if (hh && hh.ok && s.note) sub += " · " + s.note;
+      if (hh && hh.ok && hh.via) sub += " · דרך " + hh.via;
       return '<div class="row"><div class="l">' + hdot(hh) + '<span>' + esc(s.name) + '<small>' + esc(sub) + '</small></span></div><div style="display:flex;align-items:center;gap:4px">' +
         (s.custom ? '<button class="del" data-del="sources.' + i + '" aria-label="מחק">🗑</button>' : '') + sw("sources." + i, s.on) + '</div></div>';
     }).join("") + '</div>';

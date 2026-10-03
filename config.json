@@ -20,7 +20,7 @@
   "leagues": [
     {"id": "PL",  "name": "פרמייר ליג", "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿", "provider": "football-data", "code": "PL",  "on": true},
     {"id": "BL1", "name": "בונדסליגה",  "flag": "🇩🇪", "provider": "football-data", "code": "BL1", "on": true},
-    {"id": "ISR", "name": "ליגת העל",   "flag": "🇮🇱", "provider": "api-football",  "code": "383", "on": true}
+    {"id": "ISR", "name": "ליגת העל",   "flag": "🇮🇱", "provider": "thesportsdb",   "code": "4644", "on": true}
   ],
   "countdowns": [
     {"label": "בחירות", "date": "2026-10-27"}
