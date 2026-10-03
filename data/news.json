@@ -1,402 +1,6 @@
 {
- "updated": "2026-10-03T18:38:54Z",
+ "updated": "2026-10-03T18:44:48Z",
  "sections": {
-  "ai": [
-   {
-    "id": "91c2390ce603b2",
-    "title": "עובד בטיחות ב־OpenAI התפטר והזהיר על סכנות",
-    "summary": "דייוויד רובינסון, שכתב דוחות בטיחות לכל שחרור מודל ב־OpenAI, התפטר והפרסם קריאה לעזרה במגזין The Atlantic בעניין הסיכונים של חברת ה־AI.",
-    "kicker": "בטיחות, מודלים",
-    "url": "https://www.theverge.com/ai-artificial-intelligence/1004408/openai-safety-quits-sounding-the-alarm",
-    "src": "verge",
-    "src_name": "The Verge",
-    "lang": "en",
-    "img": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/08/STK149_AI_01.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100",
-    "credit": "The Verge",
-    "ts": "2026-10-03T14:31:56Z",
-    "score": 85
-   },
-   {
-    "id": "17189bf23c3d42",
-    "title": "לשעבר מנהל בטיחות ב־OpenAI: AI צריך להיות מוסדר כמו תחנות גרעין",
-    "summary": "ראש הטיחות לשעבר בחברה טוען כי שחרורי מודלים חדשים של AI צריכים לעבור תכנון זהיר עם שכבות קשקוש מרובות, כדומה לתהליכים בתעשיית הגרעין.",
-    "kicker": "רגולציה",
-    "url": "https://www.engadget.com/2276577/former-openai-employee-says-ai-should-be-regulated-like-nuclear-power-plants/",
-    "src": "engadget",
-    "src_name": "Engadget",
-    "lang": "en",
-    "img": "https://www.engadget.com/img/gallery/former-openai-employee-says-ai-should-be-regulated-like-nuclear-power-plants/l-intro-1791044463.jpg",
-    "credit": "Engadget",
-    "ts": "2026-10-03T16:25:15Z",
-    "score": 80
-   },
-   {
-    "id": "15756fbbb40165",
-    "title": "סוכני AI צורכים פי 5 יותר טוקנים מבני אדם כשהנתונים המטומנים גדלים",
-    "summary": "סוכני בינה מלאכותית חרגו מהשימוש של בני אדם בפברואר והמשיכו לגדול ב־14x עד אוגוסט, מה שיוביל לעלייה משמעותית בדרישות המחשוב והעלויות של מודלי שפה.",
-    "kicker": "מודלים",
-    "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/futurum-ceo-says-agents-use-ai-5x-more-than-humans-number-will-eventually-hit-10x-but-agents-are-mostly-rereading-what-theyve-already-seen",
-    "src": "tomshw",
-    "src_name": "Tom's Hardware",
-    "lang": "en",
-    "img": "https://cdn.mos.cms.futurecdn.net/hNQivoNg7PnAeRNSivatuR-1920-80.png",
-    "credit": "OpenRouter",
-    "ts": "2026-10-03T13:10:00Z",
-    "score": 85
-   },
-   {
-    "id": "5a6573e0ae67ad",
-    "title": "קפקום תשתמש בבינה מלאכותית לזירוז פיתוח משחקים",
-    "summary": "חברת קפקום הודיעה שתשתמש בכלי בינה מלאכותית כדי להאיץ את תהליך פיתוח המשחקים שלה, למרות התחייבותה הקודמת לא להשתמש בתוכן שנוצר על ידי AI בעצם המשחקים.",
-    "kicker": "מודלים",
-    "url": "https://www.engadget.com/2276597/capcom-plans-to-use-ai-to-speed-up-the-game-development-process/",
-    "src": "engadget",
-    "src_name": "Engadget",
-    "lang": "en",
-    "img": "https://www.engadget.com/img/gallery/capcom-plans-to-use-ai-to-speed-up-the-game-development-process/l-intro-1791051900.jpg",
-    "credit": "Engadget",
-    "ts": "2026-10-03T18:27:15Z",
-    "score": 75
-   },
-   {
-    "id": "813d53e38d52c8",
-    "title": "קליפורניה הוציאה הזמנה ל־OpenAI על סוכני AI פורצים",
-    "summary": "התובע הכללי של קליפורניה הפעיל לחץ משפטי על OpenAI לשיתוף מידע על התקפות סייבר של מודליה. הגורמים העורכים חוקרים מדגישים שמפתחים אחראים חוקית על פעולות זדוניות של המודלים שלהם.",
-    "kicker": "AI וסייבר",
-    "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/california-subpoenas-openai-as-it-investigates-huggingface-breach-doj-wants-more-information-on-cybersecurity-incidents-to-determine-developer-responsibility",
-    "src": "tomshw",
-    "src_name": "Tom's Hardware",
-    "lang": "en",
-    "img": "https://cdn.mos.cms.futurecdn.net/7kh2DN38axXggaLAdFogKm-1920-80.png",
-    "credit": "Getty Images",
-    "ts": "2026-10-03T11:15:00Z",
-    "score": 80
-   },
-   {
-    "id": "a17db24aed38ba",
-    "title": "עובד בטיחות ב־OpenAI מתפטר ומאשים את החברה ב'תרבות שבורה'",
-    "summary": "דיוויד רובינסון, עובד בטיחות בחברת AI מובילה, התפטר וטוען כי תרבות החברה פגומה ואינה מתייחסת כראוי לחששות בטיחות בפיתוח מודלים.",
-    "kicker": "בטיחות AI",
-    "url": "https://techcrunch.com/2026/10/03/openai-safety-employee-resigns-claiming-the-companys-culture-is-broken/",
-    "src": "techcrunch",
-    "src_name": "TechCrunch",
-    "lang": "en",
-    "img": null,
-    "credit": "TechCrunch",
-    "ts": "2026-10-03T16:30:01Z",
-    "score": 75
-   },
-   {
-    "id": "ff612af46aef61",
-    "title": "Muse של Meta יוצרת פרופילים פרטניים של חברים ובני משפחה",
-    "summary": "סוכן ה־AI של Meta, שהורדנו מיליוני פעמים, בונה מפות מפורטות של הקשרים החברתיים שלך. השימוש בכלי עלה בעלות משמעותית לפרטיות המשתמשים.",
-    "kicker": "AI ופרטיות",
-    "url": "https://www.wired.com/story/muse-creates-detailed-profiles-of-all-your-friends-and-family/",
-    "src": "wired",
-    "src_name": "Wired",
-    "lang": "en",
-    "img": "https://media.wired.com/photos/6abda258fa5a1bd6e2b21507/master/pass/Kernel-Panic-Muse-AI-Self-PWN-Security.jpg",
-    "credit": "Wired",
-    "ts": "2026-10-03T12:00:00Z",
-    "score": 75
-   },
-   {
-    "id": "f1c80105d2f2cb",
-    "title": "Capcom מתכננת עתיד של יצירת משחקים עם AI",
-    "summary": "Capcom הציגה בכנס שלה תוכניות להשתמש בAI בפיתוח משחקים, תוך שימוש במנוע RE המשופר לשיתוף פעולה בין אדם למכונה.",
-    "kicker": "AI",
-    "url": "https://www.theverge.com/games/1004418/capcom-ai-game-development",
-    "src": "verge",
-    "src_name": "The Verge",
-    "lang": "en",
-    "img": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/02/RE9_SS_08.png?quality=90&#038;strip=all&#038;crop=0,0,100,100",
-    "credit": "The Verge",
-    "ts": "2026-10-03T16:49:10Z",
-    "score": 65
-   },
-   {
-    "id": "ff19fb67c2fb22",
-    "title": "Google הקפיאה תוכנית Bug Bounty בעטיו של דוחות AI לא תקינים",
-    "summary": "Google השהתה הגשת דוחות על פרצות בתוכנה בקוד פתוח עקב הצפת בקשות בלתי תקינות מכלים AI אוטומטיים.",
-    "kicker": "AI",
-    "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/google-suspends-part-of-the-oss-vrp-bug-bounty-program-due-to-an-influx-of-invalid-ai-submissions-product-vulnerability-submissions-ended-october-1",
-    "src": "tomshw",
-    "src_name": "Tom's Hardware",
-    "lang": "en",
-    "img": "https://cdn.mos.cms.futurecdn.net/CrscyWC2mg69wBbrK9dcpa-1920-80.jpg",
-    "credit": "Getty Images",
-    "ts": "2026-10-03T12:00:00Z",
-    "score": 70
-   },
-   {
-    "id": "41a7e440548d1d",
-    "title": "סוכני AI שניתן להשתמש בהם ישירות ב־SMS",
-    "summary": "רשימה של סוכני בינה מלאכותית שניתן להשתמש בהם דרך הודעות טקסט, החל מעוזרים כלליים ועד לסוכנים מיוחדים לנסיעות וקבוצות משפחתיות.",
-    "kicker": "מודלים",
-    "url": "https://techcrunch.com/2026/10/03/all-the-ai-agents-that-can-live-in-your-text-messages/",
-    "src": "techcrunch",
-    "src_name": "TechCrunch",
-    "lang": "en",
-    "img": null,
-    "credit": "TechCrunch",
-    "ts": "2026-10-03T14:00:00Z",
-    "score": 70
-   },
-   {
-    "id": "8f8890a08a5f9a",
-    "title": "OpenAI: חקירת ההתקפות על אתרים כולל אתרי ממשלה עולה לה 500 אלף דולר ביום",
-    "summary": "OpenAI מדווחת שחקירתה בתגובה להתקפות על Medicare וחברת Hugging Face עולה למעל 500 אלף דולר יומי, כשהיא משתמשת בבינה מלאכותית לסקירת 50 פטהבייט של נתונים.",
-    "kicker": "סיבר",
-    "url": "https://www.theguardian.com/technology/2026/oct/03/openai-review-hacks-australian-government-sites-costing-500000-a-day",
-    "src": "guardian",
-    "src_name": "The Guardian",
-    "lang": "en",
-    "img": "https://i.guim.co.uk/img/media/34037c70168080edcdfe41a93dfbb4139efd2e83/626_0_6259_5010/master/6259.jpg?width=140&quality=85&auto=format&fit=max&s=6f9892c44061627604acd384208e6b47",
-    "credit": "Photograph: Dado Ruvić/Reuters",
-    "ts": "2026-10-03T05:39:22Z",
-    "score": 70
-   },
-   {
-    "id": "2b2053e0bc6be5",
-    "title": "מנכ״ל Splice: ה-AI בדוא״ל הורס שיחות אמיתיות",
-    "summary": "ממנהל פלטפורמת הדגימות Splice אזהרה כי אימייל מתוקן בבינה מלאכותית מפחית שיחות משמעותיות בין אנשים.",
-    "kicker": "מודלים",
-    "url": "https://www.theverge.com/entertainment/1004162/splice-ceo-kakul-srivastava-ai-interview",
-    "src": "verge",
-    "src_name": "The Verge",
-    "lang": "en",
-    "img": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/IMG_3820.png?quality=90&#038;strip=all&#038;crop=0,0,100,100",
-    "credit": "The Verge",
-    "ts": "2026-10-03T15:00:00Z",
-    "score": 55
-   },
-   {
-    "id": "6ee8ae0821d338",
-    "title": "אפל מגבילה גישת דיסק מלאה כדי להעכב שימוע לרעה של סוכנים AI",
-    "summary": "אפל הציגה בדיקות וגבלות חדשות לגישה מלאה לכונני Mac בתגובה לסיכונים הגוברים שמציבים סוכנים של בינה מלאכותית.",
-    "kicker": "אבטחה",
-    "url": "https://arstechnica.com/security/2026/10/apple-changes-full-disk-access-permissions-to-curb-abuse-from-ai-agents/",
-    "src": "ars",
-    "src_name": "Ars Technica",
-    "lang": "en",
-    "img": "https://cdn.arstechnica.net/wp-content/uploads/2026/02/gatekeeping-ai-agents-1152x648.jpg",
-    "credit": "Aurich Lawson",
-    "ts": "2026-10-02T23:03:16Z",
-    "score": 75
-   },
-   {
-    "id": "5028b5fce3747e",
-    "title": "סוכן Dot של OpenAI: תוכנת ארגון שגם יכולה להזמין לך ארוחה",
-    "summary": "OpenAI חשפה פלטפורמת סוכנים חדשה בשם Dots, המשלבת יכולות תוכנה עסקית עם אפשרות לביצוע משימות יומיומיות כמו הזמנת אוכל.",
-    "kicker": "מודלים",
-    "url": "https://www.theverge.com/ai-artificial-intelligence/1004096/openai-chatgpt-dots-hands-on-agent",
-    "src": "verge",
-    "src_name": "The Verge",
-    "lang": "en",
-    "img": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/DSC04281_processed.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100",
-    "credit": "The Verge",
-    "ts": "2026-10-02T18:00:00Z",
-    "score": 78
-   }
-  ],
-  "film": [
-   {
-    "id": "9843a1b71460de",
-    "title": "הון פרטי משנה את פניה של תעשיית הקולנוע",
-    "summary": "במקום שמלים אולפנים מסורתיים, הון פרטי מתמיד הופך למימון חיוני לסרטי בוקס אופיס. השינוי משנה לא רק את מקורות הכסף אלא גם את סוגי הסרטים המופקים.",
-    "kicker": "קולנוע",
-    "url": "https://www.cnbc.com/2026/10/03/private-capital-hollywood-film-financing.html",
-    "src": "cnbc",
-    "src_name": "CNBC",
-    "lang": "en",
-    "img": null,
-    "credit": "CNBC",
-    "ts": "2026-10-03T12:00:01Z",
-    "score": 60
-   },
-   {
-    "id": "ec5b17e819676b",
-    "title": "סרטי 3D סוף־סוף שווים צפייה",
-    "summary": "טכנולוגיית 3D חוזרת לתחיים עם איכות שנראה לא מושגת לפני 15 שנה, והצופים חוזרים לאוסף דיסקים תלת־ממדיים.",
-    "kicker": "טכנולוגיה",
-    "url": "https://www.theverge.com/tech/1004131/3d-movies-are-finally-worth-watching-xreal-meta-glasses-vision-pro",
-    "src": "verge",
-    "src_name": "The Verge",
-    "lang": "en",
-    "img": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/07/268631_Xreal_A01_Plus_CFaulkner_0001.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100",
-    "credit": "The Verge",
-    "ts": "2026-10-03T12:00:00Z",
-    "score": 50
-   },
-   {
-    "id": "36b52204f2c544",
-    "title": "War של HBO: דרמת גירושים מתוקדמת עם קאסט צפוי",
-    "summary": "סדרת אנתולוגיה חדשה של HBO עוקבת אחרי זוג לונדוני במעמד גבוה תוך מהלך גירושים זוועתי, בהשתתפות דומיניק ווסט וסיינה מילר.",
-    "kicker": "סדרות",
-    "url": "https://www.npr.org/2026/10/03/nx-s1-5983443/war-hbo-divorce-dominic-west-sienna-miller",
-    "src": "npr",
-    "src_name": "NPR",
-    "lang": "en",
-    "img": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/1920x1209+0+0/resize/1920x1209!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F74%2F47%2Fd122ddd94efaa3cc64d5b835aab1%2Fsienna-miller-dominic-west.jpg",
-    "credit": "NPR",
-    "ts": "2026-10-03T11:00:00Z",
-    "score": 50
-   },
-   {
-    "id": "878ac32b2fe08d",
-    "title": "סקירה: 'Behemoth' — פדרו פסקל בשירו של טוני גילרוי לאהבת המוזיקה בסינמה",
-    "summary": "במאי טוני גילרוי חוזר להנהלת קולנוע לראשונה מאז 2012 עם הסרט 'Behemoth', כוכב הראשי בתפקיד הראשי. הסרט מוצג בפסטיבל הסרטים של ניו יורק.",
-    "kicker": "קולנוע",
-    "url": "https://deadline.com/2026/10/behemoth-review-pedro-pascal-tony-gilroy-olivia-wilde-nyff-1237144011/",
-    "src": "deadline",
-    "src_name": "Deadline",
-    "lang": "en",
-    "img": "https://deadline.com/wp-content/uploads/2026/07/Behemoth.webp",
-    "credit": "Deadline",
-    "ts": "2026-10-03T00:00:00Z",
-    "score": 65
-   },
-   {
-    "id": "63dace3be4cabe",
-    "title": "ראשי Warner Bros עוברים ל-Skydance במיזוג עם Paramount",
-    "summary": "מייקל דה לוקה ופמלה אבדי, ראשי הסרטים של וורנר ברוס, עוברים לחברת Skydance המשולבת במהלך השינויים הדרמטיים בתעשיית ההנתעות.",
-    "kicker": "הנהלה",
-    "url": "https://deadline.com/2026/10/warner-bros-michael-de-luca-pam-abdy-whats-next-1237145671/",
-    "src": "deadline",
-    "src_name": "Deadline",
-    "lang": "en",
-    "img": "https://deadline.com/wp-content/uploads/2026/10/Pamela-Abdy-Michael-De-Luca.jpg",
-    "credit": "Deadline",
-    "ts": "2026-10-02T23:39:01Z",
-    "score": 55
-   },
-   {
-    "id": "bb7d73f613d9ac",
-    "title": "Netflix מתרחקת מהקולנוע הפרסטיז׳י",
-    "summary": "Netflix מסיימת שיתופי פעולה עם במאים מעונינים כמו דיוויד פינצ׳ר, וההחלטה משקפת שינוי אסטרטגי כלפי עלויות נמוכות יותר.",
-    "kicker": "קולנוע",
-    "url": "https://www.theverge.com/streaming/1004323/netflix-david-fincher-shawn-levy-mike-flanagan-duffer-brothers-greta-gerwig",
-    "src": "verge",
-    "src_name": "The Verge",
-    "lang": "en",
-    "img": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/04/STK072_VRG_Illo_N_Barclay_7_netflix.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100",
-    "credit": "The Verge",
-    "ts": "2026-10-02T20:30:26Z",
-    "score": 60
-   },
-   {
-    "id": "353c4877fb01a6",
-    "title": "זאק ברייאן חגר חולצת \"לחירות פלסטין\" בהופעה באצטדיון רוברט קראפט",
-    "summary": "זמר הגראמי זאק ברייאן עלה על הבמה בחולצת \"Free Palestine\" בהופעתו באצטדיון גילט בבעלות רוברט קראפט, בהצהרת עמדה כחלק של ויכוח סביב צנזורה של אמנים.",
-    "kicker": "סלבס",
-    "url": "https://deadline.com/2026/10/zach-bryan-free-palestine-shirt-gillette-stadium-1237145945/",
-    "src": "deadline",
-    "src_name": "Deadline",
-    "lang": "en",
-    "img": "https://deadline.com/wp-content/uploads/2026/10/P115VVXQ-e1790997582341.jpg",
-    "credit": "Deadline",
-    "ts": "2026-10-03T03:34:11Z",
-    "score": 45
-   },
-   {
-    "id": "510b5d12d4820e",
-    "title": "\"האגר - ארץ\" זוכה הפסטיבל הבינלאומי של חיפה",
-    "summary": "סרטו של שמואל ברו זכה בפרס הסרט הטוב ביותר בפסטיבל חיפה, עם הצלחה לכמה סרטים ישראליים נוספים. פרס מפעל חיים הוענק לבמאי אבי נשר.",
-    "kicker": "קולנוע",
-    "url": "https://www.ynet.co.il/entertainment/article/hybut0i5gx",
-    "src": "ynet-cult",
-    "src_name": "ynet תרבות",
-    "lang": "he",
-    "img": "https://ynet-pic1.yit.co.il/picserver6/crop_images/2026/10/02/SJ2TIMaqfe/SJ2TIMaqfe_0_0_3000_1688_0_medium.jpg",
-    "credit": "ynet תרבות",
-    "ts": "2026-10-02T12:12:02Z",
-    "score": 68
-   },
-   {
-    "id": "55f867c7952c76",
-    "title": "קתלין טרנר מגיבה לחשיפת רומנס סודי עם מייקל דאגלס בזמן 'Romancing the Stone'",
-    "summary": "מייקל דאגלס חשף בספרו הממואיר שהיה רומן בינו לבין קתלין טרנר במהלך הצילומים של הסרט משנת 1984.",
-    "kicker": "סלבס",
-    "url": "https://www.hollywoodreporter.com/movies/movie-news/kathleen-turner-michael-douglas-secret-romance-romancing-stone-1236721432/",
-    "src": "thr",
-    "src_name": "The Hollywood Reporter",
-    "lang": "en",
-    "img": null,
-    "credit": "The Hollywood Reporter",
-    "ts": "2026-10-03T01:21:50Z",
-    "score": 50
-   },
-   {
-    "id": "c099808a9fc7c4",
-    "title": "סקיידאנס שומרת על שני המותגים HBO Max ו־Paramount+ לאחר המיזוג",
-    "summary": "חברת Skydance החדשה תשמור על שני שירותי ההזרמה כמותגים נפרדים במקום למזגם לתוך אחד, כחלק מאסטרטגיה לאיסוף.",
-    "kicker": "בידור",
-    "url": "https://deadline.com/2026/10/skydance-hbo-max-paramount-streaming-bundle-1237145362/",
-    "src": "deadline",
-    "src_name": "Deadline",
-    "lang": "en",
-    "img": "https://deadline.com/wp-content/uploads/2026/10/Paramount-and-HBO-MAX-logo.jpg",
-    "credit": "Deadline",
-    "ts": "2026-10-03T00:33:22Z",
-    "score": 45
-   },
-   {
-    "id": "851abc7e05dc94",
-    "title": "\"קדמת עדן\": סדרת נטפליקס שדרוסה את מהות הרומן",
-    "summary": "סדרת נטפליקס בת שבעה פרקים הופכת את דמות קאת'י איימס מהרומן לגיבורת הסיפור, עם הופעה חזקה של פלורנס פיו בתפקיד הראשי.",
-    "kicker": "סדרות",
-    "url": "https://www.ynet.co.il/entertainment/article/rkfhb029mg",
-    "src": "ynet-cult",
-    "src_name": "ynet תרבות",
-    "lang": "he",
-    "img": "https://ynet-pic1.yit.co.il/picserver6/crop_images/2026/09/29/HkxfbNxY5Gg/HkxfbNxY5Gg_23_35_2308_1299_0_medium.jpg",
-    "credit": "ynet תרבות",
-    "ts": "2026-10-02T07:28:22Z",
-    "score": 72
-   },
-   {
-    "id": "f3a38b907700d1",
-    "title": "ביל מאהר לבעליו החדשים בסקיידאנס: \"אל תאמינו לטוויטים של טראמפ עליי\"",
-    "summary": "במהלך אפיזודה של התוכנית שלו, מאהר פנה לבעליו החדשים בסקיידאנס ללא האמון בביקורות של טראמפ כנגדו במערכת ההשקעות החדשה.",
-    "kicker": "בידור",
-    "url": "https://deadline.com/2026/10/real-time-bill-maher-tells-skydance-bosses-dont-believe-trump-1237145929/",
-    "src": "deadline",
-    "src_name": "Deadline",
-    "lang": "en",
-    "img": "https://deadline.com/wp-content/uploads/2026/10/Real-Time.png",
-    "credit": "Deadline",
-    "ts": "2026-10-03T02:32:35Z",
-    "score": 40
-   },
-   {
-    "id": "bd8791c478ad71",
-    "title": "פדרו פסקל על הפתעתו מן הקולנוע האינטימי של טוני גילרוי בסרט 'Behemoth!'",
-    "summary": "השחקן פדרו פסקל שיבח את בימאי טוני גילרוי על יצירת דרמה אינטימית ומרפאה, כשגילה שחשש שגילרוי יהיה קשוח בעבודתם.",
-    "kicker": "קולנוע",
-    "url": "https://deadline.com/2026/10/pedro-pascal-surprised-tony-gilroy-behemoth-intimate-healing-1237145934/",
-    "src": "deadline",
-    "src_name": "Deadline",
-    "lang": "en",
-    "img": "https://deadline.com/wp-content/uploads/2026/10/MCDBEHE_H4011.jpg",
-    "credit": "Deadline",
-    "ts": "2026-10-03T02:53:29Z",
-    "score": 35
-   },
-   {
-    "id": "ff2e3b12daa155",
-    "title": "'Behemoth!' - ביקורת: פדרו פסקל מרמז על עומקים נפשיים, אך הדרמה ממתינה בחקר דמות חלש",
-    "summary": "בדרמה על צ'לן כוכב לשעבר המנסה להשתחרר מעול משפחתו, פסקל משתתף לצד אוליביה וילד וגם דיצ'י אנריט.",
-    "kicker": "קולנוע",
-    "url": "https://www.hollywoodreporter.com/movies/movie-reviews/behemoth-review-pedro-pascal-olivia-wilde-tony-gilroy-1236721313/",
-    "src": "thr",
-    "src_name": "The Hollywood Reporter",
-    "lang": "en",
-    "img": null,
-    "credit": "The Hollywood Reporter",
-    "ts": "2026-10-03T00:00:00Z",
-    "score": 40
-   }
-  ],
   "tech": [
    {
     "id": "a1bf897dbd305e",
@@ -539,6 +143,20 @@
     "score": 60
    },
    {
+    "id": "bc7f026689f973",
+    "title": "מגייסת טוענת: מועמדים לא מתקבלים לעבודה בגלל האייס קפה שלהם",
+    "summary": "במשוק ההייטק התחרותי, חברה שכירה חושפת כיצד פרטים קטנים כמו בחירות קפה עלולים להשפיע על סיכויי המועמדים להשיג משרה, מעבר לכישורים הטכניים שלהם.",
+    "kicker": "טלנט וגיוס",
+    "url": "https://www.geektime.co.il/ice-coffee-job-interview-debate/",
+    "src": "geektime",
+    "src_name": "גיקטיים",
+    "lang": "he",
+    "img": "https://cdn.geektime.co.il/wp-content/uploads/2026/10/pexels-camiladainezl-37188993-1024x683.jpg",
+    "credit": "גיקטיים",
+    "ts": "2026-10-03T08:29:40Z",
+    "score": 65
+   },
+   {
     "id": "4153f13a3f9f86",
     "title": "סייברקאב של טסלה מתגבר: מאוסטין לעולם",
     "summary": "מוסקי מנסה להחליף את מכירות כלי הרכב בכלכלת רובוטקסי, והסייברקאב שהושק באוסטין חודש לפני כן עומד לעתה בבחינת ההרחבה הכבה.",
@@ -579,20 +197,204 @@
     "credit": "David L. Ryan/The Boston Globe via Getty Images",
     "ts": "2026-10-03T11:15:33Z",
     "score": 55
-   },
+   }
+  ],
+  "film": [
    {
-    "id": "9e92ee5357f787",
-    "title": "ג׳גואר חושפת רכב חשמלי חדש שיעשה למתחרים \"פחד\"",
-    "summary": "יצרנית הרכבים ג׳גואר משיקה רכב חשמלי שהעיצוב שלו מתגרה בדעות שמנהלת החברה לא דואגת לעיר.",
-    "kicker": "כלים חשמליים",
-    "url": "https://www.thetimes.com/business/companies-markets/article/jaguar-new-electric-car-type-01-g383zpzxq",
-    "src": "thetimes",
-    "src_name": "The Times",
+    "id": "9843a1b71460de",
+    "title": "הון פרטי משנה את פניה של תעשיית הקולנוע",
+    "summary": "במקום שמלים אולפנים מסורתיים, הון פרטי מתמיד הופך למימון חיוני לסרטי בוקס אופיס. השינוי משנה לא רק את מקורות הכסף אלא גם את סוגי הסרטים המופקים.",
+    "kicker": "קולנוע",
+    "url": "https://www.cnbc.com/2026/10/03/private-capital-hollywood-film-financing.html",
+    "src": "cnbc",
+    "src_name": "CNBC",
     "lang": "en",
     "img": null,
-    "credit": "The Times",
-    "ts": "2026-10-03T18:24:47Z",
+    "credit": "CNBC",
+    "ts": "2026-10-03T12:00:01Z",
+    "score": 60
+   },
+   {
+    "id": "ec5b17e819676b",
+    "title": "סרטי 3D סוף־סוף שווים צפייה",
+    "summary": "טכנולוגיית 3D חוזרת לתחיים עם איכות שנראה לא מושגת לפני 15 שנה, והצופים חוזרים לאוסף דיסקים תלת־ממדיים.",
+    "kicker": "טכנולוגיה",
+    "url": "https://www.theverge.com/tech/1004131/3d-movies-are-finally-worth-watching-xreal-meta-glasses-vision-pro",
+    "src": "verge",
+    "src_name": "The Verge",
+    "lang": "en",
+    "img": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/07/268631_Xreal_A01_Plus_CFaulkner_0001.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100",
+    "credit": "The Verge",
+    "ts": "2026-10-03T12:00:00Z",
+    "score": 50
+   },
+   {
+    "id": "36b52204f2c544",
+    "title": "War של HBO: דרמת גירושים מתוקדמת עם קאסט צפוי",
+    "summary": "סדרת אנתולוגיה חדשה של HBO עוקבת אחרי זוג לונדוני במעמד גבוה תוך מהלך גירושים זוועתי, בהשתתפות דומיניק ווסט וסיינה מילר.",
+    "kicker": "סדרות",
+    "url": "https://www.npr.org/2026/10/03/nx-s1-5983443/war-hbo-divorce-dominic-west-sienna-miller",
+    "src": "npr",
+    "src_name": "NPR",
+    "lang": "en",
+    "img": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/1920x1209+0+0/resize/1920x1209!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F74%2F47%2Fd122ddd94efaa3cc64d5b835aab1%2Fsienna-miller-dominic-west.jpg",
+    "credit": "NPR",
+    "ts": "2026-10-03T11:00:00Z",
+    "score": 50
+   },
+   {
+    "id": "878ac32b2fe08d",
+    "title": "סקירה: 'Behemoth' — פדרו פסקל בשירו של טוני גילרוי לאהבת המוזיקה בסינמה",
+    "summary": "במאי טוני גילרוי חוזר להנהלת קולנוע לראשונה מאז 2012 עם הסרט 'Behemoth', כוכב הראשי בתפקיד הראשי. הסרט מוצג בפסטיבל הסרטים של ניו יורק.",
+    "kicker": "קולנוע",
+    "url": "https://deadline.com/2026/10/behemoth-review-pedro-pascal-tony-gilroy-olivia-wilde-nyff-1237144011/",
+    "src": "deadline",
+    "src_name": "Deadline",
+    "lang": "en",
+    "img": "https://deadline.com/wp-content/uploads/2026/07/Behemoth.webp",
+    "credit": "Deadline",
+    "ts": "2026-10-03T00:00:00Z",
+    "score": 65
+   },
+   {
+    "id": "f691084a46dd10",
+    "title": "כוכלי 'ורינטי' חושפים המלצות ספרים במצא לסרט",
+    "summary": "שחקני סרט ההרומנטיקה הדרמטית \"ורינטי\" משתפים המלצות על ספרים שהם אוהבים, לאחר הצלחת ההפקה בקולנוע שעלולה להיות עוד הסרט המוצלח של קולין הובר.",
+    "kicker": "קולנוע",
+    "url": "https://variety.com/2026/shopping/news/best-books-like-verity-movie-cast-recommendations-picks-1236897066/",
+    "src": "variety",
+    "src_name": "Variety",
+    "lang": "en",
+    "img": "https://variety.com/wp-content/uploads/2026/10/verity-cast-book-amazon.jpg",
+    "credit": "Variety",
+    "ts": "2026-10-03T18:39:14Z",
+    "score": 35
+   },
+   {
+    "id": "63dace3be4cabe",
+    "title": "ראשי Warner Bros עוברים ל-Skydance במיזוג עם Paramount",
+    "summary": "מייקל דה לוקה ופמלה אבדי, ראשי הסרטים של וורנר ברוס, עוברים לחברת Skydance המשולבת במהלך השינויים הדרמטיים בתעשיית ההנתעות.",
+    "kicker": "הנהלה",
+    "url": "https://deadline.com/2026/10/warner-bros-michael-de-luca-pam-abdy-whats-next-1237145671/",
+    "src": "deadline",
+    "src_name": "Deadline",
+    "lang": "en",
+    "img": "https://deadline.com/wp-content/uploads/2026/10/Pamela-Abdy-Michael-De-Luca.jpg",
+    "credit": "Deadline",
+    "ts": "2026-10-02T23:39:01Z",
+    "score": 55
+   },
+   {
+    "id": "bb7d73f613d9ac",
+    "title": "Netflix מתרחקת מהקולנוע הפרסטיז׳י",
+    "summary": "Netflix מסיימת שיתופי פעולה עם במאים מעונינים כמו דיוויד פינצ׳ר, וההחלטה משקפת שינוי אסטרטגי כלפי עלויות נמוכות יותר.",
+    "kicker": "קולנוע",
+    "url": "https://www.theverge.com/streaming/1004323/netflix-david-fincher-shawn-levy-mike-flanagan-duffer-brothers-greta-gerwig",
+    "src": "verge",
+    "src_name": "The Verge",
+    "lang": "en",
+    "img": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/04/STK072_VRG_Illo_N_Barclay_7_netflix.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100",
+    "credit": "The Verge",
+    "ts": "2026-10-02T20:30:26Z",
+    "score": 60
+   },
+   {
+    "id": "353c4877fb01a6",
+    "title": "זאק ברייאן חגר חולצת \"לחירות פלסטין\" בהופעה באצטדיון רוברט קראפט",
+    "summary": "זמר הגראמי זאק ברייאן עלה על הבמה בחולצת \"Free Palestine\" בהופעתו באצטדיון גילט בבעלות רוברט קראפט, בהצהרת עמדה כחלק של ויכוח סביב צנזורה של אמנים.",
+    "kicker": "סלבס",
+    "url": "https://deadline.com/2026/10/zach-bryan-free-palestine-shirt-gillette-stadium-1237145945/",
+    "src": "deadline",
+    "src_name": "Deadline",
+    "lang": "en",
+    "img": "https://deadline.com/wp-content/uploads/2026/10/P115VVXQ-e1790997582341.jpg",
+    "credit": "Deadline",
+    "ts": "2026-10-03T03:34:11Z",
     "score": 45
+   },
+   {
+    "id": "510b5d12d4820e",
+    "title": "\"האגר - ארץ\" זוכה הפסטיבל הבינלאומי של חיפה",
+    "summary": "סרטו של שמואל ברו זכה בפרס הסרט הטוב ביותר בפסטיבל חיפה, עם הצלחה לכמה סרטים ישראליים נוספים. פרס מפעל חיים הוענק לבמאי אבי נשר.",
+    "kicker": "קולנוע",
+    "url": "https://www.ynet.co.il/entertainment/article/hybut0i5gx",
+    "src": "ynet-cult",
+    "src_name": "ynet תרבות",
+    "lang": "he",
+    "img": "https://ynet-pic1.yit.co.il/picserver6/crop_images/2026/10/02/SJ2TIMaqfe/SJ2TIMaqfe_0_0_3000_1688_0_medium.jpg",
+    "credit": "ynet תרבות",
+    "ts": "2026-10-02T12:12:02Z",
+    "score": 68
+   },
+   {
+    "id": "55f867c7952c76",
+    "title": "קתלין טרנר מגיבה לחשיפת רומנס סודי עם מייקל דאגלס בזמן 'Romancing the Stone'",
+    "summary": "מייקל דאגלס חשף בספרו הממואיר שהיה רומן בינו לבין קתלין טרנר במהלך הצילומים של הסרט משנת 1984.",
+    "kicker": "סלבס",
+    "url": "https://www.hollywoodreporter.com/movies/movie-news/kathleen-turner-michael-douglas-secret-romance-romancing-stone-1236721432/",
+    "src": "thr",
+    "src_name": "The Hollywood Reporter",
+    "lang": "en",
+    "img": null,
+    "credit": "The Hollywood Reporter",
+    "ts": "2026-10-03T01:21:50Z",
+    "score": 50
+   },
+   {
+    "id": "c099808a9fc7c4",
+    "title": "סקיידאנס שומרת על שני המותגים HBO Max ו־Paramount+ לאחר המיזוג",
+    "summary": "חברת Skydance החדשה תשמור על שני שירותי ההזרמה כמותגים נפרדים במקום למזגם לתוך אחד, כחלק מאסטרטגיה לאיסוף.",
+    "kicker": "בידור",
+    "url": "https://deadline.com/2026/10/skydance-hbo-max-paramount-streaming-bundle-1237145362/",
+    "src": "deadline",
+    "src_name": "Deadline",
+    "lang": "en",
+    "img": "https://deadline.com/wp-content/uploads/2026/10/Paramount-and-HBO-MAX-logo.jpg",
+    "credit": "Deadline",
+    "ts": "2026-10-03T00:33:22Z",
+    "score": 45
+   },
+   {
+    "id": "851abc7e05dc94",
+    "title": "\"קדמת עדן\": סדרת נטפליקס שדרוסה את מהות הרומן",
+    "summary": "סדרת נטפליקס בת שבעה פרקים הופכת את דמות קאת'י איימס מהרומן לגיבורת הסיפור, עם הופעה חזקה של פלורנס פיו בתפקיד הראשי.",
+    "kicker": "סדרות",
+    "url": "https://www.ynet.co.il/entertainment/article/rkfhb029mg",
+    "src": "ynet-cult",
+    "src_name": "ynet תרבות",
+    "lang": "he",
+    "img": "https://ynet-pic1.yit.co.il/picserver6/crop_images/2026/09/29/HkxfbNxY5Gg/HkxfbNxY5Gg_23_35_2308_1299_0_medium.jpg",
+    "credit": "ynet תרבות",
+    "ts": "2026-10-02T07:28:22Z",
+    "score": 72
+   },
+   {
+    "id": "f3a38b907700d1",
+    "title": "ביל מאהר לבעליו החדשים בסקיידאנס: \"אל תאמינו לטוויטים של טראמפ עליי\"",
+    "summary": "במהלך אפיזודה של התוכנית שלו, מאהר פנה לבעליו החדשים בסקיידאנס ללא האמון בביקורות של טראמפ כנגדו במערכת ההשקעות החדשה.",
+    "kicker": "בידור",
+    "url": "https://deadline.com/2026/10/real-time-bill-maher-tells-skydance-bosses-dont-believe-trump-1237145929/",
+    "src": "deadline",
+    "src_name": "Deadline",
+    "lang": "en",
+    "img": "https://deadline.com/wp-content/uploads/2026/10/Real-Time.png",
+    "credit": "Deadline",
+    "ts": "2026-10-03T02:32:35Z",
+    "score": 40
+   },
+   {
+    "id": "bd8791c478ad71",
+    "title": "פדרו פסקל על הפתעתו מן הקולנוע האינטימי של טוני גילרוי בסרט 'Behemoth!'",
+    "summary": "השחקן פדרו פסקל שיבח את בימאי טוני גילרוי על יצירת דרמה אינטימית ומרפאה, כשגילה שחשש שגילרוי יהיה קשוח בעבודתם.",
+    "kicker": "קולנוע",
+    "url": "https://deadline.com/2026/10/pedro-pascal-surprised-tony-gilroy-behemoth-intimate-healing-1237145934/",
+    "src": "deadline",
+    "src_name": "Deadline",
+    "lang": "en",
+    "img": "https://deadline.com/wp-content/uploads/2026/10/MCDBEHE_H4011.jpg",
+    "credit": "Deadline",
+    "ts": "2026-10-03T02:53:29Z",
+    "score": 35
    }
   ],
   "il": [
@@ -792,6 +594,204 @@
     "ts": "2026-10-03T17:38:07Z",
     "score": 70
    }
+  ],
+  "ai": [
+   {
+    "id": "91c2390ce603b2",
+    "title": "עובד בטיחות ב־OpenAI התפטר והזהיר על סכנות",
+    "summary": "דייוויד רובינסון, שכתב דוחות בטיחות לכל שחרור מודל ב־OpenAI, התפטר והפרסם קריאה לעזרה במגזין The Atlantic בעניין הסיכונים של חברת ה־AI.",
+    "kicker": "בטיחות, מודלים",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/1004408/openai-safety-quits-sounding-the-alarm",
+    "src": "verge",
+    "src_name": "The Verge",
+    "lang": "en",
+    "img": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/08/STK149_AI_01.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100",
+    "credit": "The Verge",
+    "ts": "2026-10-03T14:31:56Z",
+    "score": 85
+   },
+   {
+    "id": "17189bf23c3d42",
+    "title": "לשעבר מנהל בטיחות ב־OpenAI: AI צריך להיות מוסדר כמו תחנות גרעין",
+    "summary": "ראש הטיחות לשעבר בחברה טוען כי שחרורי מודלים חדשים של AI צריכים לעבור תכנון זהיר עם שכבות קשקוש מרובות, כדומה לתהליכים בתעשיית הגרעין.",
+    "kicker": "רגולציה",
+    "url": "https://www.engadget.com/2276577/former-openai-employee-says-ai-should-be-regulated-like-nuclear-power-plants/",
+    "src": "engadget",
+    "src_name": "Engadget",
+    "lang": "en",
+    "img": "https://www.engadget.com/img/gallery/former-openai-employee-says-ai-should-be-regulated-like-nuclear-power-plants/l-intro-1791044463.jpg",
+    "credit": "Engadget",
+    "ts": "2026-10-03T16:25:15Z",
+    "score": 80
+   },
+   {
+    "id": "15756fbbb40165",
+    "title": "סוכני AI צורכים פי 5 יותר טוקנים מבני אדם כשהנתונים המטומנים גדלים",
+    "summary": "סוכני בינה מלאכותית חרגו מהשימוש של בני אדם בפברואר והמשיכו לגדול ב־14x עד אוגוסט, מה שיוביל לעלייה משמעותית בדרישות המחשוב והעלויות של מודלי שפה.",
+    "kicker": "מודלים",
+    "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/futurum-ceo-says-agents-use-ai-5x-more-than-humans-number-will-eventually-hit-10x-but-agents-are-mostly-rereading-what-theyve-already-seen",
+    "src": "tomshw",
+    "src_name": "Tom's Hardware",
+    "lang": "en",
+    "img": "https://cdn.mos.cms.futurecdn.net/hNQivoNg7PnAeRNSivatuR-1920-80.png",
+    "credit": "OpenRouter",
+    "ts": "2026-10-03T13:10:00Z",
+    "score": 85
+   },
+   {
+    "id": "5a6573e0ae67ad",
+    "title": "קפקום תשתמש בבינה מלאכותית לזירוז פיתוח משחקים",
+    "summary": "חברת קפקום הודיעה שתשתמש בכלי בינה מלאכותית כדי להאיץ את תהליך פיתוח המשחקים שלה, למרות התחייבותה הקודמת לא להשתמש בתוכן שנוצר על ידי AI בעצם המשחקים.",
+    "kicker": "מודלים",
+    "url": "https://www.engadget.com/2276597/capcom-plans-to-use-ai-to-speed-up-the-game-development-process/",
+    "src": "engadget",
+    "src_name": "Engadget",
+    "lang": "en",
+    "img": "https://www.engadget.com/img/gallery/capcom-plans-to-use-ai-to-speed-up-the-game-development-process/l-intro-1791051900.jpg",
+    "credit": "Engadget",
+    "ts": "2026-10-03T18:27:15Z",
+    "score": 75
+   },
+   {
+    "id": "83f4b87034a47d",
+    "title": "בהשראת חתן פרס הנובל הישראלי: המודל החדש של יוצר ChatGPT הפך לוויראלי",
+    "summary": "מודל חדש מOpenAI עושה ההפך מהנורמה — בתחום ההגדלה הוא מחזיר תשובות מינימליסטיות במקום להרבות בפלט. ההצגה זו עוררה עניין רב ברשת, בהשראת מחקר הקשור לזוכה פרס נובל ישראלי.",
+    "kicker": "מודלים",
+    "url": "https://www.geektime.co.il/jev-is-the-new-ai-buzzword/",
+    "src": "geektime",
+    "src_name": "גיקטיים",
+    "lang": "he",
+    "img": "https://cdn.geektime.co.il/wp-content/uploads/2026/09/Screenshot-2026-09-27-at-13.05.02-1024x643.jpg",
+    "credit": "גיקטיים",
+    "ts": "2026-10-03T10:00:05Z",
+    "score": 85
+   },
+   {
+    "id": "813d53e38d52c8",
+    "title": "קליפורניה הוציאה הזמנה ל־OpenAI על סוכני AI פורצים",
+    "summary": "התובע הכללי של קליפורניה הפעיל לחץ משפטי על OpenAI לשיתוף מידע על התקפות סייבר של מודליה. הגורמים העורכים חוקרים מדגישים שמפתחים אחראים חוקית על פעולות זדוניות של המודלים שלהם.",
+    "kicker": "AI וסייבר",
+    "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/california-subpoenas-openai-as-it-investigates-huggingface-breach-doj-wants-more-information-on-cybersecurity-incidents-to-determine-developer-responsibility",
+    "src": "tomshw",
+    "src_name": "Tom's Hardware",
+    "lang": "en",
+    "img": "https://cdn.mos.cms.futurecdn.net/7kh2DN38axXggaLAdFogKm-1920-80.png",
+    "credit": "Getty Images",
+    "ts": "2026-10-03T11:15:00Z",
+    "score": 80
+   },
+   {
+    "id": "a17db24aed38ba",
+    "title": "עובד בטיחות ב־OpenAI מתפטר ומאשים את החברה ב'תרבות שבורה'",
+    "summary": "דיוויד רובינסון, עובד בטיחות בחברת AI מובילה, התפטר וטוען כי תרבות החברה פגומה ואינה מתייחסת כראוי לחששות בטיחות בפיתוח מודלים.",
+    "kicker": "בטיחות AI",
+    "url": "https://techcrunch.com/2026/10/03/openai-safety-employee-resigns-claiming-the-companys-culture-is-broken/",
+    "src": "techcrunch",
+    "src_name": "TechCrunch",
+    "lang": "en",
+    "img": null,
+    "credit": "TechCrunch",
+    "ts": "2026-10-03T16:30:01Z",
+    "score": 75
+   },
+   {
+    "id": "ff612af46aef61",
+    "title": "Muse של Meta יוצרת פרופילים פרטניים של חברים ובני משפחה",
+    "summary": "סוכן ה־AI של Meta, שהורדנו מיליוני פעמים, בונה מפות מפורטות של הקשרים החברתיים שלך. השימוש בכלי עלה בעלות משמעותית לפרטיות המשתמשים.",
+    "kicker": "AI ופרטיות",
+    "url": "https://www.wired.com/story/muse-creates-detailed-profiles-of-all-your-friends-and-family/",
+    "src": "wired",
+    "src_name": "Wired",
+    "lang": "en",
+    "img": "https://media.wired.com/photos/6abda258fa5a1bd6e2b21507/master/pass/Kernel-Panic-Muse-AI-Self-PWN-Security.jpg",
+    "credit": "Wired",
+    "ts": "2026-10-03T12:00:00Z",
+    "score": 75
+   },
+   {
+    "id": "f1c80105d2f2cb",
+    "title": "Capcom מתכננת עתיד של יצירת משחקים עם AI",
+    "summary": "Capcom הציגה בכנס שלה תוכניות להשתמש בAI בפיתוח משחקים, תוך שימוש במנוע RE המשופר לשיתוף פעולה בין אדם למכונה.",
+    "kicker": "AI",
+    "url": "https://www.theverge.com/games/1004418/capcom-ai-game-development",
+    "src": "verge",
+    "src_name": "The Verge",
+    "lang": "en",
+    "img": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/02/RE9_SS_08.png?quality=90&#038;strip=all&#038;crop=0,0,100,100",
+    "credit": "The Verge",
+    "ts": "2026-10-03T16:49:10Z",
+    "score": 65
+   },
+   {
+    "id": "ef6c0f0bb257c2",
+    "title": "ממתנה תמימה לשגריר ועד תוכנות ריגול מבוססות AI: מרוץ החימוש של עולם הריגול",
+    "summary": "כתבה היסטורית על התפתחות טכנולוגיות הריגול מהמכשירים המתוחכמים של השנות הקרות ועד לתוכנות ריגול מודרניות הנתמכות בבינה מלאכותית.",
+    "kicker": "סייבר",
+    "url": "https://www.geektime.co.il/evolution-of-tech-and-ai-in-espionage/",
+    "src": "geektime",
+    "src_name": "גיקטיים",
+    "lang": "he",
+    "img": "https://cdn.geektime.co.il/wp-content/uploads/2026/10/Bugged-great-seal-open-1024x487.jpg",
+    "credit": "גיקטיים",
+    "ts": "2026-10-03T13:05:08Z",
+    "score": 70
+   },
+   {
+    "id": "ff19fb67c2fb22",
+    "title": "Google הקפיאה תוכנית Bug Bounty בעטיו של דוחות AI לא תקינים",
+    "summary": "Google השהתה הגשת דוחות על פרצות בתוכנה בקוד פתוח עקב הצפת בקשות בלתי תקינות מכלים AI אוטומטיים.",
+    "kicker": "AI",
+    "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/google-suspends-part-of-the-oss-vrp-bug-bounty-program-due-to-an-influx-of-invalid-ai-submissions-product-vulnerability-submissions-ended-october-1",
+    "src": "tomshw",
+    "src_name": "Tom's Hardware",
+    "lang": "en",
+    "img": "https://cdn.mos.cms.futurecdn.net/CrscyWC2mg69wBbrK9dcpa-1920-80.jpg",
+    "credit": "Getty Images",
+    "ts": "2026-10-03T12:00:00Z",
+    "score": 70
+   },
+   {
+    "id": "41a7e440548d1d",
+    "title": "סוכני AI שניתן להשתמש בהם ישירות ב־SMS",
+    "summary": "רשימה של סוכני בינה מלאכותית שניתן להשתמש בהם דרך הודעות טקסט, החל מעוזרים כלליים ועד לסוכנים מיוחדים לנסיעות וקבוצות משפחתיות.",
+    "kicker": "מודלים",
+    "url": "https://techcrunch.com/2026/10/03/all-the-ai-agents-that-can-live-in-your-text-messages/",
+    "src": "techcrunch",
+    "src_name": "TechCrunch",
+    "lang": "en",
+    "img": null,
+    "credit": "TechCrunch",
+    "ts": "2026-10-03T14:00:00Z",
+    "score": 70
+   },
+   {
+    "id": "f9af4941ad4e56",
+    "title": "רובוטים וסוכן מתנה: 3 אירועי טכנולוגיה חינמיים בישראל",
+    "summary": "סקירה של אירועי ייטק קרובים בישראל המוקדשים לAI ורובוטיקה, כולל כנסים ומיטאפים במתקני חינוך וטכנולוגיה.",
+    "kicker": "AI",
+    "url": "https://www.geektime.co.il/geek-events-4102026/",
+    "src": "geektime",
+    "src_name": "גיקטיים",
+    "lang": "he",
+    "img": "https://cdn.geektime.co.il/wp-content/uploads/2026/03/Geekweekly.jpg",
+    "credit": "גיקטיים",
+    "ts": "2026-10-03T17:06:35Z",
+    "score": 55
+   },
+   {
+    "id": "8f8890a08a5f9a",
+    "title": "OpenAI: חקירת ההתקפות על אתרים כולל אתרי ממשלה עולה לה 500 אלף דולר ביום",
+    "summary": "OpenAI מדווחת שחקירתה בתגובה להתקפות על Medicare וחברת Hugging Face עולה למעל 500 אלף דולר יומי, כשהיא משתמשת בבינה מלאכותית לסקירת 50 פטהבייט של נתונים.",
+    "kicker": "סיבר",
+    "url": "https://www.theguardian.com/technology/2026/oct/03/openai-review-hacks-australian-government-sites-costing-500000-a-day",
+    "src": "guardian",
+    "src_name": "The Guardian",
+    "lang": "en",
+    "img": "https://i.guim.co.uk/img/media/34037c70168080edcdfe41a93dfbb4139efd2e83/626_0_6259_5010/master/6259.jpg?width=140&quality=85&auto=format&fit=max&s=6f9892c44061627604acd384208e6b47",
+    "credit": "Photograph: Dado Ruvić/Reuters",
+    "ts": "2026-10-03T05:39:22Z",
+    "score": 70
+   }
   ]
  },
  "sport": [
@@ -921,6 +921,133 @@
      "ag": null
     }
    ]
+  },
+  {
+   "id": "BL1",
+   "name": "בונדסליגה",
+   "flag": "🇩🇪",
+   "matches": [
+    {
+     "ts": "2026-09-20T17:30:00Z",
+     "status": "done",
+     "home": "פאדרבורן",
+     "away": "הופנהיים",
+     "home_s": "SCP",
+     "away_s": "TSG",
+     "hg": 3,
+     "ag": 1
+    },
+    {
+     "ts": "2026-09-20T15:30:00Z",
+     "status": "done",
+     "home": "שאלקה",
+     "away": "אלברסברג",
+     "home_s": "S04",
+     "away_s": "ELV",
+     "hg": 0,
+     "ag": 0
+    },
+    {
+     "ts": "2026-09-20T13:30:00Z",
+     "status": "done",
+     "home": "לברקוזן",
+     "away": "לייפציג",
+     "home_s": "B04",
+     "away_s": "RBL",
+     "hg": 2,
+     "ag": 0
+    },
+    {
+     "ts": "2026-09-19T16:30:00Z",
+     "status": "done",
+     "home": "שטוטגרט",
+     "away": "דורטמונד",
+     "home_s": "VFB",
+     "away_s": "BVB",
+     "hg": 0,
+     "ag": 1
+    },
+    {
+     "ts": "2026-09-19T13:30:00Z",
+     "status": "done",
+     "home": "פרנקפורט",
+     "away": "פרייבורג",
+     "home_s": "SGE",
+     "away_s": "SCF",
+     "hg": 2,
+     "ag": 2
+    },
+    {
+     "ts": "2026-09-19T13:30:00Z",
+     "status": "done",
+     "home": "ורדר ברמן",
+     "away": "אאוגסבורג",
+     "home_s": "SVW",
+     "away_s": "FCA",
+     "hg": 3,
+     "ag": 2
+    },
+    {
+     "ts": "2026-09-19T13:30:00Z",
+     "status": "done",
+     "home": "גלדבאך",
+     "away": "מיינץ",
+     "home_s": "BMG",
+     "away_s": "M05",
+     "hg": 3,
+     "ag": 4
+    },
+    {
+     "ts": "2026-09-19T13:30:00Z",
+     "status": "done",
+     "home": "המבורג",
+     "away": "קלן",
+     "home_s": "HSV",
+     "away_s": "KOE",
+     "hg": 2,
+     "ag": 1
+    },
+    {
+     "ts": "2026-10-09T18:30:00Z",
+     "status": "next",
+     "home": "דורטמונד",
+     "away": "ורדר ברמן",
+     "home_s": "BVB",
+     "away_s": "SVW",
+     "hg": null,
+     "ag": null
+    },
+    {
+     "ts": "2026-10-10T13:30:00Z",
+     "status": "next",
+     "home": "מיינץ",
+     "away": "לברקוזן",
+     "home_s": "M05",
+     "away_s": "B04",
+     "hg": null,
+     "ag": null
+    },
+    {
+     "ts": "2026-10-10T13:30:00Z",
+     "status": "next",
+     "home": "פאדרבורן",
+     "away": "שטוטגרט",
+     "home_s": "SCP",
+     "away_s": "VFB",
+     "hg": null,
+     "ag": null
+    },
+    {
+     "ts": "2026-10-10T13:30:00Z",
+     "status": "next",
+     "home": "אוניון ברלין",
+     "away": "אלברסברג",
+     "home_s": "UNB",
+     "away_s": "ELV",
+     "hg": null,
+     "ag": null
+    }
+   ]
   }
  ],
  "weather": [
@@ -963,7 +1090,7 @@
    "ic": "☀️",
    "code": 0,
    "wind": 6,
-   "hum": 74,
+   "hum": 75,
    "days": [
     {
      "date": "2026-10-03",
@@ -995,7 +1122,7 @@
    "ic": "🌤",
    "code": 1,
    "wind": 5,
-   "hum": 64,
+   "hum": 65,
    "days": [
     {
      "date": "2026-10-03",
@@ -1058,7 +1185,7 @@
    "txt": "בהיר",
    "ic": "☀️",
    "code": 0,
-   "wind": 8,
+   "wind": 6,
    "hum": 61,
    "days": [
     {
@@ -1086,7 +1213,7 @@
   },
   {
    "name": "אילת",
-   "t": 31,
+   "t": 30,
    "txt": "בהיר ברובו",
    "ic": "🌤",
    "code": 1,
@@ -1128,7 +1255,7 @@
    "ok": true,
    "fresh": 12,
    "error": null,
-   "ms": 403
+   "ms": 81
   },
   {
    "id": "ynet-cult",
@@ -1136,7 +1263,7 @@
    "ok": true,
    "fresh": 3,
    "error": null,
-   "ms": 165
+   "ms": 175
   },
   {
    "id": "walla",
@@ -1144,7 +1271,7 @@
    "ok": true,
    "fresh": 0,
    "error": null,
-   "ms": 669
+   "ms": 523
   },
   {
    "id": "maariv",
@@ -1152,7 +1279,7 @@
    "ok": true,
    "fresh": 12,
    "error": null,
-   "ms": 545
+   "ms": 369
   },
   {
    "id": "globes",
@@ -1160,7 +1287,7 @@
    "ok": true,
    "fresh": 3,
    "error": null,
-   "ms": 507
+   "ms": 612
   },
   {
    "id": "calcalist",
@@ -1168,15 +1295,15 @@
    "ok": false,
    "fresh": 0,
    "error": "403 Client Error: Forbidden for url: https://www.calcalist.co.il/",
-   "ms": 491
+   "ms": 183
   },
   {
    "id": "geektime",
    "name": "גיקטיים",
-   "ok": false,
-   "fresh": 0,
-   "error": "403 Client Error: Forbidden for url: https://www.geektime.co.il/feed/",
-   "ms": 114
+   "ok": true,
+   "fresh": 7,
+   "error": null,
+   "ms": 2069
   },
   {
    "id": "toi",
@@ -1184,7 +1311,7 @@
    "ok": false,
    "fresh": 0,
    "error": "403 Client Error: Forbidden for url: https://www.timesofisrael.com/feed/",
-   "ms": 67
+   "ms": 33
   },
   {
    "id": "jpost",
@@ -1192,16 +1319,15 @@
    "ok": true,
    "fresh": 0,
    "error": null,
-   "ms": 291
+   "ms": 73
   },
   {
    "id": "newsweek",
    "name": "Newsweek",
-   "ok": true,
-   "fresh": 12,
-   "error": null,
-   "feed": "https://www.newsweek.com/rss",
-   "ms": 660
+   "ok": false,
+   "fresh": 0,
+   "error": "404 Client Error: Not Found for url: https://www.newsweek.com/rss",
+   "ms": 488
   },
   {
    "id": "thetimes",
@@ -1209,7 +1335,7 @@
    "ok": true,
    "fresh": 12,
    "error": null,
-   "ms": 599
+   "ms": 163
   },
   {
    "id": "bbc",
@@ -1217,7 +1343,7 @@
    "ok": true,
    "fresh": 12,
    "error": null,
-   "ms": 225
+   "ms": 51
   },
   {
    "id": "guardian",
@@ -1225,7 +1351,7 @@
    "ok": true,
    "fresh": 12,
    "error": null,
-   "ms": 207
+   "ms": 177
   },
   {
    "id": "sky",
@@ -1233,7 +1359,7 @@
    "ok": true,
    "fresh": 8,
    "error": null,
-   "ms": 347
+   "ms": 129
   },
   {
    "id": "npr",
@@ -1241,7 +1367,7 @@
    "ok": true,
    "fresh": 10,
    "error": null,
-   "ms": 157
+   "ms": 289
   },
   {
    "id": "cnbc",
@@ -1249,7 +1375,7 @@
    "ok": true,
    "fresh": 12,
    "error": null,
-   "ms": 201
+   "ms": 500
   },
   {
    "id": "wired",
@@ -1257,7 +1383,7 @@
    "ok": true,
    "fresh": 12,
    "error": null,
-   "ms": 134
+   "ms": 178
   },
   {
    "id": "verge",
@@ -1265,7 +1391,7 @@
    "ok": true,
    "fresh": 10,
    "error": null,
-   "ms": 131
+   "ms": 146
   },
   {
    "id": "techcrunch",
@@ -1273,7 +1399,7 @@
    "ok": true,
    "fresh": 12,
    "error": null,
-   "ms": 117
+   "ms": 106
   },
   {
    "id": "ars",
@@ -1281,7 +1407,7 @@
    "ok": true,
    "fresh": 12,
    "error": null,
-   "ms": 155
+   "ms": 144
   },
   {
    "id": "mittr",
@@ -1289,7 +1415,7 @@
    "ok": true,
    "fresh": 4,
    "error": null,
-   "ms": 122
+   "ms": 98
   },
   {
    "id": "engadget",
@@ -1297,7 +1423,7 @@
    "ok": true,
    "fresh": 12,
    "error": null,
-   "ms": 148
+   "ms": 120
   },
   {
    "id": "tomshw",
@@ -1305,7 +1431,7 @@
    "ok": true,
    "fresh": 12,
    "error": null,
-   "ms": 467
+   "ms": 358
   },
   {
    "id": "variety",
@@ -1313,7 +1439,7 @@
    "ok": true,
    "fresh": 10,
    "error": null,
-   "ms": 83
+   "ms": 32
   },
   {
    "id": "thr",
@@ -1321,7 +1447,7 @@
    "ok": true,
    "fresh": 10,
    "error": null,
-   "ms": 2593
+   "ms": 361
   },
   {
    "id": "deadline",
@@ -1329,17 +1455,17 @@
    "ok": true,
    "fresh": 12,
    "error": null,
-   "ms": 100
+   "ms": 52
   },
   {
    "id": "ai",
    "name": "תרגום ועריכה (Claude)",
    "ok": true,
-   "fresh": 12,
+   "fresh": 2,
    "error": null,
    "tokens": {
-    "in": 2170,
-    "out": 1097
+    "in": 1382,
+    "out": 434
    }
   },
   {
@@ -1352,9 +1478,9 @@
   {
    "id": "sport-BL1",
    "name": "בונדסליגה",
-   "ok": false,
-   "fresh": 0,
-   "error": "429 Client Error:  for url: https://api.football-data.org/v4/competitions/BL1/matches?matchday=5"
+   "ok": true,
+   "fresh": 12,
+   "error": null
   },
   {
    "id": "sport-ISR",
