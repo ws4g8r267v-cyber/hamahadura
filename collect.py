@@ -211,10 +211,30 @@ def claude(prompt, max_tokens=8000):
 
 
 def parse_json_array(text):
+    """קורא את מערך ה-JSON מתשובת המודל. אם יש בו לוכסן הפוך לא חוקי (קרה בפועל ב-03/10),
+    מתקן אותו; ואם עדיין נכשל — מציל כל אובייקט בנפרד, כדי שכתבה אחת פגומה לא תפיל את כל המנה."""
     a, b = text.find("["), text.rfind("]")
     if a < 0 or b <= a:
         raise ValueError("no JSON array in reply")
-    return json.loads(text[a:b + 1])
+    raw = text[a:b + 1]
+    try:
+        return json.loads(raw)
+    except json.JSONDecodeError:
+        pass
+    fixed = re.sub(r'\\(?!["\\/bfnrtu])', r"\\\\", raw)
+    try:
+        return json.loads(fixed)
+    except json.JSONDecodeError:
+        pass
+    rows = []
+    for m in re.finditer(r"\{[^{}]*\}", fixed):
+        try:
+            rows.append(json.loads(m.group(0)))
+        except json.JSONDecodeError:
+            continue
+    if not rows:
+        raise ValueError("unreadable JSON in reply")
+    return rows
 
 
 def edit_batch(batch, sections, topics):
