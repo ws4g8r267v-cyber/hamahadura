@@ -296,13 +296,19 @@ def team_short(name):
 
 
 def football_data(league, key):
-    d_from = (NOW - timedelta(days=12)).strftime("%Y-%m-%d")
-    d_to = (NOW + timedelta(days=12)).strftime("%Y-%m-%d")
-    r = requests.get(f'{FD_URL}/competitions/{league["code"]}/matches', timeout=20,
-                     headers={"X-Auth-Token": key}, params={"dateFrom": d_from, "dateTo": d_to})
+    """המחזור הנוכחי והקודם לפי מספר מחזור — עובד גם בפגרת נבחרות, כשאין משחקים בשבועיים האחרונים."""
+    hdr = {"X-Auth-Token": key}
+    base = f'{FD_URL}/competitions/{league["code"]}'
+    r = requests.get(base, timeout=20, headers=hdr)
     r.raise_for_status()
+    cur = ((r.json().get("currentSeason") or {}).get("currentMatchday")) or 1
+    raw = []
+    for md in sorted({max(1, cur - 1), cur}):
+        r = requests.get(base + "/matches", timeout=20, headers=hdr, params={"matchday": md})
+        r.raise_for_status()
+        raw.extend(r.json().get("matches", []))
     out = []
-    for m in r.json().get("matches", []):
+    for m in raw:
         st = m.get("status")
         ft = (m.get("score") or {}).get("fullTime") or {}
         out.append({
