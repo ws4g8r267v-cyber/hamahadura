@@ -136,6 +136,7 @@ def fetch_source(src, hours_back, per_source):
         if h2["ok"]:
             h2.update(id=src["id"], name=src["name"], via="Google News", first_error=h["error"])
             return items2, h2
+        h["fallback_error"] = h2["error"]
     return items, h
 
 
@@ -598,8 +599,12 @@ def main():
 
     # 3) הרכבת המדורים
     pool_ids = {it["id"] for it in pool}
+    # מקור שנכשל בריצה הזו (גם דרך Google News) — הכתבות שלו מהריצה הקודמת נשארות, כל עוד הן בחלון הזמן
+    failed = {h["id"] for h in health if not h.get("ok")}
+    fresh_cut = iso(NOW - timedelta(hours=hours_back))
     sections = {sid: [] for sid in news_ids}
-    kept = [v for v in cache.values() if v.get("keep") and v.get("section") in news_ids and v["id"] in pool_ids]
+    kept = [v for v in cache.values() if v.get("keep") and v.get("section") in news_ids
+            and (v["id"] in pool_ids or (v.get("src") in failed and v.get("ts", "") >= fresh_cut))]
 
     def rank(v):
         age_h = (NOW - datetime.strptime(v["ts"], "%Y-%m-%dT%H:%M:%SZ").replace(tzinfo=timezone.utc)).total_seconds() / 3600
