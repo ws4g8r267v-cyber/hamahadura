@@ -26,7 +26,7 @@ import requests
 
 ROOT = os.path.dirname(os.path.abspath(__file__))
 DATA = os.path.join(ROOT, "data")
-UA = "Mozilla/5.0 (compatible; HamahaduraBot/1.0; personal news reader)"
+UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0 Safari/537.36"
 TZ_IL = timezone(timedelta(hours=3))
 
 # כתובות בסיס — ניתנות להחלפה במשתני סביבה לצורך בדיקות יבשות בלבד
@@ -169,8 +169,13 @@ def fetch_source(src, hours_back, per_source):
 
 # ───────────────────────── AI ─────────────────────────
 
+def env_key(name):
+    """מפתח מ-Secrets, בלי רווחים ושורות ריקות שנדבקו בהעתקה."""
+    return (os.environ.get(name) or "").strip()
+
+
 def claude(prompt, max_tokens=8000):
-    key = os.environ.get("ANTHROPIC_API_KEY")
+    key = env_key("ANTHROPIC_API_KEY")
     r = requests.post(ANTHROPIC_URL, timeout=180, headers={
         "x-api-key": key, "anthropic-version": "2023-06-01", "content-type": "application/json"},
         json={"model": MODEL, "max_tokens": max_tokens, "messages": [{"role": "user", "content": prompt}]})
@@ -199,7 +204,11 @@ def edit_batch(batch, sections, topics):
 
 לכל כתבה ברשימה החלט:
 - keep: true אם היא שייכת לאחד המדורים ומעניינת, false אם לא (ספורט שאינו כדורגל, רכילות זניחה, פרסומות, תוכן מקומי שולי, הורוסקופ וכד׳).
-- section: מזהה המדור המתאים ביותר מתוך הרשימה למעלה (לא "sport" ולא "wx" — אלה מתמלאים אוטומטית).
+- section: מזהה המדור המתאים ביותר מתוך הרשימה למעלה (לא "sport" ולא "wx" — אלה מתמלאים אוטומטית). כללי שיבוץ מחייבים:
+  • קולנוע, סדרות, טלוויזיה, מוזיקה, שחקנים, במאים, פסטיבלים וסלבס → המדור של קולנוע ובידור, גם אם יש בכתבה עסקים או חברת טכנולוגיה.
+  • חקירות, פלילים, פוליטיקה, ביטחון, משפט וחדשות כלליות בישראל → המדור של ישראל, גם אם המקור הוא אתר כלכלי.
+  • בינה מלאכותית → המדור של AI. כל השאר בטכנולוגיה, גאדג׳טים, סייבר, שוק ההון, חברות וכלכלה → טכנולוגיה, כלכלה ועסקים.
+  • חדשות עולם שאין להן קשר לישראל ולא לאחד המדורים → keep: false, אלא אם הן אירוע עולמי מרכזי במיוחד (אז למדור של ישראל עם ציון נמוך).
 - score: 0–100, כמה הכתבה חשובה ומעניינת לקורא הזה.
 - title_he: כותרת בעברית. לכתבה בעברית — השאר את הכותרת המקורית. לכתבה בשפה זרה — תרגום עברי טבעי, קצר וקולע.
 - summary_he: תקציר של 1–2 משפטים בעברית, בניסוח שלך בלבד (לא העתקה ולא תרגום מילולי של הטקסט), עד 230 תווים.
@@ -337,12 +346,12 @@ def collect_sport(cfg, health):
         h = {"id": "sport-" + lg["id"], "name": lg["name"], "ok": False, "fresh": 0, "error": None}
         try:
             if lg["provider"] == "football-data":
-                key = os.environ.get("FOOTBALL_DATA_KEY")
+                key = env_key("FOOTBALL_DATA_KEY")
                 if not key:
                     raise ValueError("חסר מפתח FOOTBALL_DATA_KEY")
                 matches = football_data(lg, key)
             else:
-                key = os.environ.get("API_FOOTBALL_KEY")
+                key = env_key("API_FOOTBALL_KEY")
                 if not key:
                     raise ValueError("חסר מפתח API_FOOTBALL_KEY")
                 matches = api_football(lg, key)
@@ -463,7 +472,7 @@ def main():
 
     # 2) עריכה — רק מה שעוד לא עובד, או שעובד תחת הגדרות אחרות
     sig = hashlib.sha1(json.dumps([sorted(news_ids), topics], ensure_ascii=False).encode()).hexdigest()[:10]
-    has_ai = bool(os.environ.get("ANTHROPIC_API_KEY"))
+    has_ai = bool(env_key("ANTHROPIC_API_KEY"))
     todo = [it for it in pool if it["id"] not in cache or cache[it["id"]].get("sig") != sig]
     todo.sort(key=lambda it: it["ts"], reverse=True)
     todo = todo[:max_new]
