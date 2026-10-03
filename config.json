@@ -4,6 +4,7 @@
     {"id": "il",    "name": "ישראל",                  "icon": "🇮🇱", "on": true, "about": "חדשות מישראל ועל ישראל, כולל איך העולם מסקר את ישראל"},
     {"id": "ai",    "name": "עולם ה־AI",              "icon": "✦",  "on": true, "about": "בינה מלאכותית: מודלים חדשים, חברות, מחקר, רגולציה ושימושים"},
     {"id": "tech",  "name": "טכנולוגיה, כלכלה ועסקים", "icon": "⚡", "on": true, "about": "טכנולוגיה, גאדג׳טים, סייבר, שוק ההון, כלכלה ועסקים בארץ ובעולם"},
+    {"id": "ship",  "name": "ספנות ותבואה",           "icon": "⚓", "on": true, "about": "ספנות, נמלים, תובלה ימית, מחירי הובלה, תבואה וסחורות חקלאיות בעולם ובישראל"},
     {"id": "film",  "name": "קולנוע ובידור",          "icon": "🎬", "on": true, "about": "קולנוע, סדרות, טלוויזיה, מוזיקה וסלבס"},
     {"id": "sport", "name": "כדורגל",                 "icon": "⚽", "on": true, "about": "תוצאות: פרמייר ליג, בונדסליגה, ליגת העל"},
     {"id": "wx",    "name": "מזג אוויר",              "icon": "☀",  "on": true, "about": "תחזית לערים"}
@@ -51,6 +52,12 @@
     {"id": "mittr",      "name": "MIT Technology Review", "group": "טכנולוגיה ו־AI", "lang": "en", "url": "https://www.technologyreview.com/feed/", "on": true},
     {"id": "engadget",   "name": "Engadget",          "group": "טכנולוגיה ו־AI", "lang": "en", "url": "https://www.engadget.com/rss.xml", "on": true},
     {"id": "tomshw",     "name": "Tom's Hardware",    "group": "טכנולוגיה ו־AI", "lang": "en", "url": "https://www.tomshardware.com/feeds/all", "on": true},
+
+    {"id": "gcaptain",   "name": "gCaptain",          "group": "ספנות ותבואה", "lang": "en", "url": "https://gcaptain.com/feed/", "on": true},
+    {"id": "splash",     "name": "Splash247",         "group": "ספנות ותבואה", "lang": "en", "url": "https://splash247.com/feed/", "on": true},
+    {"id": "hellenic",   "name": "Hellenic Shipping News", "group": "ספנות ותבואה", "lang": "en", "url": "https://www.hellenicshippingnews.com/feed/", "on": true},
+    {"id": "worldgrain", "name": "World Grain",       "group": "ספנות ותבואה", "lang": "en", "url": "https://www.world-grain.com/", "on": true},
+    {"id": "agcensus",   "name": "Agricensus / Fastmarkets Agriculture", "group": "ספנות ותבואה", "lang": "en", "url": "https://www.fastmarkets.com/agriculture/", "on": false},
 
     {"id": "variety",    "name": "Variety",           "group": "קולנוע ובידור", "lang": "en", "url": "https://variety.com/feed/", "on": true},
     {"id": "thr",        "name": "The Hollywood Reporter", "group": "קולנוע ובידור", "lang": "en", "url": "https://www.hollywoodreporter.com/feed/", "on": true},

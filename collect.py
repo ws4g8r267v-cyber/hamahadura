@@ -34,6 +34,8 @@ ANTHROPIC_URL = os.environ.get("ANTHROPIC_URL", "https://api.anthropic.com/v1/me
 FD_URL = os.environ.get("FD_URL", "https://api.football-data.org/v4")
 AF_URL = os.environ.get("AF_URL", "https://v3.football.api-sports.io")
 METEO_URL = os.environ.get("METEO_URL", "https://api.open-meteo.com/v1/forecast")
+GNEWS_URL = os.environ.get("GNEWS_URL", "https://news.google.com/rss/search")
+TSDB_URL = os.environ.get("TSDB_URL", "https://www.thesportsdb.com")
 FX_URL = os.environ.get("FX_URL", "https://api.frankfurter.app/latest?from=USD&to=ILS,EUR")
 MODEL = os.environ.get("HM_MODEL", "claude-haiku-4-5-20251001")
 
@@ -115,7 +117,29 @@ def entry_time(e):
     return None
 
 
+def gnews_url(src):
+    """פיד חלופי דרך Google News לאתר שחוסם את שרתי GitHub."""
+    host = requests.utils.urlparse(src["url"] if "://" in src["url"] else "https://" + src["url"]).netloc
+    host = host.replace("www.", "")
+    if src.get("lang") == "he":
+        loc = "hl=he&gl=IL&ceid=IL:he"
+    else:
+        loc = "hl=en-US&gl=US&ceid=US:en"
+    return f"{GNEWS_URL}?q=site:{host}+when:2d&{loc}"
+
+
 def fetch_source(src, hours_back, per_source):
+    items, h = fetch_source_once(src, hours_back, per_source)
+    if not h["ok"] and not src.get("no_fallback"):
+        alt = dict(src, url=gnews_url(src), _gnews=True)
+        items2, h2 = fetch_source_once(alt, hours_back, per_source)
+        if h2["ok"]:
+            h2.update(id=src["id"], name=src["name"], via="Google News", first_error=h["error"])
+            return items2, h2
+    return items, h
+
+
+def fetch_source_once(src, hours_back, per_source):
     t0 = time.time()
     h = {"id": src["id"], "name": src["name"], "ok": False, "fresh": 0, "error": None}
     try:
@@ -140,6 +164,8 @@ def fetch_source(src, hours_back, per_source):
         for e in feed.entries:
             link = e.get("link") or ""
             title = strip_html(e.get("title", ""), 300)
+            if src.get("_gnews") and " - " in title:
+                title = title.rsplit(" - ", 1)[0].strip()   # Google News מוסיף " - שם האתר"
             if not link or not title:
                 continue
             ts = entry_time(e)
@@ -207,6 +233,7 @@ def edit_batch(batch, sections, topics):
 - section: מזהה המדור המתאים ביותר מתוך הרשימה למעלה (לא "sport" ולא "wx" — אלה מתמלאים אוטומטית). כללי שיבוץ מחייבים:
   • קולנוע, סדרות, טלוויזיה, מוזיקה, שחקנים, במאים, פסטיבלים וסלבס → המדור של קולנוע ובידור, גם אם יש בכתבה עסקים או חברת טכנולוגיה.
   • חקירות, פלילים, פוליטיקה, ביטחון, משפט וחדשות כלליות בישראל → המדור של ישראל, גם אם המקור הוא אתר כלכלי.
+  • ספנות, אוניות, נמלים, תובלה ימית, מחירי הובלה, תבואה, דגנים, חיטה, תירס, סויה ושוקי סחורות חקלאיות → המדור של ספנות ותבואה (אם הוא ברשימה), גם כשמדובר בכלכלה או בישראל.
   • בינה מלאכותית → המדור של AI. כל השאר בטכנולוגיה, גאדג׳טים, סייבר, שוק ההון, חברות וכלכלה → טכנולוגיה, כלכלה ועסקים.
   • חדשות עולם שאין להן קשר לישראל ולא לאחד המדורים → keep: false, אלא אם הן אירוע עולמי מרכזי במיוחד (אז למדור של ישראל עם ציון נמוך).
 - score: 0–100, כמה הכתבה חשובה ומעניינת לקורא הזה.
@@ -274,14 +301,16 @@ TEAMS_HE = {
     "Kiryat Shmona": "עירוני קריית שמונה", "Tiberias": "עירוני טבריה", "Hapoel Hadera": "הפועל חדרה",
     "Bnei Yehuda": "בני יהודה", "Kfar Saba": "הפועל כפר סבא", "Hapoel Kfar Saba": "הפועל כפר סבא",
     "Maccabi Bnei Raina": "מכבי בני ריינה", "Ironi Kiryat Shmona": "עירוני קריית שמונה",
+    "Hapoel Ramat Gan": "הפועל רמת גן", "Ironi Tiberias": "עירוני טבריה", "Sakhnin": "בני סכנין",
 }
 
 
 def team_he(name):
     if not name:
         return ""
+    norm = name.replace("-", " ").lower()
     for k in sorted(TEAMS_HE, key=len, reverse=True):
-        if k.lower() in name.lower():
+        if k.replace("-", " ").lower() in norm:
             return TEAMS_HE[k]
     return name
 
@@ -295,17 +324,27 @@ def team_short(name):
     return "".join(w[0] for w in letters[:3]).upper()
 
 
+def get_retry(url, **kw):
+    """GET עם המתנה אחת כשהשרת עונה 429 (יותר מדי בקשות בדקה)."""
+    r = requests.get(url, **kw)
+    if r.status_code == 429:
+        wait = min(int(r.headers.get("Retry-After") or 0) or 62, 90)
+        log(f"429 — waiting {wait}s")
+        time.sleep(wait)
+        r = requests.get(url, **kw)
+    r.raise_for_status()
+    return r
+
+
 def football_data(league, key):
     """המחזור הנוכחי והקודם לפי מספר מחזור — עובד גם בפגרת נבחרות, כשאין משחקים בשבועיים האחרונים."""
     hdr = {"X-Auth-Token": key}
     base = f'{FD_URL}/competitions/{league["code"]}'
-    r = requests.get(base, timeout=20, headers=hdr)
-    r.raise_for_status()
+    r = get_retry(base, timeout=20, headers=hdr)
     cur = ((r.json().get("currentSeason") or {}).get("currentMatchday")) or 1
     raw = []
     for md in sorted({max(1, cur - 1), cur}):
-        r = requests.get(base + "/matches", timeout=20, headers=hdr, params={"matchday": md})
-        r.raise_for_status()
+        r = get_retry(base + "/matches", timeout=20, headers=hdr, params={"matchday": md})
         raw.extend(r.json().get("matches", []))
     out = []
     for m in raw:
@@ -344,6 +383,33 @@ def api_football(league, key):
     return out
 
 
+def thesportsdb(league):
+    """ליגת העל דרך TheSportsDB (מפתח ציבורי, בלי הרשמה): המחזור האחרון שהסתיים והמחזור הבא."""
+    base = f"{TSDB_URL}/api/v1/json/123"
+    r = get_retry(f"{base}/eventspastleague.php", timeout=20, params={"id": league["code"]})
+    last = (r.json().get("events") or [None])[0]
+    if not last:
+        raise ValueError("אין משחקים אחרונים")
+    season, rnd = last.get("strSeason"), int(last.get("intRound") or 1)
+    out = []
+    for rd in (rnd, rnd + 1):
+        r = get_retry(f"{base}/eventsround.php", timeout=20, params={"id": league["code"], "r": rd, "s": season})
+        for e in r.json().get("events") or []:
+            ts = e.get("strTimestamp") or (f'{e.get("dateEvent")}T{e.get("strTime") or "00:00:00"}')
+            ts = ts.split("+")[0].rstrip("Z") + "Z"
+            hs, as_ = e.get("intHomeScore"), e.get("intAwayScore")
+            st = (e.get("strStatus") or "").upper()
+            done = st in ("FT", "AET", "PEN", "MATCH FINISHED") or (hs not in (None, "") and ts < iso(NOW))
+            live = st in ("1H", "2H", "HT", "LIVE")
+            out.append({
+                "ts": ts, "status": "live" if live else ("done" if done else "next"),
+                "home": team_he(e.get("strHomeTeam")), "away": team_he(e.get("strAwayTeam")),
+                "home_s": team_short(e.get("strHomeTeam")), "away_s": team_short(e.get("strAwayTeam")),
+                "hg": int(hs) if hs not in (None, "") else None, "ag": int(as_) if as_ not in (None, "") else None,
+            })
+    return out
+
+
 def collect_sport(cfg, health):
     res = []
     for lg in cfg.get("leagues", []):
@@ -356,6 +422,8 @@ def collect_sport(cfg, health):
                 if not key:
                     raise ValueError("חסר מפתח FOOTBALL_DATA_KEY")
                 matches = football_data(lg, key)
+            elif lg["provider"] == "thesportsdb":
+                matches = thesportsdb(lg)
             else:
                 key = env_key("API_FOOTBALL_KEY")
                 if not key:

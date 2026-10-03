@@ -72,6 +72,7 @@ body:before{content:"";position:fixed;inset:-20% -20% auto;height:70vh;z-index:-
 .m-ai{--m:radial-gradient(60% 70% at 20% 20%,#a78bfa,transparent 60%),radial-gradient(60% 60% at 90% 80%,#ec4899,transparent 60%),linear-gradient(160deg,#2e1065,#0f0720)}
 .m-tech{--m:radial-gradient(60% 70% at 80% 30%,#2dd4bf,transparent 60%),radial-gradient(50% 60% at 10% 80%,#22c55e,transparent 60%),linear-gradient(160deg,#042f2e,#03140f)}
 .m-film{--m:radial-gradient(60% 70% at 70% 20%,#fb7185,transparent 60%),radial-gradient(60% 60% at 10% 90%,#f59e0b,transparent 60%),linear-gradient(160deg,#4c0519,#14030a)}
+.m-ship{--m:radial-gradient(60% 70% at 75% 25%,#38bdf8,transparent 60%),radial-gradient(60% 60% at 15% 85%,#eab308,transparent 60%),linear-gradient(160deg,#082f49,#04131f)}
 .m-x{--m:radial-gradient(60% 70% at 30% 20%,#fbbf24,transparent 60%),radial-gradient(60% 60% at 90% 90%,#f97316,transparent 60%),linear-gradient(160deg,#451a03,#1c0a02)}
 
 /* hero */
@@ -240,6 +241,7 @@ var SEC_STYLE = {
   ai:   {c1:"#a78bfa", c2:"#ec4899", kc:"#c4b5fd", m:"m-ai"},
   tech: {c1:"#2dd4bf", c2:"#22c55e", kc:"#5eead4", m:"m-tech"},
   film: {c1:"#fb7185", c2:"#f59e0b", kc:"#fda4af", m:"m-film"},
+  ship: {c1:"#0ea5e9", c2:"#14b8a6", kc:"#7dd3fc", m:"m-ship"},
   sport:{c1:"#22c55e", c2:"#84cc16"},
   wx:   {c1:"#38bdf8", c2:"#6366f1"}
 };
@@ -382,7 +384,7 @@ function render(){
   out += '<div class="stories">' + secs.map(function(s){
     var st = sty(s.id), list = (DATA.sections || {})[s.id] || [], img = (list.filter(function(i){ return i.img; })[0] || {}).img;
     return '<a class="st" href="#s-' + esc(s.id) + '" style="--c1:' + st.c1 + ';--c2:' + st.c2 + '"><div class="ring"><div><i>' + esc(s.icon) + '</i>' +
-      (img ? '<img alt="" loading="lazy" referrerpolicy="no-referrer" src="' + esc(safeUrl(img)) + '" onerror="this.remove()">' : '') + '</div></div>' + esc(({il:"ישראל", ai:"AI", tech:"טק ועסקים", film:"קולנוע", sport:"כדורגל", wx:"מזג אוויר"})[s.id] || s.name.split(/[ ,]/)[0]) + '</a>';
+      (img ? '<img alt="" loading="lazy" referrerpolicy="no-referrer" src="' + esc(safeUrl(img)) + '" onerror="this.remove()">' : '') + '</div></div>' + esc(({il:"ישראל", ai:"AI", tech:"טק ועסקים", ship:"ספנות", film:"קולנוע", sport:"כדורגל", wx:"מזג אוויר"})[s.id] || s.name.split(/[ ,]/)[0]) + '</a>';
   }).join("") + '</div>';
 
   // פולס
