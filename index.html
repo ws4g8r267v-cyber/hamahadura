@@ -124,6 +124,7 @@ body:before{content:"";position:fixed;inset:-20% -20% auto;height:70vh;z-index:-
 
 /* scores */
 .lgh{font-size:14px;font-weight:600;color:var(--muted);margin:18px 0 10px;display:flex;gap:8px;align-items:center}
+.pz{font-size:12px;font-weight:600;color:var(--warn);background:rgba(245,158,11,.12);border:1px solid rgba(245,158,11,.3);padding:3px 10px;border-radius:999px;margin-inline-start:auto}
 .score{flex:none;width:240px;scroll-snap-align:start;background:var(--card);border:1px solid var(--line);border-radius:var(--r);padding:16px}
 .score .lg{font-size:12px;color:var(--muted);display:flex;justify-content:space-between;gap:8px}
 .score .lg .lv{color:var(--brand);font-weight:700}
@@ -326,7 +327,14 @@ function renderSport(sec){
   var html = secHead(sec, "מחזור אחרון · הבא בתור");
   if (!lgs.length) return html + '<div class="empty">אין תוצאות כרגע. בדוק את מצב המקורות בהגדרות</div>';
   lgs.forEach(function(l){
-    html += '<div class="lgh">' + esc(l.flag) + " " + esc(l.name) + '</div><div class="car">';
+    var done = l.matches.filter(function(m){ return m.status === "done"; });
+    var next = l.matches.filter(function(m){ return m.status === "next"; });
+    var lastTs = done.length ? Math.max.apply(null, done.map(function(m){ return new Date(m.ts).getTime(); })) : 0;
+    var pause = "";
+    if (lastTs && Date.now() - lastTs > 8 * 864e5 && next.length) {
+      pause = '<span class="pz">⏸ פגרה · חוזרים ' + esc(ilTime(next[0].ts, {weekday:"short", day:"numeric", month:"numeric"})) + '</span>';
+    }
+    html += '<div class="lgh">' + esc(l.flag) + " " + esc(l.name) + pause + '</div><div class="car">';
     l.matches.forEach(function(m){
       var done = m.status === "done", live = m.status === "live";
       var hw = done && m.hg > m.ag, aw = done && m.ag > m.hg;
@@ -571,11 +579,25 @@ function load(){
   Promise.all([
     fetch("config.json" + bust).then(function(r){ return r.json(); }),
     fetch("data/news.json" + bust).then(function(r){ return r.ok ? r.json() : {}; }).catch(function(){ return {}; })
-  ]).then(function(res){ CFG = res[0]; DATA = res[1] || {}; render(); })
+  ]).then(function(res){ CFG = res[0]; DATA = res[1] || {}; render(); autoCollect(); })
     .catch(function(){ $("mag").innerHTML = '<div class="hello"><h1><span>המהדורה</span></h1></div><div class="empty">לא הצלחתי לטעון את המהדורה. נסה לרענן.</div>'; });
 }
+/* איסוף אוטומטי מהמכשיר המחובר: GitHub מדלג על ריצות מתוזמנות, אז כשהמהדורה בת יותר משעתיים
+   והמכשיר הזה מחובר (יש לו מפתח) — הדף מפעיל איסוף בעצמו, לכל היותר פעם ב-30 דקות. */
+var AUTO_MAX_AGE = 2 * 3600e3, AUTO_GAP = 30 * 60e3;
+function autoCollect(){
+  if (!store("hm-token") || !DATA || !DATA.updated) return;
+  if (Date.now() - new Date(DATA.updated) < AUTO_MAX_AGE) return;
+  var last = +(store("hm-auto") || 0);
+  if (Date.now() - last < AUTO_GAP) return;
+  store("hm-auto", String(Date.now()));
+  api("POST", "/actions/workflows/collect.yml/dispatches", {ref: "main"})
+    .then(function(){ toast("המהדורה התיישנה · איסוף חדש התחיל, רענן בעוד כ-3 דקות", 4500); })
+    .catch(function(){});
+}
 document.addEventListener("visibilitychange", function(){
-  if (document.visibilityState === "visible" && DATA && DATA.updated && Date.now() - new Date(DATA.updated) > 30 * 60e3 && !document.body.classList.contains("open")) load();
+  if (document.visibilityState !== "visible" || !DATA || !DATA.updated || document.body.classList.contains("open")) return;
+  if (Date.now() - new Date(DATA.updated) > 30 * 60e3) load(); else autoCollect();
 });
 load();
 </script>

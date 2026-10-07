@@ -2,11 +2,12 @@ name: איסוף המהדורה
 
 on:
   schedule:
-    # שעון UTC. ישראל = UTC+3 → 06:10, 09:10, 12:10, 15:10, 18:10, 21:10
-    - cron: "10 3,6,9,12,15,18 * * *"
+    # שעון UTC. ישראל = UTC+3 → כל שעה בדקה 17, מ-05:17 עד 23:17.
+    # GitHub מדלג על חלק מהריצות המתוזמנות; ריצה כל שעה (ובדקה לא עגולה) מבטיחה שגם אחרי דילוגים יהיו כמה ביום.
+    - cron: "17 2-20 * * *"
   push:
     branches: [main]
-    paths: ["config.json", "index.html", "collect.py", "assets/**"]
+    paths: ["config.json", "index.html", "collect.py", "assets/**", ".github/workflows/collect.yml"]
   workflow_dispatch:
 
 permissions:
