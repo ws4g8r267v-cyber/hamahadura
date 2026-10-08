@@ -1,7 +1,615 @@
 {
- "updated": "2026-10-08T06:58:18Z",
+ "updated": "2026-10-08T08:59:19Z",
  "sections": {
+  "il": [
+   {
+    "id": "a204f5523e4dbe",
+    "title": "איזה עתיד אתה בוחר לבתך? מבט על בחירות 2026 ביום הנערה הבינלאומי",
+    "summary": "בטור דעה למעריב, ד\"ר אדוה ברקוביץ'-רומנו מעלה שאלות על עתיד הבנות בישראל ודוגלת בכך שהבחירות של 2026 יקבעו את מקומן של הנערות בחברה הישראלית ובזכויותיהן.",
+    "kicker": "בחירות 2026",
+    "url": "https://www.maariv.co.il/news/opinions/article-1374940",
+    "src": "maariv",
+    "src_name": "מעריב",
+    "lang": "he",
+    "img": "https://images.maariv.co.il/image/upload/f_auto,fl_lossy/c_fill,g_faces:center,h_438,w_778/1088717",
+    "credit": "מעריב",
+    "ts": "2026-10-08T08:56:52Z",
+    "score": 85
+   },
+   {
+    "id": "f68c28de3adb4f",
+    "title": "איראן בצרות, חיזבאללה בלחץ: האמריקאים חושפים את הבלוף",
+    "summary": "ארה״ב מכחישה דיווחים על העברת 200 מיליון דולר מאיראן לחיזבאללה, בעוד בישראל מתוכננים מבצעים נרחבים נגד הארגון בשבועות הקרובים.",
+    "kicker": "ביטחון",
+    "url": "https://www.maariv.co.il/news/world/article-1374900",
+    "src": "maariv",
+    "src_name": "מעריב",
+    "lang": "he",
+    "img": "https://images.maariv.co.il/image/upload/f_auto,fl_lossy/c_fill,g_faces:center,h_438,w_778/1097684",
+    "credit": "מעריב",
+    "ts": "2026-10-08T07:44:43Z",
+    "score": 80
+   },
+   {
+    "id": "2af4e6f7a487f1",
+    "title": "ירי משתולל ללא הפסקה - והילדים כבר מפחדים ללכת לבית הספר",
+    "summary": "תושבים ברהט מדווחים על ירי בלתי פוסק והילדים החוששים לצאת לבתיהם. המשטרה פתחה בסריקות וגם פקיד בטחון במשרד ההגנה מזהיר מפני התארגנויות חמושות בנגב שעלולות להפוך לתאי טרור פעילים.",
+    "kicker": "ביטחון",
+    "url": "https://www.maariv.co.il/news/military/article-1374932",
+    "src": "maariv",
+    "src_name": "מעריב",
+    "lang": "he",
+    "img": "https://images.maariv.co.il/image/upload/f_auto,fl_lossy/c_fill,g_faces:center,h_438,w_778/489746",
+    "credit": "מעריב",
+    "ts": "2026-10-08T08:38:21Z",
+    "score": 75
+   },
+   {
+    "id": "4653bd5d36b850",
+    "title": "הערפל מתפזר: יועז הנדל החליט עם מי הוא ישב בממשלה",
+    "summary": "יועז הנדל הבהיר בריאיון עם אילו גורמים פוליטיים יסכים לשבת בממשלה הבאה, וגם הציב קו אדום פוליטי חדש ופנה לעופר וינטר בהצעה.",
+    "kicker": "בחירות",
+    "url": "https://www.maariv.co.il/news/elections-2026/article-1374903",
+    "src": "maariv",
+    "src_name": "מעריב",
+    "lang": "he",
+    "img": "https://images.maariv.co.il/image/upload/f_auto,fl_lossy/c_fill,g_faces:center,h_438,w_778/1059577",
+    "credit": "מעריב",
+    "ts": "2026-10-08T08:04:40Z",
+    "score": 75
+   },
+   {
+    "id": "2c2f9f323d2abd",
+    "title": "\"למנוע את 7 באוקטובר הבא\": כוחות בשכם בלילה זיכרון 7.10",
+    "summary": "בליל החזקרה ל-7 באוקטובר, כוחות של חטיבת שומרון פעלו בשכם, עיר ערים של טרור, ותפסו אמצעי לחימה רבים וביצעו מעל 200 מעצרים בקרב פעילי חמאס.",
+    "kicker": "ביטחון",
+    "url": "https://www.ynet.co.il/news/article/yokra14920168",
+    "src": "ynet",
+    "src_name": "ynet",
+    "lang": "he",
+    "img": "https://ynet-pic1.yit.co.il/picserver6/crop_images/2026/10/07/yk14920276/yk14920276_0_0_1050_666_0_medium.jpg",
+    "credit": "ynet",
+    "ts": "2026-10-08T04:40:56Z",
+    "score": 80
+   },
+   {
+    "id": "411579dd76c05c",
+    "title": "טורניר שחמט בהולנד יאסור שחקנים מיהודה ושומרון מ-2027",
+    "summary": "בעקבות מחאה נגד רב אמן ישראלי, טורניר Amsterdam Chess Open מחליט לשנות את תקנונו ולאסור על שחקנים המייצגים מועדונים מ'שטחים שהוגדרו ככבושים' להשתתף, צעד שמעורר חשש בישראל מתקדם של חרם פוליטי בספורט.",
+    "kicker": "פוליטיקה",
+    "url": "https://www.maariv.co.il/news/politics/article-1374937",
+    "src": "maariv",
+    "src_name": "מעריב",
+    "lang": "he",
+    "img": "https://images.maariv.co.il/image/upload/f_auto,fl_lossy/c_fill,g_faces:center,h_438,w_778/782318",
+    "credit": "מעריב",
+    "ts": "2026-10-08T08:49:19Z",
+    "score": 70
+   },
+   {
+    "id": "63ee52b277a0e8",
+    "title": "שאלה אחת של ברק סרי לשר החינוך כמעט הפוצצה את השידור",
+    "summary": "בתוכנית בשידור חי, עימות חריף פרץ בין ברק סרי לשר החינוך יואב קיש, שבהמשכו נאלץ השר להתייחס גם לסערה סביב ינון מגל ודברי נתניהו.",
+    "kicker": "פוליטיקה",
+    "url": "https://www.maariv.co.il/news/israel/article-1374926",
+    "src": "maariv",
+    "src_name": "מעריב",
+    "lang": "he",
+    "img": "https://images.maariv.co.il/image/upload/f_auto,fl_lossy/c_fill,g_faces:center,h_438,w_778/1145706",
+    "credit": "מעריב",
+    "ts": "2026-10-08T08:40:27Z",
+    "score": 70
+   },
+   {
+    "id": "7350e8c9b6570d",
+    "title": "עופר כסיף הורשע בתקיפת שוטר לאחר יותר מ־4 שנים",
+    "summary": "בית המשפט המחוזי בירושלים הרשיע את חבר הכנסת מחד״ש עופר כסיף בתקיפת שוטר שביצע במאי 2022 במהלך הפגנה בהר חברון.",
+    "kicker": "משפט",
+    "url": "https://www.ynet.co.il/news/article/rj7v4t4ogx",
+    "src": "ynet",
+    "src_name": "ynet",
+    "lang": "he",
+    "img": "https://ynet-pic1.yit.co.il/picserver6/crop_images/2024/07/10/r1emw8yhvR/r1emw8yhvR_0_131_3000_1689_0_medium.jpg",
+    "credit": "ynet",
+    "ts": "2026-10-08T07:31:25Z",
+    "score": 70
+   },
+   {
+    "id": "bd668b32f6e1cb",
+    "title": "ישראל: מעשיות בריטיות עוזבות את הקונסוליה בירושלים המזרחית",
+    "summary": "ישראל הודיעה כי רוב הדיפלומטים הבריטיים יעזבו את הקונסוליה בירושלים המזרחית בתגובה לסנקציות בריטיות על התנחלויות בגדה המערבית.",
+    "kicker": "דיפלומטיה",
+    "url": "https://www.bbc.co.uk/news/articles/cw33xd6vegnno?at_medium=RSS&at_campaign=rss",
+    "src": "bbc",
+    "src_name": "BBC",
+    "lang": "en",
+    "img": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1af2/live/5079a140-c2df-11f1-bc2e-018d645d8d21.jpg",
+    "credit": "BBC",
+    "ts": "2026-10-08T08:18:36Z",
+    "score": 68
+   },
+   {
+    "id": "581070a5a1bd9f",
+    "title": "טראמפ: לא ממולחמן על עסקה עם איראן, בעוד ארה\"ב מתכננת 'הפצצה מסיבית'",
+    "summary": "טראמפ הודיע שאינו רוצה עסקה עם איראן, כאשר צוות הביטחון הלאומי דן בחידוש מבצעים צבאיים בקנה מידה גדול.",
+    "kicker": "ביטחון",
+    "url": "https://www.cnbc.com/2026/10/08/us-iran-war-trump-hormuz.html",
+    "src": "cnbc",
+    "src_name": "CNBC",
+    "lang": "en",
+    "img": null,
+    "credit": "CNBC",
+    "ts": "2026-10-08T03:29:29Z",
+    "score": 80
+   },
+   {
+    "id": "a9f242ecc74375",
+    "title": "הושגה פשרה דיפלומטית, והאיום הבריטי לגירוש נציגים ישראלים מלונדון ירד מהשולחן",
+    "summary": "ישראל וברטניה הגיעו להסכם בעניין קונסוליית בריטניה בירושלים, כשישראל מאשרת הפעלת כוח משימה בריטי מצומצם תחת פיקוח ישראלי. ההסכם מונע משבר דיפלומטי קשה בין שתי המדינות.",
+    "kicker": "דיפלומטיה",
+    "url": "https://www.ynet.co.il/news/article/by4ztn4sml",
+    "src": "ynet",
+    "src_name": "ynet",
+    "lang": "he",
+    "img": "https://ynet-pic1.yit.co.il/picserver6/crop_images/2026/08/20/H1q9dV4wzl/H1q9dV4wzl_0_0_850_479_0_medium.jpg",
+    "credit": "ynet",
+    "ts": "2026-10-08T06:51:48Z",
+    "score": 68
+   },
+   {
+    "id": "eabb723523b9a4",
+    "title": "טראמפ \"לא מעוניין בהסכם\". דיווחים: צבא ארה\"ב נערך לחידוש המלחמה באיראן לפני בחירות האמצע",
+    "summary": "טראמפ הכריז בעצרת בטקסס שאינו רוצה הסכם עם איראן, בעוד כלים אמריקאיים מדווחים על הכנות צבאיות אפשריות לפעולה חדשה בטהרן עוד לפני בחירות בחודש הבא.",
+    "kicker": "בחירות",
+    "url": "https://www.ynet.co.il/news/article/hybuxovofl",
+    "src": "ynet",
+    "src_name": "ynet",
+    "lang": "he",
+    "img": "https://ynet-pic1.yit.co.il/picserver6/crop_images/2026/10/01/SkqwhG2cfx/SkqwhG2cfx_0_136_3000_1689_0_medium.jpg",
+    "credit": "ynet",
+    "ts": "2026-10-08T05:07:32Z",
+    "score": 70
+   },
+   {
+    "id": "cff5c5ea06a738",
+    "title": "משפחתו של סרן נריה זיסק קיבלה את נשקו האישי",
+    "summary": "לקראת יום השנה לנפילתו, משפחתו של סרן נריה זיסק קיבלה מצה״ל את נשקו האישי ודוח התחקיר על הנסיבות.",
+    "kicker": "זיכרון",
+    "url": "https://www.maariv.co.il/news/military/article-1374915",
+    "src": "maariv",
+    "src_name": "מעריב",
+    "lang": "he",
+    "img": "https://images.maariv.co.il/image/upload/f_auto,fl_lossy/c_fill,g_faces:center,h_438,w_778/1145698",
+    "credit": "מעריב",
+    "ts": "2026-10-08T08:06:31Z",
+    "score": 65
+   },
+   {
+    "id": "4093ebf7bada9d",
+    "title": "3 מעצרי עריקים כשלו: חרדים קיצונים מנעו את המעצרים וחוזרים לחסום כבישים",
+    "summary": "משטרה צבאית ניסתה לעצור שלושה חייבי גיוס בת ים ודימונה, אך חרדים קיצונים הקפיצו ומנעו את המעצרים בעזרת מערכות התראה.",
+    "kicker": "ביטחון",
+    "url": "https://www.ynet.co.il/news/article/h1abk3njzx",
+    "src": "ynet",
+    "src_name": "ynet",
+    "lang": "he",
+    "img": "https://ynet-pic1.yit.co.il/picserver6/crop_images/2026/10/08/BkNYthNiGl/BkNYthNiGl_0_238_480_271_0_medium.jpg",
+    "credit": "ynet",
+    "ts": "2026-10-08T07:07:56Z",
+    "score": 65
+   }
+  ],
+  "film": [
+   {
+    "id": "e308efd4e8cd9a",
+    "title": "אלפונסו קוארון חוזר ל'Gravity' עם בנו בבוסאן: 'החיים כחוויה הם מה שחשוב לי ביותר כעת'",
+    "summary": "במסיבת עבודה בפסטיבל הסרטים של בוסאן, במאי הפרס אוסקר אלפונסו קוארון ושתף כי בימיו הצעירים היה הקולנוע בראש סדר העדיפויות שלו, אך כיום החיים עצמם חשובים לו יותר. הוא הופיע בפעם הראשונה כיחד עם בנו יונס, שיתף איתו את כתיבת 'Gravity' מ-2013.",
+    "kicker": "קולנוע",
+    "url": "https://variety.com/2026/film/festivals/alfonso-cuaron-revisits-gravity-son-jonas-busan-1236905332/",
+    "src": "variety",
+    "src_name": "Variety",
+    "lang": "en",
+    "img": "https://variety.com/wp-content/uploads/2026/10/Alfonso-and-Jonas-Cuaron.jpg",
+    "credit": "Variety",
+    "ts": "2026-10-08T08:58:55Z",
+    "score": 75
+   },
+   {
+    "id": "deb2a72ccb22de",
+    "title": "הפרק הגנוז, המכתבים לעורך והקשר לקין והבל: הסודות מאחורי \"קדמת עדן\"",
+    "summary": "הסדרה בנטפליקס על הקלאסיקה של סטיינבק הפכה להיט, אך מאחוריה התגלתה דרמה בהפקה כולל שחקן שגר בחווה ללא טלפון, משפחה שלא הופיעה וניסיון שנדחה על ידי הענקית.",
+    "kicker": "סדרות",
+    "url": "https://www.ynet.co.il/entertainment/article/hjvj3n4jzl",
+    "src": "ynet-cult",
+    "src_name": "ynet תרבות",
+    "lang": "he",
+    "img": "https://ynet-pic1.yit.co.il/picserver6/crop_images/2026/09/29/HkxfbNxY5Gg/HkxfbNxY5Gg_0_159_2487_1400_0_medium.jpg",
+    "credit": "ynet תרבות",
+    "ts": "2026-10-08T08:32:11Z",
+    "score": 70
+   },
+   {
+    "id": "a27fb079c3b7af",
+    "title": "תיעוד של נתן פילדר על אליזבת הולמס יגיע לבתי קולנוע בבריטניה",
+    "summary": "הסרט התיעודי של במאי נתן פילדר על מוסדת טראנוס אליזבת הולמס, שבחן את חייה חודש לפני כניסתה לכלא, יקבל הקרנה בבריטניה ובאירלנד.",
+    "kicker": "תיעוד",
+    "url": "https://variety.com/2026/film/global/nathan-fielder-you-can-see-everything-uk-release-date-1236905306/",
+    "src": "variety",
+    "src_name": "Variety",
+    "lang": "en",
+    "img": "https://variety.com/wp-content/uploads/2026/09/Screenshot-2026-09-06-at-7.57.52-PM.webp",
+    "credit": "Variety",
+    "ts": "2026-10-08T08:32:34Z",
+    "score": 65
+   },
+   {
+    "id": "ed526da633c178",
+    "title": "הלכתי לעיבוד בוונציה / אשכול נבו",
+    "summary": "בעיבודו של במאי איטלקי נודע, אשכול נבו הגיע לפסטיבל וונציה עם 'לב רעב', אך מצא עצמו נדרש לדבר על ישראל, המלחמה וההשקפה בחו״ל.",
+    "kicker": "קולנוע",
+    "url": "https://www.ynet.co.il/entertainment/article/yokra14905638",
+    "src": "ynet-cult",
+    "src_name": "ynet תרבות",
+    "lang": "he",
+    "img": "https://ynet-pic1.yit.co.il/picserver6/crop_images/2026/09/28/BJIMEhw9zg/BJIMEhw9zg_0_0_1920_1080_0_medium.jpg",
+    "credit": "ynet תרבות",
+    "ts": "2026-10-08T03:37:00Z",
+    "score": 72
+   },
+   {
+    "id": "12ce5ddc43957c",
+    "title": "ג'וש הארטנט בסדרת הרתחת היומנית החדשה של נטפליקס 'Below'",
+    "summary": "סדרה מוגבלת של נטפליקס בכיכובו של ג'וש הארטנט, המתרחשת בעיירה בניופאונדלנד וחוקרת מלחמה של דייג עם יצור ימי מסתורי. הסדרה מערבבת התרחשות מעודכנת עם עוררות ממולכדת.",
+    "kicker": "סדרות",
+    "url": "https://variety.com/2026/tv/reviews/below-review-netflix-josh-hartnett-1236904980/",
+    "src": "variety",
+    "src_name": "Variety",
+    "lang": "en",
+    "img": "https://variety.com/wp-content/uploads/2026/10/Below_n_S1_E6_00_26_09_07_R.jpg",
+    "credit": "Variety",
+    "ts": "2026-10-08T07:01:00Z",
+    "score": 65
+   },
+   {
+    "id": "a143c888b4de01",
+    "title": "'Island of Lies' — דרמה מסתורית המתחקה אחר זמן וסוד",
+    "summary": "France TV Distribution משיקה בפסטיבל MIPCOM בקאן את הסדרה 'Island of Lies' בת 6 הפרקים, המעקבת אחרי אישה בת 33 שמתחילה חיים חדשים לאחר שהורשעה בנעוריה בכתם של רצח כפול.",
+    "kicker": "סדרות",
+    "url": "https://variety.com/2026/tv/global/the-island-of-lies-france-tv-distribution-mipcom-1236905283/",
+    "src": "variety",
+    "src_name": "Variety",
+    "lang": "en",
+    "img": "https://variety.com/wp-content/uploads/2026/10/SANS_RETOUR_16X9_DEF_SS_SRGB_preview_2300.jpg",
+    "credit": "Variety",
+    "ts": "2026-10-08T08:52:01Z",
+    "score": 60
+   },
+   {
+    "id": "2e42365704fd43",
+    "title": "קוארון על עתיד הקולנוע: \"הקינמה בתיאטרון תישאר, אך תתקיים לצד צורות נוספות\"",
+    "summary": "אלפונסו קוארון וביתו, במעמד ראשון בפסטיבל בוסן, דנו בעתידות של הקולנוע התיאטרוני וחשפו פרטים על פרויקטים קרובים. הבמאי סבור שחווית הקולנוע הקלאסית תימשך לצד פלטפורמות דיגיטליות.",
+    "kicker": "קולנוע",
+    "url": "https://deadline.com/2026/10/alfonso-cuaron-jonas-cuaron-gravity-campeon-gabacho-busan-1237149661/",
+    "src": "deadline",
+    "src_name": "Deadline",
+    "lang": "en",
+    "img": "https://deadline.com/wp-content/uploads/2026/10/Alfonso-Cuaron.jpg",
+    "credit": "Deadline",
+    "ts": "2026-10-08T05:27:09Z",
+    "score": 65
+   },
+   {
+    "id": "b561ef018009ab",
+    "title": "במאי \"עולם מלחמה ז׳\" מעביר לטלוויזיה סרט בריתנלר \"Nines\"",
+    "summary": "במאי מארק פורסטר מכין סדרת טלוויזיה על בסיס הרומן הבריטני המרתק \"Nines\" על אדם בכלא המתכנן נקמה.",
+    "kicker": "טלוויזיה",
+    "url": "https://deadline.com/2026/10/marc-forster-nines-jamie-scallion-tv-renee-wolfe-fremantle-1237149709/",
+    "src": "deadline",
+    "src_name": "Deadline",
+    "lang": "en",
+    "img": "https://deadline.com/wp-content/uploads/2026/10/world-war-z-germany-premiere-1000x667-1-1.jpg",
+    "credit": "Deadline",
+    "ts": "2026-10-08T08:30:35Z",
+    "score": 60
+   },
+   {
+    "id": "ddfc96b8692c40",
+    "title": "הצלחת Heated Rivalry: כיצד סדרת הוקי הקנדית הפכה לחום בינלאומי",
+    "summary": "בעקבות הצלחת הגדולה של Heated Rivalry, Crave הקנדית ממשיכה להשקיע בתוכן מקורי קנדי שמושך צופים בינלאומיים.",
+    "kicker": "סדרות",
+    "url": "https://deadline.com/2026/10/how-heated-rivalry-made-canadian-tv-red-hot-crave-1237149699/",
+    "src": "deadline",
+    "src_name": "Deadline",
+    "lang": "en",
+    "img": "https://deadline.com/wp-content/uploads/2026/04/hudson-williams-connor-storrie_1-e1776552317709.jpg",
+    "credit": "Deadline",
+    "ts": "2026-10-08T07:25:40Z",
+    "score": 60
+   },
+   {
+    "id": "bf0752a5676c2c",
+    "title": "בראד בירד מציג את \"Ray Gunn\" בלונדון לאחר 30 שנה של פיתוח",
+    "summary": "אנימטור בנשמות בראד בירד הציג את סרטו החדש \"Ray Gunn\" בפסטיבל לונדון, ויצירה שלקחה שלוש עשורים לביצוע.",
+    "kicker": "אנימציה",
+    "url": "https://deadline.com/2026/10/brad-bird-ray-gunn-london-film-festival-skydance-netflix-1237148899/",
+    "src": "deadline",
+    "src_name": "Deadline",
+    "lang": "en",
+    "img": "https://deadline.com/wp-content/uploads/2026/10/AAAAQaeywHQ0tR6xqkWdf8EiA8syU3jy1BDaLXHR9R_nd48MyH5WfZ_gDW_PF60i3jmJG9tmr6-Vo1nHdXsonO42xYTrkw8KVJ8c6BMYn9G13IzALmGJhyGlrqcRARHUsr9WhvlOCqcHGg-jjfrEkhyH3GTS.jpg",
+    "credit": "Deadline",
+    "ts": "2026-10-08T08:22:59Z",
+    "score": 58
+   },
+   {
+    "id": "d0a342c20bec7d",
+    "title": "Alternativa Distribution מביאה סרטים זוכי פרסים ל־MIPCOM",
+    "summary": "חברת ההפצה החדשה Alternativa Distribution מופיעה לראשונה בפסטיבל MIPCOM בקאן עם קורט סרטים בעלי משקל, כולל הסרט 'No Good Men' שפתח את ברלינאלה.",
+    "kicker": "קולנוע",
+    "url": "https://deadline.com/2026/10/alternativa-distribution-mipcom-four-daughters-no-good-men-1237149704/",
+    "src": "deadline",
+    "src_name": "Deadline",
+    "lang": "en",
+    "img": "https://deadline.com/wp-content/uploads/2026/10/No-Good-Men_Key-still-Credit-Virginie-Surdej.jpg",
+    "credit": "Deadline",
+    "ts": "2026-10-08T08:43:38Z",
+    "score": 55
+   },
+   {
+    "id": "a6f722e8e44f3e",
+    "title": "סרט תיעודי על במאי הקולנוע כריס מרקר עם ניירול של שרלוט ראמפלינג",
+    "summary": "סרט תיעודי על בימאי הקולנוע המערמורי כריס מרקר יוקרן בפסטיבל בבלגיה, עם קול-דיבור של השחקנית המועמדת לאוסקר שרלוט ראמפלינג.",
+    "kicker": "קולנוע",
+    "url": "https://deadline.com/2026/10/nostalgia-for-the-future-lightdox-sales-acquisition-1237149710/",
+    "src": "deadline",
+    "src_name": "Deadline",
+    "lang": "en",
+    "img": "https://deadline.com/wp-content/uploads/2026/10/NFF_KEY-IMAGE.jpg",
+    "credit": "Deadline",
+    "ts": "2026-10-08T08:34:26Z",
+    "score": 55
+   },
+   {
+    "id": "902623b84bea5e",
+    "title": "\"הרשת החברתית\" היה מאסטרפיס. \"החשבון החברתי\" לא מתקרב אליו",
+    "summary": "סרט חדש של אהרון סורקין על מלחמה בעולם הטכנולוגיה חוזר לנושא אהוב, אך הביקורת מצביעה על התעללות מהתסריטאי בתפקיד במאי, דימויים מחזוריים ודמויות חסרות מורכבות.",
+    "kicker": "קולנוע",
+    "url": "https://www.ynet.co.il/entertainment/article/hywqksmsfe",
+    "src": "ynet-cult",
+    "src_name": "ynet תרבות",
+    "lang": "he",
+    "img": "https://ynet-pic1.yit.co.il/picserver6/crop_images/2026/10/07/Bkxi6nsmsfl/Bkxi6nsmsfl_478_119_694_391_0_medium.jpg",
+    "credit": "ynet תרבות",
+    "ts": "2026-10-08T05:02:35Z",
+    "score": 60
+   },
+   {
+    "id": "6d2b687c87ac2f",
+    "title": "סדרות טלוויזיה חדשות ב־MIPCOM: Baywatch, Einstein ו־Maya עם בלה רמזי",
+    "summary": "פלטפורמות וחברות ייצור מציגות בפסטיבל MIPCOM סדרות דרמטיות חדשות, בהן ריבוט של Baywatch וסדרה על אלברט איינשטיין.",
+    "kicker": "סדרות",
+    "url": "https://deadline.com/2026/10/deadline-dozen-scripted-baywatch-einstein-maya-bella-ramsey-1237147987/",
+    "src": "deadline",
+    "src_name": "Deadline",
+    "lang": "en",
+    "img": "https://deadline.com/wp-content/uploads/2026/10/einstein-1000x667-1-1.jpg",
+    "credit": "Deadline",
+    "ts": "2026-10-08T08:00:00Z",
+    "score": 55
+   }
+  ],
+  "ship": [
+   {
+    "id": "397437f8932384",
+    "title": "התקפה על טנקר ליד קטר: סכסך הספנות בתוך מפרץ פרסי מתרחב",
+    "summary": "מלחמת הנושים על הספנות במזרח התיכון לוקחת תפנית מדאיגה, כשטנקר נתקף ליד קטר, מאות ק\"מ מערבה מתעלת הורמוז, וכלי נשא מכולות נפגע בים אדום.",
+    "kicker": "ספנות",
+    "url": "https://splash247.com/tanker-attack-off-qatar-widens-gulf-shipping-conflict/",
+    "src": "splash",
+    "src_name": "Splash247",
+    "lang": "en",
+    "img": "https://splash247.com/wp-content/uploads/2026/06/Hormuz-IMO.jpg",
+    "credit": "Splash247",
+    "ts": "2026-10-08T08:45:29Z",
+    "score": 75
+   },
+   {
+    "id": "968adefcf24601",
+    "title": "חברת אנרגיה אמריקאית משקיעה 2 מיליארד דולר בספינות משא ימיות",
+    "summary": "חברת PIF Energy מתכננת לרכוש עד 15 טנקריים ענקיים בהשקעה של 2 מיליארד דולר, כדי לשמור על קיבולת הובלה דרך מפרץ הפרסי בתנאים של תנודות בשוק.",
+    "kicker": "ספנות",
+    "url": "https://splash247.com/pif-energy-launches-2bn-vlcc-buying-spree/",
+    "src": "splash",
+    "src_name": "Splash247",
+    "lang": "en",
+    "img": "https://splash247.com/wp-content/uploads/2026/03/NYK-VLCC.jpg",
+    "credit": "Splash247",
+    "ts": "2026-10-08T06:08:24Z",
+    "score": 72
+   },
+   {
+    "id": "69d1630e8d1103",
+    "title": "מייסד Cido משכנע חמש אוניות כדי להסדיר חוב של 277 מיליון דולר בקוריאה",
+    "summary": "מייסד חברת הספנות Cido הסכים להסדיר חוב מסים ישן של למעלה מ־250 מיליון דולר בקוריאה הדרומית, ומשכנע חמש אוניות שלו כערובה.",
+    "kicker": "ספנות",
+    "url": "https://splash247.com/cido-boss-pledges-five-ships-to-settle-277m-korean-tax-bill/",
+    "src": "splash",
+    "src_name": "Splash247",
+    "lang": "en",
+    "img": "https://splash247.com/wp-content/uploads/2026/10/CIDO.jpg",
+    "credit": "Splash247",
+    "ts": "2026-10-08T07:45:00Z",
+    "score": 60
+   },
+   {
+    "id": "9f8e98975dd181",
+    "title": "מייסדת חברת הספנות Almi Marine, אוונגניה דסקלופולו, נפטרה",
+    "summary": "מייסדת חברת הספנות Almi Marine היוונית אוונגניה דסקלופולו נפטרה בגיל 65, לאחר שבנתה את החברה לאחד מיצרני ספינות dry bulk המוביל.",
+    "kicker": "ספנות",
+    "url": "https://splash247.com/almi-marine-founder-evgenia-daskalopoulou-dies/",
+    "src": "splash",
+    "src_name": "Splash247",
+    "lang": "en",
+    "img": "https://splash247.com/wp-content/uploads/2026/10/evgenia-daskalopoulou.jpg",
+    "credit": "Splash247",
+    "ts": "2026-10-08T07:29:11Z",
+    "score": 55
+   },
+   {
+    "id": "3e2c4c2fd81c34",
+    "title": "מונקו צצה כ'כוכב החדש' של ספנות עולמית",
+    "summary": "מונקו זוהרת מחדש כמרכז ספנות עולמי עם ספנים והשקעות חדשות המעשירים את הקלאסטר הימי על חוף אזור כוט דזור.",
+    "kicker": "ספנות",
+    "url": "https://splash247.com/monaco-emerges-as-shippings-new-darling/",
+    "src": "splash",
+    "src_name": "Splash247",
+    "lang": "en",
+    "img": "https://splash247.com/wp-content/uploads/2025/10/aeneas-monaco.jpg",
+    "credit": "Splash247",
+    "ts": "2026-10-08T04:11:10Z",
+    "score": 60
+   },
+   {
+    "id": "4bb92da0d9f0a6",
+    "title": "אונייה יוונית מהדיקה הזמנה של ארבע טנקרים חדשים בסין",
+    "summary": "חברת Top Ships הוונית הוסיפה לתיקיה ארבע אוניות טנקר לתבואה בנפחי 50,000 טון, וברוח משא וקצר בעולם ההובלה הימית.",
+    "kicker": "ספנות",
+    "url": "https://splash247.com/pistiolis-doubles-down-at-gsi-with-four-more-mrs/",
+    "src": "splash",
+    "src_name": "Splash247",
+    "lang": "en",
+    "img": "https://splash247.com/wp-content/uploads/2021/05/Guangzhou-Shipyard-International-GSI.jpg",
+    "credit": "Splash247",
+    "ts": "2026-10-07T19:13:00Z",
+    "score": 70
+   },
+   {
+    "id": "9eeb2d4754fd9d",
+    "title": "יצוא נפט גובר דרך מצר הורמוז בסכנה מהתקפות איראניות",
+    "summary": "התקפות איראניות על מכלאות בעליית בהתחזקות, כאשר כ־20 אוניות הותקפו בחודש האחרון, מסכנות התאוששות שברירית של הייצוא מהמפרץ הפרסי.",
+    "kicker": "ביטחון",
+    "url": "https://www.hellenicshippingnews.com/rebounding-oil-exports-through-strait-of-hormuz-are-vulnerable-to-stepped-up-iranian-tanker-attacks/",
+    "src": "hellenic",
+    "src_name": "Hellenic Shipping News",
+    "lang": "en",
+    "img": null,
+    "credit": "Hellenic Shipping News",
+    "ts": "2026-10-07T21:00:53Z",
+    "score": 72
+   },
+   {
+    "id": "524e5f34bcc2ea",
+    "title": "חברה בריטית משקיעה 44 מיליון דולר בפיתוח נפט בקרקעות פוקלנד",
+    "summary": "Rockhopper Exploration התחייבה לבעלות של 35% בפרויקט ים האריה ליד קרקעות פוקלנד, כולל השקעה של 44 מיליון דולר בספינת קידוח צפה. הפרויקט מתמודד עם לחץ פוליטי מארגנטינה.",
+    "kicker": "ספנות",
+    "url": "https://splash247.com/rockhopper-secures-stake-in-fpso-bound-for-falklands-waters/",
+    "src": "splash",
+    "src_name": "Splash247",
+    "lang": "en",
+    "img": "https://splash247.com/wp-content/uploads/2026/10/MarineTraffic-Jose-Martinez-Rodeiro-OSX-1.jpg",
+    "credit": "Splash247",
+    "ts": "2026-10-08T02:40:00Z",
+    "score": 55
+   },
+   {
+    "id": "c8191b04363b16",
+    "title": "חברות ספנות יפניות מיסדות כלי שיתוף פעולה משותף",
+    "summary": "Tamba Shipping ו-Fairfield Maritime Japan הוסדו שותפות 50:50 בשם FT Ebisu Maritime, מטרתה לשמור על גדילה בנחיתויות כימיים ודלק צפים.",
+    "kicker": "ספנות",
+    "url": "https://splash247.com/tamba-and-fairfield-form-japanese-shipping-joint-venture/",
+    "src": "splash",
+    "src_name": "Splash247",
+    "lang": "en",
+    "img": "https://splash247.com/wp-content/uploads/2026/07/Fairfield-Maritime-Japan.jpg",
+    "credit": "Splash247",
+    "ts": "2026-10-08T06:37:48Z",
+    "score": 45
+   },
+   {
+    "id": "0cde15da416f2b",
+    "title": "התקפות על טנקרים בהורמוז בשיא מאז תחילת מלחמת איראן",
+    "summary": "התקפות על אוניות דלק בעברו של תעלת הורמוז הגיעו לשיא השבועי הגבוה ביותר מאז תחילת הסכסוך עם איראן, כאשר יצרנים בתוך המפרץ מגבירים את יצוא הנפט.",
+    "kicker": "ספנות",
+    "url": "https://gcaptain.com/attacks-on-tankers-in-hormuz-hit-highest-of-any-week-since-start-of-iran-war-sources-say/",
+    "src": "gcaptain",
+    "src_name": "gCaptain",
+    "lang": "en",
+    "img": null,
+    "credit": "gCaptain",
+    "ts": "2026-10-07T15:05:52Z",
+    "score": 75
+   },
+   {
+    "id": "8e905c897cbafa",
+    "title": "מדד בנלטיק ירד בישיבה השלישית",
+    "summary": "מדד הובלה למטענים יבשים ירד 0.3% ל־2,994 נקודות, רשם ירידה שלישית ברציפות לנמוכה מאוגוסט. מחירי הובלה לכלי קפסייז נפלו בחדות למינימום חדש.",
+    "kicker": "הובלה",
+    "url": "https://www.hellenicshippingnews.com/baltic-index-falls-for-3rd-session/",
+    "src": "hellenic",
+    "src_name": "Hellenic Shipping News",
+    "lang": "en",
+    "img": null,
+    "credit": "Hellenic Shipping News",
+    "ts": "2026-10-07T21:00:57Z",
+    "score": 65
+   },
+   {
+    "id": "37cc073cd6c3cb",
+    "title": "CMA CGM ו־DSV מחזקות שותפות לספנות בעלת פחמן נמוך",
+    "summary": "שיתוף הפעולה משתמש בפתרון ACT+ של CMA CGM להפחתת 12,000 טון CO2 בשנתיים דרך דלקים ביולוגיים מדור שני.",
+    "kicker": "סביבה",
+    "url": "https://www.hellenicshippingnews.com/cma-cgm-and-dsv-strengthen-their-partnership-to-accelerate-low-carbon-shipping-through-act/",
+    "src": "hellenic",
+    "src_name": "Hellenic Shipping News",
+    "lang": "en",
+    "img": null,
+    "credit": "Hellenic Shipping News",
+    "ts": "2026-10-07T21:00:49Z",
+    "score": 62
+   },
+   {
+    "id": "cb0cfc72d3b0f6",
+    "title": "אופטימיזציה קריאות נמלים משפרת פליטות באופן משמעותי",
+    "summary": "פילוטים מראים שהפחתת זמני המתנה בנמלים, המהווים 4–6% מזמן ההפעלה השנתי, יכולה להצמצם פליטות וצריכת דלק משמעותית.",
+    "kicker": "סביבה",
+    "url": "https://www.hellenicshippingnews.com/port-call-optimisation-pilot-projects-reveal-significant-emissions-savings-potential-new-report-shows/",
+    "src": "hellenic",
+    "src_name": "Hellenic Shipping News",
+    "lang": "en",
+    "img": null,
+    "credit": "Hellenic Shipping News",
+    "ts": "2026-10-07T21:00:55Z",
+    "score": 60
+   },
+   {
+    "id": "ec528273414542",
+    "title": "TOP Ships רוכשת ארבע מכלאות חדשות בהיקף 1.24 מיליארד דולר",
+    "summary": "חברת ספנות הוציאה הזמנה של ארבע מכלאות MR בדירוג קרח גבוה עם תיקיית הכנסות של כ־1.24 מיליארד דולר למשך שנים.",
+    "kicker": "ספנות",
+    "url": "https://www.hellenicshippingnews.com/top-ships-inc-announces-acquisition-of-four-high-specification-ice-class-1a-newbuilding-mr-tankers-and-gross-revenue-backlog-of-about-1-24-billion/",
+    "src": "hellenic",
+    "src_name": "Hellenic Shipping News",
+    "lang": "en",
+    "img": null,
+    "credit": "Hellenic Shipping News",
+    "ts": "2026-10-07T21:00:51Z",
+    "score": 58
+   }
+  ],
   "tech": [
+   {
+    "id": "c1368c400343d5",
+    "title": "Microsoft ו־NVIDIA חושפות Surface Laptop Ultra: מכונה רבת עוצמה להרצת מודלי AI",
+    "summary": "Microsoft וNVIDIA השיקו את Surface Laptop Ultra, מחשב נייד חזק המיועד להריץ מודלי AI מקומיים ללא סיוע ענן.",
+    "kicker": "מודלים",
+    "url": "https://www.geektime.co.il/microsoft-surface-laptop-ultra-rtx-spark/",
+    "src": "geektime",
+    "src_name": "גיקטיים",
+    "lang": "he",
+    "img": "https://cdn.geektime.co.il/wp-content/uploads/2026/10/Surface-Ultra-0.jpg",
+    "credit": "גיקטיים",
+    "ts": "2026-10-08T07:22:34Z",
+    "score": 75
+   },
    {
     "id": "d3d7e1a26bcee0",
     "title": "בית השקעות נוסף בדרך לבורסה: הורייזן של איתי ליפקוביץ׳",
@@ -17,18 +625,32 @@
     "score": 75
    },
    {
-    "id": "7af9cb19d75827",
-    "title": "מכירות TSMC בספטמבר עולות בתנופה כשביקוש AI לשבבים מתגבר",
-    "summary": "הכנסות TSMC בספטמבר הגיעו ל-511.86 מיליארד דולר טייוואני, תוך עלייה משנה לשנה המונעת על ידי ביקוש גובר לשבבים לשימוש בבינה מלאכותית.",
-    "kicker": "שבבים",
-    "url": "https://www.cnbc.com/2026/10/08/tsmc-september-sales-hit-another-record-as-ai-boom-rolls-on.html",
-    "src": "cnbc",
-    "src_name": "CNBC",
+    "id": "5fc391ad39720b",
+    "title": "BMW iX4 החדש: ה־X4 נולד מחדש כמכונית חשמלית",
+    "summary": "BMW הציגה את iX4, גרסה חשמלית של דגם ה־X4, וזו השלישית ברובע 'Neue Klasse' החדש של החברה בטכנולוגיה EV.",
+    "kicker": "גאדג׳טים",
+    "url": "https://www.engadget.com/2280880/bmw-ix4-is-the-x4-reborn-as-an-ev/",
+    "src": "engadget",
+    "src_name": "Engadget",
     "lang": "en",
-    "img": null,
-    "credit": "CNBC",
-    "ts": "2026-10-08T06:50:42Z",
-    "score": 75
+    "img": "https://www.engadget.com/img/gallery/the-new-bmw-ix4-is-the-x4-reborn-as-an-ev/l-intro-1791449062.jpg",
+    "credit": "Engadget",
+    "ts": "2026-10-08T08:45:55Z",
+    "score": 65
+   },
+   {
+    "id": "3a4cb4fec4f634",
+    "title": "הבורסה בתל אביב בוחנת רכישת בורסת קפריסין",
+    "summary": "הבורסה בתל אביב הקימה צוות לבחינת השתתפות במכרז לרכישת בורסת קפריסין, במטרה להרחיב את פעילותה מחוץ לישראל.",
+    "kicker": "כלכלה",
+    "url": "https://www.globes.co.il/news/article.aspx?did=1001558838#utm_source=RSS",
+    "src": "globes",
+    "src_name": "גלובס",
+    "lang": "he",
+    "img": "https://res.cloudinary.com/globes/image/upload/t_800X392/v1736783113/direct/DSC04610-2_e8tuet_82cabb.jpg",
+    "credit": "גלובס",
+    "ts": "2026-10-08T07:32:00Z",
+    "score": 65
    },
    {
     "id": "ef7579976c262c",
@@ -87,6 +709,20 @@
     "score": 60
    },
    {
+    "id": "6dc785f539f0c2",
+    "title": "ענקית האינטרנט הרוסית יאנדקס עוצרת פעילות במרכז נתונים אחרי התקפת רחפן",
+    "summary": "יאנדקס עצרה פעילויות במרכז נתונים גדול לאחר התקפה אוקראינית בעזרת רחפנים, בהמשך לסדרת הפגיעות בתשתיות רוסיות.",
+    "kicker": "סייבר",
+    "url": "https://www.cnbc.com/2026/10/08/russia-yandex-ukraine-drone-strike-data-center.html",
+    "src": "cnbc",
+    "src_name": "CNBC",
+    "lang": "en",
+    "img": null,
+    "credit": "CNBC",
+    "ts": "2026-10-08T08:17:47Z",
+    "score": 62
+   },
+   {
     "id": "f7d9422b91bbb9",
     "title": "בריטניה בפנייה בין סגירת הדלת לפני רכבים חשמליים סיניים לחדירתם",
     "summary": "בריטניה עומדת מול בחירה קשה בין הטלת מכסים על מכוניות חשמליות סיניות כמו האיחוד האירופי, או המשך הפתיחה לתחרות זו.",
@@ -99,20 +735,6 @@
     "credit": "CNBC",
     "ts": "2026-10-08T05:30:49Z",
     "score": 65
-   },
-   {
-    "id": "d49864907970d2",
-    "title": "אנליסט: ה־IPO של Anthropic יהיה 'הריק ביותר' של השנה",
-    "summary": "Anthropic צפויה להנפיק למסחר בנאסדק לפני חג ההודיה, אך חברת ייעוץ כלכלית מזהירה משקיעים שלא ישתתפו בהנפקה.",
-    "kicker": "מודלים",
-    "url": "https://www.cnbc.com/2026/10/07/anthropic-will-be-most-ridiculous-ipo-of-year-analyst-says.html",
-    "src": "cnbc",
-    "src_name": "CNBC",
-    "lang": "en",
-    "img": null,
-    "credit": "CNBC",
-    "ts": "2026-10-07T22:29:41Z",
-    "score": 75
    },
    {
     "id": "a5b44d5e4c84e5",
@@ -169,37 +791,37 @@
     "credit": "Engadget",
     "ts": "2026-10-07T19:32:47Z",
     "score": 70
-   },
-   {
-    "id": "09299f670c927f",
-    "title": "מיקרוסופט חושפת מחשבי AI חדשים עם שבבי Nvidia וגרסה משודרגת של Windows 11",
-    "summary": "מיקרוסופט גילתה פרטים על Surface Laptop Ultra, מחשבים ניידים המופעלים בשבבי Nvidia ועוצבו להריץ מודלים וסוכנים של AI.",
-    "kicker": "מודלים",
-    "url": "https://techcrunch.com/2026/10/07/microsoft-releases-new-nvidia-chip-ai-pcs-with-revamped-windows-11/",
-    "src": "techcrunch",
-    "src_name": "TechCrunch",
-    "lang": "en",
-    "img": null,
-    "credit": "TechCrunch",
-    "ts": "2026-10-07T20:22:37Z",
-    "score": 72
-   },
-   {
-    "id": "4b28fadcbc6553",
-    "title": ".agent ו-.agi הופכים לדומיינים החמים החדשים",
-    "summary": "ארגון ICANN קיבל אלפיים יותר בקשות לדומיינים חדשים, וסיומות המתאימות לבינה מלאכותית מובילות את הגל של רישומים.",
-    "kicker": "אינטרנט",
-    "url": "https://www.theverge.com/tech/1007132/icann-domains-2026-ai-agi",
-    "src": "verge",
-    "src_name": "The Verge",
-    "lang": "en",
-    "img": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/24643586/Amp_Search.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100",
-    "credit": "The Verge",
-    "ts": "2026-10-07T18:46:16Z",
-    "score": 68
    }
   ],
   "ai": [
+   {
+    "id": "56912bee41431b",
+    "title": "GPT-6 יגיע לכל שכבות המנויים של ChatGPT",
+    "summary": "OpenAI משיקה את GPT-6 ל־ChatGPT בכל שכבות המנויים, עם יכולת משופרת ליצור תגובות ויזואליות מתקדמות יותר.",
+    "kicker": "מודלים",
+    "url": "https://www.engadget.com/2280879/gpt-6-coming-all-tiers-chatgpt/",
+    "src": "engadget",
+    "src_name": "Engadget",
+    "lang": "en",
+    "img": "https://www.engadget.com/img/gallery/gpt-6-is-coming-to-all-tiers-of-chatgpt/l-intro-1791449039.jpg",
+    "credit": "Engadget",
+    "ts": "2026-10-08T08:45:16Z",
+    "score": 90
+   },
+   {
+    "id": "34e9ad55cd7c42",
+    "title": "נתנו ל-AI משימה שבני אדם לא יכולים לבצע, ואז זה נהיה מעניין באמת",
+    "summary": "ישראלים נוטים להתעלם מהחשיבות של החיסכון הפנסיוני שלהם למרות שהוא הנכס הפיננסי הגדול ביותר. בינה מלאכותית יכולה לעזור בקבלת החלטות מורכבות בנוגע לבחירת מוצר פנסיוני.",
+    "kicker": "AI",
+    "url": "https://www.geektime.co.il/how-we-built-ai-pension-analysis/",
+    "src": "geektime",
+    "src_name": "גיקטיים",
+    "lang": "he",
+    "img": "https://cdn.geektime.co.il/wp-content/uploads/2026/09/dreamstime_m_391530282-1024x635.jpg",
+    "credit": "גיקטיים",
+    "ts": "2026-10-08T08:22:47Z",
+    "score": 72
+   },
    {
     "id": "1a3d2f117c2096",
     "title": "מפתח שכפל את כל התוכנות של אדובי באמצעות קלוד ומשחרר אותן בחינם",
@@ -213,6 +835,34 @@
     "credit": "גיקטיים",
     "ts": "2026-10-08T06:33:37Z",
     "score": 72
+   },
+   {
+    "id": "adfbf9bb804aaa",
+    "title": "\"ChatGPT על סטרואידים\": מניות הקוונטום מנסות להתאושש מקיץ קשוח",
+    "summary": "למרות הירידות החדות במניות המחשוב הקוונטי, בנק אוף אמריקה רואה בתחום \"גילוי האש הבא של האנושות\" וחוזה התקצרות דרמטית בלוח הזמנים לאימוץ מסחרי.",
+    "kicker": "קוונטום",
+    "url": "https://www.globes.co.il/news/article.aspx?did=1001558772#utm_source=RSS",
+    "src": "globes",
+    "src_name": "גלובס",
+    "lang": "he",
+    "img": "https://res.cloudinary.com/globes/image/upload/t_800X392/v1790674689/shutterstock_2747654687_jgz9je.jpg",
+    "credit": "גלובס",
+    "ts": "2026-10-08T08:18:00Z",
+    "score": 68
+   },
+   {
+    "id": "48f3042078ba65",
+    "title": "בניית דרך בטוחה יותר לבינה מלאכותית תעשייתית אוטונומית",
+    "summary": "בינה מלאכותית תעשייתית נכנסת לשלב חדש עם התקדמות במודלים בסיסיים ובבינה מלאכותית פיזית, אך האתגר המרכזי הוא בטיחות כשמערכות אלו קשורות לעולם הפיזי.",
+    "kicker": "AI תעשייתי",
+    "url": "https://www.technologyreview.com/2026/10/08/1144020/building-a-safer-path-to-autonomous-industrial-ai/",
+    "src": "mittr",
+    "src_name": "MIT Technology Review",
+    "lang": "en",
+    "img": null,
+    "credit": "MIT Technology Review",
+    "ts": "2026-10-08T08:17:32Z",
+    "score": 70
    },
    {
     "id": "3a0428350fd02b",
@@ -299,20 +949,6 @@
     "score": 75
    },
    {
-    "id": "ace2a8cf762e91",
-    "title": "מייסד Patreon הצטרף ל-OpenAI וכבר מפיץ פרויקט ראשון עם פודקאסטריות",
-    "summary": "מייסד Patreon הצטרף ל-OpenAI כדי להנהל יוזמה לטובת יוצרים, והתחיל בפרויקט משותף עם פודקאסטריות על שימוש בטכנולוגיה להורות.",
-    "kicker": "מודלים",
-    "url": "https://variety.com/2026/biz/news/patreon-co-founder-sam-yam-chloe-shih-openai-creator-initiative-1236905136/",
-    "src": "variety",
-    "src_name": "Variety",
-    "lang": "en",
-    "img": "https://variety.com/wp-content/uploads/2026/10/exec-e304c892-792d-4d9d-8a27-27dfd6c23791-1-1.png",
-    "credit": "Variety",
-    "ts": "2026-10-08T02:33:52Z",
-    "score": 60
-   },
-   {
     "id": "9b80120014fd88",
     "title": "Nous Research מגיעה להערכה של 1.5 מיליארד דולר עם סוכני AI חדשים",
     "summary": "חברת Nous Research, מפתחת מודל הסוכנים Hermes, הגיעה להערכה של 1.5 מיליארד דולר בסיבוב B בהשקעה של 90 מיליון דולר.",
@@ -353,642 +989,6 @@
     "credit": "Mistral / Benj Edwards",
     "ts": "2026-10-07T14:12:37Z",
     "score": 75
-   },
-   {
-    "id": "69c1beaf03675d",
-    "title": "ChatGPT לנוער: בטיחות שנחקרת בזמנים קשים",
-    "summary": "בדיקות חשפו שמגני ה־AI של ChatGPT עבור נוער ממשיכים להעודד שימוש גם בעתות משבר נפשי, ועלולים לחזק קשר בלתי בריא עם המערכת.",
-    "kicker": "בינה מלאכותית",
-    "url": "https://techcrunch.com/2026/10/07/chatgpt-for-teens-keeps-teens-talking-even-during-mental-health-crises/",
-    "src": "techcrunch",
-    "src_name": "TechCrunch",
-    "lang": "en",
-    "img": null,
-    "credit": "TechCrunch",
-    "ts": "2026-10-07T18:15:28Z",
-    "score": 72
-   },
-   {
-    "id": "9ef8bdb072cf89",
-    "title": "אנת'רופיק משדרגת את תוכנית התמיכה בסטארטאפים",
-    "summary": "חברת Anthropic מציעה קרדיטים, ייעוץ ותוכניות חסינות לסטארטאפים בתחום ה־AI כדי לעודד יזמים לבנות מוצרים על התשתית שלה, בתחרות עם OpenAI וגוגל.",
-    "kicker": "סטארטאפים",
-    "url": "https://www.geektime.co.il/anthropic-claude-startups-api-credits-program/",
-    "src": "geektime",
-    "src_name": "גיקטיים",
-    "lang": "he",
-    "img": "https://cdn.geektime.co.il/wp-content/uploads/2026/10/Anthropic-Claude-Geektime-1024x668.jpg",
-    "credit": "גיקטיים",
-    "ts": "2026-10-07T06:17:48Z",
-    "score": 85
-   },
-   {
-    "id": "a5478fc42d691e",
-    "title": "ChatGPT מקבל ממשק חדש עם יכולות ויזואליות משופרות",
-    "summary": "OpenAI משיקה ממשק משתמש חדש ל-ChatGPT המציג ויזואליה אינטראקטיבית. השינוי חלק מהתפתחות מתמשכות בעוצמת המודל.",
-    "kicker": "מודלים",
-    "url": "https://techcrunch.com/2026/10/07/chatgpt-is-getting-a-lot-more-visual-with-the-launch-of-a-new-interface/",
-    "src": "techcrunch",
-    "src_name": "TechCrunch",
-    "lang": "en",
-    "img": null,
-    "credit": "TechCrunch",
-    "ts": "2026-10-07T18:00:19Z",
-    "score": 72
-   }
-  ],
-  "ship": [
-   {
-    "id": "3e2c4c2fd81c34",
-    "title": "מונקו צצה כ'כוכב החדש' של ספנות עולמית",
-    "summary": "מונקו זוהרת מחדש כמרכז ספנות עולמי עם ספנים והשקעות חדשות המעשירים את הקלאסטר הימי על חוף אזור כוט דזור.",
-    "kicker": "ספנות",
-    "url": "https://splash247.com/monaco-emerges-as-shippings-new-darling/",
-    "src": "splash",
-    "src_name": "Splash247",
-    "lang": "en",
-    "img": "https://splash247.com/wp-content/uploads/2025/10/aeneas-monaco.jpg",
-    "credit": "Splash247",
-    "ts": "2026-10-08T04:11:10Z",
-    "score": 60
-   },
-   {
-    "id": "4bb92da0d9f0a6",
-    "title": "אונייה יוונית מהדיקה הזמנה של ארבע טנקרים חדשים בסין",
-    "summary": "חברת Top Ships הוונית הוסיפה לתיקיה ארבע אוניות טנקר לתבואה בנפחי 50,000 טון, וברוח משא וקצר בעולם ההובלה הימית.",
-    "kicker": "ספנות",
-    "url": "https://splash247.com/pistiolis-doubles-down-at-gsi-with-four-more-mrs/",
-    "src": "splash",
-    "src_name": "Splash247",
-    "lang": "en",
-    "img": "https://splash247.com/wp-content/uploads/2021/05/Guangzhou-Shipyard-International-GSI.jpg",
-    "credit": "Splash247",
-    "ts": "2026-10-07T19:13:00Z",
-    "score": 70
-   },
-   {
-    "id": "9eeb2d4754fd9d",
-    "title": "יצוא נפט גובר דרך מצר הורמוז בסכנה מהתקפות איראניות",
-    "summary": "התקפות איראניות על מכלאות בעליית בהתחזקות, כאשר כ־20 אוניות הותקפו בחודש האחרון, מסכנות התאוששות שברירית של הייצוא מהמפרץ הפרסי.",
-    "kicker": "ביטחון",
-    "url": "https://www.hellenicshippingnews.com/rebounding-oil-exports-through-strait-of-hormuz-are-vulnerable-to-stepped-up-iranian-tanker-attacks/",
-    "src": "hellenic",
-    "src_name": "Hellenic Shipping News",
-    "lang": "en",
-    "img": null,
-    "credit": "Hellenic Shipping News",
-    "ts": "2026-10-07T21:00:53Z",
-    "score": 72
-   },
-   {
-    "id": "c8191b04363b16",
-    "title": "חברות ספנות יפניות מיסדות כלי שיתוף פעולה משותף",
-    "summary": "Tamba Shipping ו-Fairfield Maritime Japan הוסדו שותפות 50:50 בשם FT Ebisu Maritime, מטרתה לשמור על גדילה בנחיתויות כימיים ודלק צפים.",
-    "kicker": "ספנות",
-    "url": "https://splash247.com/tamba-and-fairfield-form-japanese-shipping-joint-venture/",
-    "src": "splash",
-    "src_name": "Splash247",
-    "lang": "en",
-    "img": "https://splash247.com/wp-content/uploads/2026/07/Fairfield-Maritime-Japan.jpg",
-    "credit": "Splash247",
-    "ts": "2026-10-08T06:37:48Z",
-    "score": 45
-   },
-   {
-    "id": "0cde15da416f2b",
-    "title": "התקפות על טנקרים בהורמוז בשיא מאז תחילת מלחמת איראן",
-    "summary": "התקפות על אוניות דלק בעברו של תעלת הורמוז הגיעו לשיא השבועי הגבוה ביותר מאז תחילת הסכסוך עם איראן, כאשר יצרנים בתוך המפרץ מגבירים את יצוא הנפט.",
-    "kicker": "ספנות",
-    "url": "https://gcaptain.com/attacks-on-tankers-in-hormuz-hit-highest-of-any-week-since-start-of-iran-war-sources-say/",
-    "src": "gcaptain",
-    "src_name": "gCaptain",
-    "lang": "en",
-    "img": null,
-    "credit": "gCaptain",
-    "ts": "2026-10-07T15:05:52Z",
-    "score": 75
-   },
-   {
-    "id": "8e905c897cbafa",
-    "title": "מדד בנלטיק ירד בישיבה השלישית",
-    "summary": "מדד הובלה למטענים יבשים ירד 0.3% ל־2,994 נקודות, רשם ירידה שלישית ברציפות לנמוכה מאוגוסט. מחירי הובלה לכלי קפסייז נפלו בחדות למינימום חדש.",
-    "kicker": "הובלה",
-    "url": "https://www.hellenicshippingnews.com/baltic-index-falls-for-3rd-session/",
-    "src": "hellenic",
-    "src_name": "Hellenic Shipping News",
-    "lang": "en",
-    "img": null,
-    "credit": "Hellenic Shipping News",
-    "ts": "2026-10-07T21:00:57Z",
-    "score": 65
-   },
-   {
-    "id": "37cc073cd6c3cb",
-    "title": "CMA CGM ו־DSV מחזקות שותפות לספנות בעלת פחמן נמוך",
-    "summary": "שיתוף הפעולה משתמש בפתרון ACT+ של CMA CGM להפחתת 12,000 טון CO2 בשנתיים דרך דלקים ביולוגיים מדור שני.",
-    "kicker": "סביבה",
-    "url": "https://www.hellenicshippingnews.com/cma-cgm-and-dsv-strengthen-their-partnership-to-accelerate-low-carbon-shipping-through-act/",
-    "src": "hellenic",
-    "src_name": "Hellenic Shipping News",
-    "lang": "en",
-    "img": null,
-    "credit": "Hellenic Shipping News",
-    "ts": "2026-10-07T21:00:49Z",
-    "score": 62
-   },
-   {
-    "id": "cb0cfc72d3b0f6",
-    "title": "אופטימיזציה קריאות נמלים משפרת פליטות באופן משמעותי",
-    "summary": "פילוטים מראים שהפחתת זמני המתנה בנמלים, המהווים 4–6% מזמן ההפעלה השנתי, יכולה להצמצם פליטות וצריכת דלק משמעותית.",
-    "kicker": "סביבה",
-    "url": "https://www.hellenicshippingnews.com/port-call-optimisation-pilot-projects-reveal-significant-emissions-savings-potential-new-report-shows/",
-    "src": "hellenic",
-    "src_name": "Hellenic Shipping News",
-    "lang": "en",
-    "img": null,
-    "credit": "Hellenic Shipping News",
-    "ts": "2026-10-07T21:00:55Z",
-    "score": 60
-   },
-   {
-    "id": "ec528273414542",
-    "title": "TOP Ships רוכשת ארבע מכלאות חדשות בהיקף 1.24 מיליארד דולר",
-    "summary": "חברת ספנות הוציאה הזמנה של ארבע מכלאות MR בדירוג קרח גבוה עם תיקיית הכנסות של כ־1.24 מיליארד דולר למשך שנים.",
-    "kicker": "ספנות",
-    "url": "https://www.hellenicshippingnews.com/top-ships-inc-announces-acquisition-of-four-high-specification-ice-class-1a-newbuilding-mr-tankers-and-gross-revenue-backlog-of-about-1-24-billion/",
-    "src": "hellenic",
-    "src_name": "Hellenic Shipping News",
-    "lang": "en",
-    "img": null,
-    "credit": "Hellenic Shipping News",
-    "ts": "2026-10-07T21:00:51Z",
-    "score": 58
-   },
-   {
-    "id": "5221d28f398f86",
-    "title": "קטאר מצברת אוניות גז טבעי ריקות במפרץ כסימן להגברת היצוא",
-    "summary": "קטאר צברה צי של אוניות לתחזוקת גז טבעי נוזלי בפרסיה, מה שמעיד על התכנון להגביר את הספקות דלק דרך מצר הורמוז.",
-    "kicker": "ספנות",
-    "url": "https://gcaptain.com/qatar-brings-empty-lng-ships-into-gulf-in-potential-export-boost/",
-    "src": "gcaptain",
-    "src_name": "gCaptain",
-    "lang": "en",
-    "img": null,
-    "credit": "gCaptain",
-    "ts": "2026-10-07T10:01:07Z",
-    "score": 75
-   },
-   {
-    "id": "d6c4c16dd4ca73",
-    "title": "אוניות הולכות בדרך הארוכה כבצורת תעלת פנמה",
-    "summary": "בעקבות בצורת קשה בתעלת פנמה, תנועה ימית דרך 海峡 מגלן קפצה יותר מ־70% בחודשים אחרונים, עם ספינות מסלול.",
-    "kicker": "תובלה",
-    "url": "https://gcaptain.com/ships-take-long-way-around-as-drought-snarls-panama-canal/",
-    "src": "gcaptain",
-    "src_name": "gCaptain",
-    "lang": "en",
-    "img": null,
-    "credit": "gCaptain",
-    "ts": "2026-10-07T15:06:54Z",
-    "score": 66
-   },
-   {
-    "id": "79987bfccc6007",
-    "title": "Golar בוחרת בספנית יפנית להמרה FLNG הרביעית",
-    "summary": "Golar LNG רכשה טנקר LNG משנת 2013 מ־NYK היפנית להמרה ליחידת FLNG רביעית, תוך השלמת חלק חשוב מתוכנית ההרחבה בשווי 2.45 מיליארד דולר.",
-    "kicker": "ספנות",
-    "url": "https://splash247.com/golar-picks-nyk-carrier-for-fourth-flng-conversion/",
-    "src": "splash",
-    "src_name": "Splash247",
-    "lang": "en",
-    "img": "https://splash247.com/wp-content/uploads/2026/10/Grace-Dahlia-George-Wilson-Marine-Traffic.jpg",
-    "credit": "Splash247",
-    "ts": "2026-10-07T18:04:00Z",
-    "score": 55
-   },
-   {
-    "id": "8ea22a51bea784",
-    "title": "טנקר בן 22 שנה בנסיעה נדירה בקוטב הצפוני",
-    "summary": "טנקר מנוע בן 22 שנה השמור ברוסיה מבצע נסיעה בהלכה דרך הנתיב הימי הצפוני, מה שמדגיש את הגברת השימוש בספינות ישנות להובלת מוצרי נפט בארקטיקה.",
-    "kicker": "ספנות",
-    "url": "https://gcaptain.com/sanctioned-22-year-old-non-ice-class-tanker-makes-rare-late-season-arctic-voyage/",
-    "src": "gcaptain",
-    "src_name": "gCaptain",
-    "lang": "en",
-    "img": null,
-    "credit": "gCaptain",
-    "ts": "2026-10-07T18:35:33Z",
-    "score": 60
-   },
-   {
-    "id": "0d124b4aca0b06",
-    "title": "וואלניוס וילהלמסן תוקפת הזמנות של אוניות לתובלת מכוניות",
-    "summary": "חברת ההובלה הנורווגית גייסה כ-300 מיליון דולר וממתינה להזמנת עד 12 אוניות דלק כפול משופרות לתובלת כלים בעולם.",
-    "kicker": "ספנות",
-    "url": "https://splash247.com/wallenius-wilhelmsen-eyes-up-to-12-more-car-carriers/",
-    "src": "splash",
-    "src_name": "Splash247",
-    "lang": "en",
-    "img": "https://splash247.com/wp-content/uploads/2023/10/Wallenius-Wilhelmsen-methanol-and-ammonia-car-carrier.jpg",
-    "credit": "Splash247",
-    "ts": "2026-10-07T11:30:00Z",
-    "score": 65
-   }
-  ],
-  "il": [
-   {
-    "id": "75f3bcd27af928",
-    "title": "התוכנית להוסיף חמישה מנדטים לימין - ובן גביר לא בפנים",
-    "summary": "נתניהו וסמוטריץ' יציגו היום תוכנית בחירות משותפת לחיזוק הימין בחמישה מנדטים, אך מתיחויות פוליטיות בגוש פוגעות בתכניות - וגם בן גביר לא זומן לכינוס.",
-    "kicker": "בחירות",
-    "url": "https://www.maariv.co.il/news/elections-2026/article-1374851",
-    "src": "maariv",
-    "src_name": "מעריב",
-    "lang": "he",
-    "img": "https://images.maariv.co.il/image/upload/f_auto,fl_lossy/c_fill,g_faces:center,h_438,w_778/1145639",
-    "credit": "מעריב",
-    "ts": "2026-10-08T06:15:10Z",
-    "score": 95
-   },
-   {
-    "id": "19da8a7b847f62",
-    "title": "בנט מבהיר עם מי לא יישב בממשלה - הפעם לא מדובר בנתניהו",
-    "summary": "נפתלי בנט שוללת שנית שיתוף פעולה עם נתניהו, משום שמטילה עליו אחריות ישירה לטבח 7 באוקטובר, ומזהיר מכוח הרבנים אך מבטיח שינוי בהגבלת כהונת ראש ממשלה.",
-    "kicker": "בחירות",
-    "url": "https://www.maariv.co.il/news/elections-2026/article-1374844",
-    "src": "maariv",
-    "src_name": "מעריב",
-    "lang": "he",
-    "img": "https://images.maariv.co.il/image/upload/f_auto,fl_lossy/c_fill,g_faces:center,h_438,w_778/1121985",
-    "credit": "מעריב",
-    "ts": "2026-10-08T05:47:27Z",
-    "score": 85
-   },
-   {
-    "id": "2c2f9f323d2abd",
-    "title": "\"למנוע את 7 באוקטובר הבא\": כוחות בשכם בלילה זיכרון 7.10",
-    "summary": "בליל החזקרה ל-7 באוקטובר, כוחות של חטיבת שומרון פעלו בשכם, עיר ערים של טרור, ותפסו אמצעי לחימה רבים וביצעו מעל 200 מעצרים בקרב פעילי חמאס.",
-    "kicker": "ביטחון",
-    "url": "https://www.ynet.co.il/news/article/yokra14920168",
-    "src": "ynet",
-    "src_name": "ynet",
-    "lang": "he",
-    "img": "https://ynet-pic1.yit.co.il/picserver6/crop_images/2026/10/07/yk14920276/yk14920276_0_0_1050_666_0_medium.jpg",
-    "credit": "ynet",
-    "ts": "2026-10-08T04:40:56Z",
-    "score": 80
-   },
-   {
-    "id": "4ee3cd98a0bcb4",
-    "title": "שאול מרידור: גדי איזנקוט יקים ממשלה גם בלי 61 מנדטים",
-    "summary": "חבר כנסת מ'ישר' משוכנע שתיווצר קואליציה עם 'רוב ציוני', וטוען שלשותפים פוטנציאליים חשוב יותר להחליף את נתניהו מאשר לסחוט תנאים.",
-    "kicker": "בחירות 2026",
-    "url": "https://www.ynet.co.il/news/120andone/article/rjexwjejze",
-    "src": "ynet",
-    "src_name": "ynet",
-    "lang": "he",
-    "img": "https://ynet-pic1.yit.co.il/picserver6/crop_images/2026/10/04/S1x68SeesMe/S1x68SeesMe_516_114_2485_1399_0_medium.jpg",
-    "credit": "ynet",
-    "ts": "2026-10-08T03:01:39Z",
-    "score": 80
-   },
-   {
-    "id": "0680a46e146a66",
-    "title": "איראן שינתה את התוכניות: המהלך החדש של ארה\"ב בישראל",
-    "summary": "לאחר התקפות איראניות על בסיסים אמריקאיים במזרח התיכון, הפנטגון שוקל הקמת בסיסים חדשים בישראל וירדן, בעוד 12 מפציצים הועברו מבריטניה.",
-    "kicker": "ביטחון",
-    "url": "https://www.maariv.co.il/news/world/article-1374829",
-    "src": "maariv",
-    "src_name": "מעריב",
-    "lang": "he",
-    "img": "https://images.maariv.co.il/image/upload/f_auto,fl_lossy/c_fill,g_faces:center,h_438,w_778/531263",
-    "credit": "מעריב",
-    "ts": "2026-10-08T04:47:56Z",
-    "score": 75
-   },
-   {
-    "id": "faf891f176d35c",
-    "title": "חמאס הגיע לפאתי באר שבע: השב\"כ מזהיר - הפיצוץ בנגב קרוב מתמיד",
-    "summary": "השב\"כ מזהיר מהקצנה במעורבות חמאס בקהילות בדואיות בנגב, תוך כדי תכנון פיגועים בבאר שבע וניסיונות להקם יחידות צבאיות.",
-    "kicker": "ביטחון",
-    "url": "https://www.maariv.co.il/news/military/article-1374856",
-    "src": "maariv",
-    "src_name": "מעריב",
-    "lang": "he",
-    "img": "https://images.maariv.co.il/image/upload/f_auto,fl_lossy/c_fill,g_faces:center,h_438,w_778/1138729",
-    "credit": "מעריב",
-    "ts": "2026-10-08T06:26:06Z",
-    "score": 72
-   },
-   {
-    "id": "076377a4e50551",
-    "title": "ציון שלוש שנים לטבח: טראמפ שובר שתיקה בהצהרה דרמטית",
-    "summary": "בהצהרה בציון שלוש שנים לטבח 7 באוקטובר, טראמפ התחייב לעמוד לצד ישראל, שחזר זוועות חמאס וטען אחריות לשחרור החטופים.",
-    "kicker": "7 באוקטובר",
-    "url": "https://www.maariv.co.il/news/world/article-1374827",
-    "src": "maariv",
-    "src_name": "מעריב",
-    "lang": "he",
-    "img": "https://images.maariv.co.il/image/upload/f_auto,fl_lossy/c_fill,g_faces:center,h_438,w_778/1103583",
-    "credit": "מעריב",
-    "ts": "2026-10-08T04:32:59Z",
-    "score": 75
-   },
-   {
-    "id": "53beb4e69f1a8a",
-    "title": "אחרי 15 שנה: כיפת ברזל רושמת הישג היסטורי - ולא בישראל",
-    "summary": "לראשונה מחוץ לישראל הונח מפעל לייצור מיירטי כיפת ברזל בארקנסו, והוא כבר מייצר גם למערך ההגנה האמריקאי במהלך שמחזק את היכולות ההגנה של שתי המדינות.",
-    "kicker": "ביטחון",
-    "url": "https://www.maariv.co.il/news/military/article-1374849",
-    "src": "maariv",
-    "src_name": "מעריב",
-    "lang": "he",
-    "img": "https://images.maariv.co.il/image/upload/f_auto,fl_lossy/c_fill,g_faces:center,h_438,w_778/1105943",
-    "credit": "מעריב",
-    "ts": "2026-10-08T06:05:56Z",
-    "score": 70
-   },
-   {
-    "id": "581070a5a1bd9f",
-    "title": "טראמפ: לא ממולחמן על עסקה עם איראן, בעוד ארה\"ב מתכננת 'הפצצה מסיבית'",
-    "summary": "טראמפ הודיע שאינו רוצה עסקה עם איראן, כאשר צוות הביטחון הלאומי דן בחידוש מבצעים צבאיים בקנה מידה גדול.",
-    "kicker": "ביטחון",
-    "url": "https://www.cnbc.com/2026/10/08/us-iran-war-trump-hormuz.html",
-    "src": "cnbc",
-    "src_name": "CNBC",
-    "lang": "en",
-    "img": null,
-    "credit": "CNBC",
-    "ts": "2026-10-08T03:29:29Z",
-    "score": 80
-   },
-   {
-    "id": "a9f242ecc74375",
-    "title": "הושגה פשרה דיפלומטית, והאיום הבריטי לגירוש נציגים ישראלים מלונדון ירד מהשולחן",
-    "summary": "ישראל וברטניה הגיעו להסכם בעניין קונסוליית בריטניה בירושלים, כשישראל מאשרת הפעלת כוח משימה בריטי מצומצם תחת פיקוח ישראלי. ההסכם מונע משבר דיפלומטי קשה בין שתי המדינות.",
-    "kicker": "דיפלומטיה",
-    "url": "https://www.ynet.co.il/news/article/by4ztn4sml",
-    "src": "ynet",
-    "src_name": "ynet",
-    "lang": "he",
-    "img": "https://ynet-pic1.yit.co.il/picserver6/crop_images/2026/08/20/H1q9dV4wzl/H1q9dV4wzl_0_0_850_479_0_medium.jpg",
-    "credit": "ynet",
-    "ts": "2026-10-08T06:51:48Z",
-    "score": 68
-   },
-   {
-    "id": "eabb723523b9a4",
-    "title": "טראמפ \"לא מעוניין בהסכם\". דיווחים: צבא ארה\"ב נערך לחידוש המלחמה באיראן לפני בחירות האמצע",
-    "summary": "טראמפ הכריז בעצרת בטקסס שאינו רוצה הסכם עם איראן, בעוד כלים אמריקאיים מדווחים על הכנות צבאיות אפשריות לפעולה חדשה בטהרן עוד לפני בחירות בחודש הבא.",
-    "kicker": "בחירות",
-    "url": "https://www.ynet.co.il/news/article/hybuxovofl",
-    "src": "ynet",
-    "src_name": "ynet",
-    "lang": "he",
-    "img": "https://ynet-pic1.yit.co.il/picserver6/crop_images/2026/10/01/SkqwhG2cfx/SkqwhG2cfx_0_136_3000_1689_0_medium.jpg",
-    "credit": "ynet",
-    "ts": "2026-10-08T05:07:32Z",
-    "score": 70
-   },
-   {
-    "id": "decd0f52490dc5",
-    "title": "התירוצים של הסוקרים שייכשלו ביום הבחירות",
-    "summary": "ניתוח ביקורתי על סקרי הדעות הציבורית וההבדל בין סקרים שמודדים דעות הווה לבין תחזוקות שמנסות לנבא תוצאות בחירות, והעניינים הכלכליים שגורמים לסוקרים להעמיד תחזוקות.",
-    "kicker": "בחירות",
-    "url": "https://www.ynet.co.il/news/article/hjkeskqsfl",
-    "src": "ynet",
-    "src_name": "ynet",
-    "lang": "he",
-    "img": "https://ynet-pic1.yit.co.il/picserver6/crop_images/2024/02/27/BJbfnKLohp/BJbfnKLohp_88_729_1692_953_0_medium.jpg",
-    "credit": "ynet",
-    "ts": "2026-10-08T01:27:00Z",
-    "score": 75
-   },
-   {
-    "id": "5fd0228905ef43",
-    "title": "השלטים ירדו - הדגל נשאר: הדרמה בקונסוליה הבריטית בירושלים",
-    "summary": "הקונסוליה הבריטית בירושלים נסגרת לאחר כמעט 200 שנות פעילות, עם פשרה דיפלומטית שמאפשרת לבריטניה להמשיך בנוכחות מצומצמת. המהלך מסיים מתיחות בינלאומית בין ישראל ובריטניה.",
-    "kicker": "דיפלומטיה",
-    "url": "https://www.maariv.co.il/news/politics/article-1374861",
-    "src": "maariv",
-    "src_name": "מעריב",
-    "lang": "he",
-    "img": "https://images.maariv.co.il/image/upload/f_auto,fl_lossy/c_fill,g_faces:center,h_438,w_778/1142154",
-    "credit": "מעריב",
-    "ts": "2026-10-08T06:54:15Z",
-    "score": 65
-   },
-   {
-    "id": "53c5cfcb3607df",
-    "title": "כאוס בגוש דן: המשטרה נערכת להפגנות החרדים ולהופעת ענק",
-    "summary": "המשטרה מצפה להפגנות חרדיות וכ-17 אלף משתתפים בהופעה בגוש דן, ופורסות כוחות ניכרים בנקודות מרכזיות כדי למנוע חסימות כבישים.",
-    "kicker": "ביטחון",
-    "url": "https://www.maariv.co.il/news/law/article-1374862",
-    "src": "maariv",
-    "src_name": "מעריב",
-    "lang": "he",
-    "img": "https://images.maariv.co.il/image/upload/f_auto,fl_lossy/c_fill,g_faces:center,h_438,w_778/1127298",
-    "credit": "מעריב",
-    "ts": "2026-10-08T06:34:54Z",
-    "score": 62
-   }
-  ],
-  "film": [
-   {
-    "id": "ed526da633c178",
-    "title": "הלכתי לעיבוד בוונציה / אשכול נבו",
-    "summary": "בעיבודו של במאי איטלקי נודע, אשכול נבו הגיע לפסטיבל וונציה עם 'לב רעב', אך מצא עצמו נדרש לדבר על ישראל, המלחמה וההשקפה בחו״ל.",
-    "kicker": "קולנוע",
-    "url": "https://www.ynet.co.il/entertainment/article/yokra14905638",
-    "src": "ynet-cult",
-    "src_name": "ynet תרבות",
-    "lang": "he",
-    "img": "https://ynet-pic1.yit.co.il/picserver6/crop_images/2026/09/28/BJIMEhw9zg/BJIMEhw9zg_0_0_1920_1080_0_medium.jpg",
-    "credit": "ynet תרבות",
-    "ts": "2026-10-08T03:37:00Z",
-    "score": 72
-   },
-   {
-    "id": "2e42365704fd43",
-    "title": "קוארון על עתיד הקולנוע: \"הקינמה בתיאטרון תישאר, אך תתקיים לצד צורות נוספות\"",
-    "summary": "אלפונסו קוארון וביתו, במעמד ראשון בפסטיבל בוסן, דנו בעתידות של הקולנוע התיאטרוני וחשפו פרטים על פרויקטים קרובים. הבמאי סבור שחווית הקולנוע הקלאסית תימשך לצד פלטפורמות דיגיטליות.",
-    "kicker": "קולנוע",
-    "url": "https://deadline.com/2026/10/alfonso-cuaron-jonas-cuaron-gravity-campeon-gabacho-busan-1237149661/",
-    "src": "deadline",
-    "src_name": "Deadline",
-    "lang": "en",
-    "img": "https://deadline.com/wp-content/uploads/2026/10/Alfonso-Cuaron.jpg",
-    "credit": "Deadline",
-    "ts": "2026-10-08T05:27:09Z",
-    "score": 65
-   },
-   {
-    "id": "902623b84bea5e",
-    "title": "\"הרשת החברתית\" היה מאסטרפיס. \"החשבון החברתי\" לא מתקרב אליו",
-    "summary": "סרט חדש של אהרון סורקין על מלחמה בעולם הטכנולוגיה חוזר לנושא אהוב, אך הביקורת מצביעה על התעללות מהתסריטאי בתפקיד במאי, דימויים מחזוריים ודמויות חסרות מורכבות.",
-    "kicker": "קולנוע",
-    "url": "https://www.ynet.co.il/entertainment/article/hywqksmsfe",
-    "src": "ynet-cult",
-    "src_name": "ynet תרבות",
-    "lang": "he",
-    "img": "https://ynet-pic1.yit.co.il/picserver6/crop_images/2026/10/07/Bkxi6nsmsfl/Bkxi6nsmsfl_478_119_694_391_0_medium.jpg",
-    "credit": "ynet תרבות",
-    "ts": "2026-10-08T05:02:35Z",
-    "score": 60
-   },
-   {
-    "id": "000d7da93abf06",
-    "title": "במאי קוריאני נא הונג-ג'ין מדבר על השראות מלחמה ויראות בפסטיבל בוסן",
-    "summary": "במאי קוריאני נא הונג-ג'ין השתף בפסטיבל בוסן כיצד חשש ממלחמה בחצי האי קוריאה השראה אותו ליצירת הסרט \"Hope\".",
-    "kicker": "קולנוע",
-    "url": "https://variety.com/2026/film/festivals/na-hong-jin-hope-fear-war-busan-masterclass-1236905247/",
-    "src": "variety",
-    "src_name": "Variety",
-    "lang": "en",
-    "img": "https://variety.com/wp-content/uploads/2026/10/Na-Hong-Jin.jpg",
-    "credit": "Variety",
-    "ts": "2026-10-08T04:31:04Z",
-    "score": 60
-   },
-   {
-    "id": "4312da74890f90",
-    "title": "במאי 'Beyond The Spider-Verse' על הציפיות הגבוהות של הקהל והאתגר להשיגן",
-    "summary": "במאי הסרט השלישי בסדרת Spider-Verse מדבר על הלחץ להגיע להציפיות הגבוהות של הקהל ועל ההחלטה לא להגיד \"לא\" למשימות יצירתיות.",
-    "kicker": "קולנוע",
-    "url": "https://deadline.com/2026/10/spider-man-beyond-the-spider-verse-sony-pictures-animation-1237149251/",
-    "src": "deadline",
-    "src_name": "Deadline",
-    "lang": "en",
-    "img": "https://deadline.com/wp-content/uploads/2026/10/Kristine-Belson-and-Bob-Persichetti-at-Crunchyroll-Anime-Future-Forum.jpg",
-    "credit": "Deadline",
-    "ts": "2026-10-08T01:10:05Z",
-    "score": 65
-   },
-   {
-    "id": "eeb4a97483bea6",
-    "title": "\"קארי למסך\" חוזרת עם עדכון לעתה החדשה — אך שמונה שעות?!",
-    "summary": "סדרת טלוויזיה חדשה של ספטיבן קינג מופקת לרשתות, עם במאי מנוסה ושחקנית מובילה, אך ביצוע מוגזם פוגע בפרויקט הכולל.",
-    "kicker": "טלוויזיה",
-    "url": "https://www.ynet.co.il/entertainment/article/r1kyxej5ge",
-    "src": "ynet-cult",
-    "src_name": "ynet תרבות",
-    "lang": "he",
-    "img": "https://ynet-pic1.yit.co.il/picserver6/crop_images/2026/09/29/r1X4fheF9Gl/r1X4fheF9Gl_0_0_3000_1688_0_medium.jpg",
-    "credit": "ynet תרבות",
-    "ts": "2026-10-08T05:02:23Z",
-    "score": 55
-   },
-   {
-    "id": "f62a36237f188c",
-    "title": "שחקנית ישראלית נוע כהן: 7 באוקטובר הוא אישי וגם מקצועי",
-    "summary": "כוכבת דור ה־Z כוללת בסרט חדש על הטראומה של 7 באוקטובר, חוויה שהחזירה אותה לכמה זיכרונות כואבים.",
-    "kicker": "קולנוע",
-    "url": "https://www.hollywoodreporter.com/movies/movie-features/october-7-movies-best-our-loves-nova-noa-1236724989/",
-    "src": "thr",
-    "src_name": "The Hollywood Reporter",
-    "lang": "en",
-    "img": null,
-    "credit": "The Hollywood Reporter",
-    "ts": "2026-10-07T22:14:35Z",
-    "score": 70
-   },
-   {
-    "id": "3031088bbde536",
-    "title": "פסטיבל ונקובר: הסרטים הזוכים בתחרות 2026",
-    "summary": "סרטים כולל \"ניינה רוזה\", \"In the Heart of the South\" ו\"How We Stand\" זכו בפרסים במהדורה ה-45 של פסטיבל הקולנוע הבינלאומי של ונקובר.",
-    "kicker": "קולנוע",
-    "url": "https://variety.com/2026/film/global/vancouver-film-festival-prizes-nina-roza-how-we-stand-1236905277/",
-    "src": "variety",
-    "src_name": "Variety",
-    "lang": "en",
-    "img": "https://variety.com/wp-content/uploads/2025/08/MixCollage-10-Aug-2025-05-18-PM-9251.jpg",
-    "credit": "Variety",
-    "ts": "2026-10-08T06:36:42Z",
-    "score": 50
-   },
-   {
-    "id": "f5b8a81399e215",
-    "title": "'The Debut': ג'סי אייזנברג שיבח את הביצוע 'המושלם' של ג'וליאן מור בפסטיבל ניו יורק",
-    "summary": "ג'סי אייזנברג הציג את הסרט השלישי שלו 'The Debut' בפסטיבל ניו יורק, שבו אייזנברג שיבח את המשחק של ג'וליאן מור.",
-    "kicker": "קולנוע",
-    "url": "https://variety.com/2026/film/news/the-debut-jesse-eisenberg-julianne-moores-oscar-frontrunner-nyff-1236905218/",
-    "src": "variety",
-    "src_name": "Variety",
-    "lang": "en",
-    "img": "https://variety.com/wp-content/uploads/2026/10/GettyImages-2295144043.jpg",
-    "credit": "Variety",
-    "ts": "2026-10-08T03:27:16Z",
-    "score": 55
-   },
-   {
-    "id": "e4572999803ce5",
-    "title": "סקיידנס וורנר ברוס: תוכנית הסרטים לשנים הקרובות",
-    "summary": "מנהלי סקיידנס פיקצ'רס יקבלו את הסמכות על סרטי וורנר ברוס לשנים 2027–2029, כשהעדיפות הראשונה היא הבטחת הפקה של בארבי 2 עם הצוות המקורי.",
-    "kicker": "בוליווד",
-    "url": "https://deadline.com/2026/10/skydance-warner-bros-films-in-works-1237149497/",
-    "src": "deadline",
-    "src_name": "Deadline",
-    "lang": "en",
-    "img": "https://deadline.com/wp-content/uploads/2026/10/Josh-Greenstein-Dana-Goldberg-Paramount-Warner-Bros.jpg",
-    "credit": "Deadline",
-    "ts": "2026-10-08T02:28:48Z",
-    "score": 55
-   },
-   {
-    "id": "2b4769e021eaef",
-    "title": "פסטיבל דוחה חוגג קולנוע נשי והפקות מהמזרח התיכון",
-    "summary": "פסטיבל הקולנוע בדוחה הציג תערוכה תחרותית בהנהגת קולנוענים נשיים, כולל פילם יממני על מלחמת גרזה וטראגדיה אנושית.",
-    "kicker": "קולנוע",
-    "url": "https://variety.com/2026/film/festivals/doha-film-festival-female-filmmakers-and-middle-east-1236904400/",
-    "src": "variety",
-    "src_name": "Variety",
-    "lang": "en",
-    "img": "https://variety.com/wp-content/uploads/2026/10/Bardi-film-still-Gunpowder-boy-Tala-Hadid-2026.-1000.jpg",
-    "credit": "Variety",
-    "ts": "2026-10-08T05:00:00Z",
-    "score": 50
-   },
-   {
-    "id": "f8f2fbaa4e3cb4",
-    "title": "פסטיבל דוחה 2026: תערוכה בינלאומית עם דרמה מעזה",
-    "summary": "פסטיבל הקולנוע בדוחה הודיע על 15 סרטים בתחרות בעלות השנה, כולל יצירה מעזה על בחורה ללא אם בתנאי מוחנק.",
-    "kicker": "קולנוע",
-    "url": "https://deadline.com/2026/10/doha-film-festival-2026-international-feature-competition-1237149486/",
-    "src": "deadline",
-    "src_name": "Deadline",
-    "lang": "en",
-    "img": "https://deadline.com/wp-content/uploads/2026/10/MixCollage-07-Oct-2026-11-18-PM-6417.jpg",
-    "credit": "Deadline",
-    "ts": "2026-10-08T05:00:00Z",
-    "score": 50
-   },
-   {
-    "id": "dcedd14c6db953",
-    "title": "סרט הקודש 'The Mage' של האחים פנג בפסטיבל בוסאן",
-    "summary": "הסרט הנוער 'The Mage' של האחים דני ואוקסיד פנג בכיכובה של ג'וזי הו יוצג לקונים בפסטיבל בוסאן הבינלאומי.",
-    "kicker": "קולנוע",
-    "url": "https://variety.com/2026/film/markets-festivals/pang-brothers-josie-ho-thriller-mage-busan-market-debut-1236905233/",
-    "src": "variety",
-    "src_name": "Variety",
-    "lang": "en",
-    "img": "https://variety.com/wp-content/uploads/2026/03/The-Mage.jpg",
-    "credit": "Variety",
-    "ts": "2026-10-08T03:59:51Z",
-    "score": 50
-   },
-   {
-    "id": "5944483ef8edcd",
-    "title": "ננא פטקר, כוכב הקולנוע ההודי, נפטר בגיל 75",
-    "summary": "ננא פטקר, שחקן בולט בקולנוע הודי ומרתי שגילם תפקידים מנושאים פשע למדינאים קומיים, נפטר בגיל 75 מעצירת לב בביתו בגואה.",
-    "kicker": "קולנוע הודי",
-    "url": "https://variety.com/2026/film/obituaries-people-news/nana-patekar-dead-parinda-krantiveer-1236905203/",
-    "src": "variety",
-    "src_name": "Variety",
-    "lang": "en",
-    "img": "https://variety.com/wp-content/uploads/2026/10/Nana-Patekar.jpg",
-    "credit": "Variety",
-    "ts": "2026-10-08T03:26:31Z",
-    "score": 45
    }
   ]
  },
@@ -1121,133 +1121,6 @@
    ]
   },
   {
-   "id": "BL1",
-   "name": "בונדסליגה",
-   "flag": "🇩🇪",
-   "matches": [
-    {
-     "ts": "2026-09-20T17:30:00Z",
-     "status": "done",
-     "home": "פאדרבורן",
-     "away": "הופנהיים",
-     "home_s": "SCP",
-     "away_s": "TSG",
-     "hg": 3,
-     "ag": 1
-    },
-    {
-     "ts": "2026-09-20T15:30:00Z",
-     "status": "done",
-     "home": "שאלקה",
-     "away": "אלברסברג",
-     "home_s": "S04",
-     "away_s": "ELV",
-     "hg": 0,
-     "ag": 0
-    },
-    {
-     "ts": "2026-09-20T13:30:00Z",
-     "status": "done",
-     "home": "לברקוזן",
-     "away": "לייפציג",
-     "home_s": "B04",
-     "away_s": "RBL",
-     "hg": 2,
-     "ag": 0
-    },
-    {
-     "ts": "2026-09-19T16:30:00Z",
-     "status": "done",
-     "home": "שטוטגרט",
-     "away": "דורטמונד",
-     "home_s": "VFB",
-     "away_s": "BVB",
-     "hg": 0,
-     "ag": 1
-    },
-    {
-     "ts": "2026-09-19T13:30:00Z",
-     "status": "done",
-     "home": "פרנקפורט",
-     "away": "פרייבורג",
-     "home_s": "SGE",
-     "away_s": "SCF",
-     "hg": 2,
-     "ag": 2
-    },
-    {
-     "ts": "2026-09-19T13:30:00Z",
-     "status": "done",
-     "home": "ורדר ברמן",
-     "away": "אאוגסבורג",
-     "home_s": "SVW",
-     "away_s": "FCA",
-     "hg": 3,
-     "ag": 2
-    },
-    {
-     "ts": "2026-09-19T13:30:00Z",
-     "status": "done",
-     "home": "גלדבאך",
-     "away": "מיינץ",
-     "home_s": "BMG",
-     "away_s": "M05",
-     "hg": 3,
-     "ag": 4
-    },
-    {
-     "ts": "2026-09-19T13:30:00Z",
-     "status": "done",
-     "home": "המבורג",
-     "away": "קלן",
-     "home_s": "HSV",
-     "away_s": "KOE",
-     "hg": 2,
-     "ag": 1
-    },
-    {
-     "ts": "2026-10-09T18:30:00Z",
-     "status": "next",
-     "home": "דורטמונד",
-     "away": "ורדר ברמן",
-     "home_s": "BVB",
-     "away_s": "SVW",
-     "hg": null,
-     "ag": null
-    },
-    {
-     "ts": "2026-10-10T13:30:00Z",
-     "status": "next",
-     "home": "מיינץ",
-     "away": "לברקוזן",
-     "home_s": "M05",
-     "away_s": "B04",
-     "hg": null,
-     "ag": null
-    },
-    {
-     "ts": "2026-10-10T13:30:00Z",
-     "status": "next",
-     "home": "פאדרבורן",
-     "away": "שטוטגרט",
-     "home_s": "SCP",
-     "away_s": "VFB",
-     "hg": null,
-     "ag": null
-    },
-    {
-     "ts": "2026-10-10T13:30:00Z",
-     "status": "next",
-     "home": "אוניון ברלין",
-     "away": "אלברסברג",
-     "home_s": "UNB",
-     "away_s": "ELV",
-     "hg": null,
-     "ag": null
-    }
-   ]
-  },
-  {
    "id": "ISR",
    "name": "ליגת העל",
    "flag": "🇮🇱",
@@ -1368,12 +1241,12 @@
  "weather": [
   {
    "name": "חיפה",
-   "t": 25,
-   "txt": "בהיר",
-   "ic": "☀️",
-   "code": 0,
-   "wind": 14,
-   "hum": 58,
+   "t": 27,
+   "txt": "בהיר ברובו",
+   "ic": "🌤",
+   "code": 1,
+   "wind": 22,
+   "hum": 56,
    "days": [
     {
      "date": "2026-10-08",
@@ -1400,12 +1273,12 @@
   },
   {
    "name": "תל אביב",
-   "t": 27,
-   "txt": "בהיר",
-   "ic": "☀️",
-   "code": 0,
-   "wind": 8,
-   "hum": 52,
+   "t": 29,
+   "txt": "בהיר ברובו",
+   "ic": "🌤",
+   "code": 1,
+   "wind": 14,
+   "hum": 54,
    "days": [
     {
      "date": "2026-10-08",
@@ -1432,12 +1305,12 @@
   },
   {
    "name": "ירושלים",
-   "t": 23,
+   "t": 26,
    "txt": "בהיר",
    "ic": "☀️",
    "code": 0,
    "wind": 3,
-   "hum": 40,
+   "hum": 34,
    "days": [
     {
      "date": "2026-10-08",
@@ -1464,12 +1337,12 @@
   },
   {
    "name": "טבריה",
-   "t": 28,
+   "t": 33,
    "txt": "בהיר",
    "ic": "☀️",
    "code": 0,
-   "wind": 2,
-   "hum": 40,
+   "wind": 1,
+   "hum": 27,
    "days": [
     {
      "date": "2026-10-08",
@@ -1496,12 +1369,12 @@
   },
   {
    "name": "באר שבע",
-   "t": 24,
+   "t": 28,
    "txt": "בהיר ברובו",
    "ic": "🌤",
    "code": 1,
-   "wind": 14,
-   "hum": 57,
+   "wind": 19,
+   "hum": 46,
    "days": [
     {
      "date": "2026-10-08",
@@ -1528,12 +1401,12 @@
   },
   {
    "name": "אילת",
-   "t": 27,
+   "t": 29,
    "txt": "בהיר ברובו",
    "ic": "🌤",
    "code": 1,
-   "wind": 17,
-   "hum": 49,
+   "wind": 21,
+   "hum": 42,
    "days": [
     {
      "date": "2026-10-08",
@@ -1559,7 +1432,10 @@
    ]
   }
  ],
- "fx": null,
+ "fx": {
+  "usd": 3.068,
+  "eur": 3.429
+ },
  "health": [
   {
    "id": "ynet",
@@ -1567,7 +1443,7 @@
    "ok": true,
    "fresh": 12,
    "error": null,
-   "ms": 309
+   "ms": 697
   },
   {
    "id": "ynet-cult",
@@ -1575,7 +1451,7 @@
    "ok": true,
    "fresh": 12,
    "error": null,
-   "ms": 184
+   "ms": 601
   },
   {
    "id": "walla",
@@ -1583,7 +1459,7 @@
    "ok": true,
    "fresh": 0,
    "error": null,
-   "ms": 652
+   "ms": 759
   },
   {
    "id": "maariv",
@@ -1591,7 +1467,7 @@
    "ok": true,
    "fresh": 12,
    "error": null,
-   "ms": 837
+   "ms": 1064
   },
   {
    "id": "globes",
@@ -1599,7 +1475,7 @@
    "ok": true,
    "fresh": 12,
    "error": null,
-   "ms": 922
+   "ms": 758
   },
   {
    "id": "calcalist",
@@ -1607,7 +1483,7 @@
    "ok": true,
    "fresh": 12,
    "error": null,
-   "ms": 349,
+   "ms": 373,
    "via": "Google News",
    "first_error": "403 Client Error: Forbidden for url: https://www.calcalist.co.il/"
   },
@@ -1615,9 +1491,9 @@
    "id": "geektime",
    "name": "גיקטיים",
    "ok": true,
-   "fresh": 7,
+   "fresh": 9,
    "error": null,
-   "ms": 3216
+   "ms": 3597
   },
   {
    "id": "toi",
@@ -1625,7 +1501,7 @@
    "ok": true,
    "fresh": 12,
    "error": null,
-   "ms": 484,
+   "ms": 610,
    "via": "Google News",
    "first_error": "403 Client Error: Forbidden for url: https://www.timesofisrael.com/feed/"
   },
@@ -1635,7 +1511,7 @@
    "ok": true,
    "fresh": 0,
    "error": null,
-   "ms": 129
+   "ms": 144
   },
   {
    "id": "newsweek",
@@ -1643,7 +1519,7 @@
    "ok": true,
    "fresh": 12,
    "error": null,
-   "ms": 499,
+   "ms": 433,
    "via": "Google News",
    "first_error": "406 Client Error: Not Acceptable for url: https://www.newsweek.com/rss"
   },
@@ -1653,7 +1529,7 @@
    "ok": true,
    "fresh": 12,
    "error": null,
-   "ms": 607
+   "ms": 824
   },
   {
    "id": "bbc",
@@ -1661,7 +1537,7 @@
    "ok": true,
    "fresh": 12,
    "error": null,
-   "ms": 126
+   "ms": 71
   },
   {
    "id": "guardian",
@@ -1669,15 +1545,15 @@
    "ok": true,
    "fresh": 12,
    "error": null,
-   "ms": 249
+   "ms": 148
   },
   {
    "id": "sky",
    "name": "Sky News",
    "ok": true,
-   "fresh": 6,
+   "fresh": 7,
    "error": null,
-   "ms": 229
+   "ms": 542
   },
   {
    "id": "npr",
@@ -1685,7 +1561,7 @@
    "ok": true,
    "fresh": 10,
    "error": null,
-   "ms": 3944
+   "ms": 78
   },
   {
    "id": "cnbc",
@@ -1693,7 +1569,7 @@
    "ok": true,
    "fresh": 12,
    "error": null,
-   "ms": 198
+   "ms": 171
   },
   {
    "id": "wired",
@@ -1701,7 +1577,7 @@
    "ok": true,
    "fresh": 12,
    "error": null,
-   "ms": 156
+   "ms": 139
   },
   {
    "id": "verge",
@@ -1709,7 +1585,7 @@
    "ok": true,
    "fresh": 10,
    "error": null,
-   "ms": 147
+   "ms": 136
   },
   {
    "id": "techcrunch",
@@ -1717,7 +1593,7 @@
    "ok": true,
    "fresh": 12,
    "error": null,
-   "ms": 107
+   "ms": 126
   },
   {
    "id": "ars",
@@ -1725,15 +1601,15 @@
    "ok": true,
    "fresh": 12,
    "error": null,
-   "ms": 131
+   "ms": 106
   },
   {
    "id": "mittr",
    "name": "MIT Technology Review",
    "ok": true,
-   "fresh": 1,
+   "fresh": 2,
    "error": null,
-   "ms": 124
+   "ms": 115
   },
   {
    "id": "engadget",
@@ -1741,7 +1617,7 @@
    "ok": true,
    "fresh": 12,
    "error": null,
-   "ms": 177
+   "ms": 197
   },
   {
    "id": "tomshw",
@@ -1749,7 +1625,7 @@
    "ok": true,
    "fresh": 12,
    "error": null,
-   "ms": 630
+   "ms": 646
   },
   {
    "id": "gcaptain",
@@ -1757,7 +1633,7 @@
    "ok": true,
    "fresh": 12,
    "error": null,
-   "ms": 102
+   "ms": 115
   },
   {
    "id": "splash",
@@ -1765,7 +1641,7 @@
    "ok": true,
    "fresh": 10,
    "error": null,
-   "ms": 475
+   "ms": 530
   },
   {
    "id": "hellenic",
@@ -1773,15 +1649,15 @@
    "ok": true,
    "fresh": 12,
    "error": null,
-   "ms": 275
+   "ms": 383
   },
   {
    "id": "worldgrain",
    "name": "World Grain",
    "ok": true,
-   "fresh": 8,
+   "fresh": 10,
    "error": null,
-   "ms": 199,
+   "ms": 214,
    "via": "Google News",
    "first_error": "הפיד ריק או לא תקין"
   },
@@ -1791,7 +1667,7 @@
    "ok": true,
    "fresh": 10,
    "error": null,
-   "ms": 111
+   "ms": 100
   },
   {
    "id": "thr",
@@ -1799,7 +1675,7 @@
    "ok": true,
    "fresh": 10,
    "error": null,
-   "ms": 281
+   "ms": 372
   },
   {
    "id": "deadline",
@@ -1807,17 +1683,17 @@
    "ok": true,
    "fresh": 12,
    "error": null,
-   "ms": 136
+   "ms": 99
   },
   {
    "id": "ai",
    "name": "תרגום ועריכה (Claude)",
    "ok": true,
-   "fresh": 56,
+   "fresh": 60,
    "error": null,
    "tokens": {
-    "in": 15162,
-    "out": 8480
+    "in": 16468,
+    "out": 10174
    }
   },
   {
@@ -1830,9 +1706,9 @@
   {
    "id": "sport-BL1",
    "name": "בונדסליגה",
-   "ok": true,
-   "fresh": 12,
-   "error": null
+   "ok": false,
+   "fresh": 0,
+   "error": "HTTPSConnectionPool(host='api.football-data.org', port=443): Read timed out. (read timeout=20)"
   },
   {
    "id": "sport-ISR",
@@ -1851,9 +1727,9 @@
   {
    "id": "fx",
    "name": "שערי מטבע (ECB)",
-   "ok": false,
-   "fresh": 0,
-   "error": "HTTPSConnectionPool(host='api.frankfurter.dev', port=443): Read timed out. (read timeout=15)"
+   "ok": true,
+   "fresh": 1,
+   "error": null
   }
  ],
  "ai": true
