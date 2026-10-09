@@ -1,67 +1,431 @@
 {
   "version": 1,
   "sections": [
-    {"id": "il",    "name": "ישראל",                  "icon": "🇮🇱", "on": true, "about": "חדשות מישראל ועל ישראל, כולל איך העולם מסקר את ישראל"},
-    {"id": "ai",    "name": "עולם ה־AI",              "icon": "✦",  "on": true, "about": "בינה מלאכותית: מודלים חדשים, חברות, מחקר, רגולציה ושימושים"},
-    {"id": "tech",  "name": "טכנולוגיה, כלכלה ועסקים", "icon": "⚡", "on": true, "about": "טכנולוגיה, גאדג׳טים, סייבר, שוק ההון, כלכלה ועסקים בארץ ובעולם"},
-    {"id": "ship",  "name": "ספנות ותבואה",           "icon": "⚓", "on": true, "about": "ספנות, נמלים, תובלה ימית, מחירי הובלה, תבואה וסחורות חקלאיות בעולם ובישראל"},
-    {"id": "film",  "name": "קולנוע ובידור",          "icon": "🎬", "on": true, "about": "קולנוע, סדרות, טלוויזיה, מוזיקה וסלבס"},
-    {"id": "sport", "name": "כדורגל",                 "icon": "⚽", "on": true, "about": "תוצאות: פרמייר ליג, בונדסליגה, ליגת העל"},
-    {"id": "wx",    "name": "מזג אוויר",              "icon": "☀",  "on": true, "about": "תחזית לערים"}
+    {
+      "id": "il",
+      "name": "ישראל",
+      "icon": "🇮🇱",
+      "on": true,
+      "about": "חדשות מישראל ועל ישראל, כולל איך העולם מסקר את ישראל"
+    },
+    {
+      "id": "ai",
+      "name": "עולם ה־AI",
+      "icon": "✦",
+      "on": true,
+      "about": "בינה מלאכותית: מודלים חדשים, חברות, מחקר, רגולציה ושימושים"
+    },
+    {
+      "id": "tech",
+      "name": "טכנולוגיה, כלכלה ועסקים",
+      "icon": "⚡",
+      "on": true,
+      "about": "טכנולוגיה, גאדג׳טים, סייבר, שוק ההון, כלכלה ועסקים בארץ ובעולם"
+    },
+    {
+      "id": "ship",
+      "name": "ספנות ותבואה",
+      "icon": "⚓",
+      "on": true,
+      "about": "ספנות, נמלים, תובלה ימית, מחירי הובלה, תבואה וסחורות חקלאיות בעולם ובישראל"
+    },
+    {
+      "id": "film",
+      "name": "קולנוע ובידור",
+      "icon": "🎬",
+      "on": true,
+      "about": "קולנוע, סדרות, טלוויזיה, מוזיקה וסלבס"
+    },
+    {
+      "id": "sport",
+      "name": "כדורגל",
+      "icon": "⚽",
+      "on": true,
+      "about": "תוצאות: פרמייר ליג, בונדסליגה, ליגת העל"
+    },
+    {
+      "id": "wx",
+      "name": "מזג אוויר",
+      "icon": "☀",
+      "on": true,
+      "about": "תחזית לערים"
+    }
   ],
-  "topics": ["בחירות 2026", "סטארטאפים ישראליים", "מודלי שפה"],
+  "topics": [
+    "בחירות 2026",
+    "סטארטאפים ישראליים",
+    "מודלי שפה"
+  ],
   "cities": [
-    {"name": "חיפה",     "lat": 32.794,  "lon": 34.9896},
-    {"name": "תל אביב",  "lat": 32.0853, "lon": 34.7818},
-    {"name": "ירושלים",  "lat": 31.7683, "lon": 35.2137},
-    {"name": "טבריה",    "lat": 32.7959, "lon": 35.5300},
-    {"name": "באר שבע",  "lat": 31.2518, "lon": 34.7913},
-    {"name": "אילת",     "lat": 29.5577, "lon": 34.9519}
+    {
+      "name": "חיפה",
+      "lat": 32.794,
+      "lon": 34.9896
+    },
+    {
+      "name": "תל אביב",
+      "lat": 32.0853,
+      "lon": 34.7818
+    },
+    {
+      "name": "ירושלים",
+      "lat": 31.7683,
+      "lon": 35.2137
+    },
+    {
+      "name": "טבריה",
+      "lat": 32.7959,
+      "lon": 35.53
+    },
+    {
+      "name": "באר שבע",
+      "lat": 31.2518,
+      "lon": 34.7913
+    },
+    {
+      "name": "אילת",
+      "lat": 29.5577,
+      "lon": 34.9519
+    }
   ],
   "leagues": [
-    {"id": "PL",  "name": "פרמייר ליג", "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿", "provider": "football-data", "code": "PL",  "on": true},
-    {"id": "BL1", "name": "בונדסליגה",  "flag": "🇩🇪", "provider": "football-data", "code": "BL1", "on": true},
-    {"id": "ISR", "name": "ליגת העל",   "flag": "🇮🇱", "provider": "thesportsdb",   "code": "4644", "on": true}
+    {
+      "id": "PL",
+      "name": "פרמייר ליג",
+      "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+      "provider": "football-data",
+      "code": "PL",
+      "on": true
+    },
+    {
+      "id": "BL1",
+      "name": "בונדסליגה",
+      "flag": "🇩🇪",
+      "provider": "football-data",
+      "code": "BL1",
+      "on": true
+    },
+    {
+      "id": "ISR",
+      "name": "ליגת העל",
+      "flag": "🇮🇱",
+      "provider": "thesportsdb",
+      "code": "4644",
+      "on": true
+    }
   ],
   "countdowns": [
-    {"label": "בחירות", "date": "2026-10-27"}
+    {
+      "label": "בחירות",
+      "date": "2026-10-27"
+    }
   ],
   "sources": [
-    {"id": "ynet",       "name": "ynet",              "group": "ישראל", "lang": "he", "url": "https://www.ynet.co.il/Integration/StoryRss2.xml", "on": true},
-    {"id": "ynet-cult",  "name": "ynet תרבות",        "group": "ישראל", "lang": "he", "url": "https://www.ynet.co.il/Integration/StoryRss538.xml", "on": true},
-    {"id": "walla",      "name": "וואלה",             "group": "ישראל", "lang": "he", "url": "https://rss.walla.co.il/feed/1", "on": true},
-    {"id": "maariv",     "name": "מעריב",             "group": "ישראל", "lang": "he", "url": "https://www.maariv.co.il/Rss/RssChadashot", "on": true},
-    {"id": "globes",     "name": "גלובס",             "group": "ישראל", "lang": "he", "url": "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=585", "on": true},
-    {"id": "calcalist",  "name": "כלכליסט",           "group": "ישראל", "lang": "he", "url": "https://www.calcalist.co.il/", "on": true},
-    {"id": "geektime",   "name": "גיקטיים",           "group": "ישראל", "lang": "he", "url": "https://www.geektime.co.il/feed/", "on": true},
-    {"id": "toi",        "name": "Times of Israel",   "group": "ישראל", "lang": "en", "url": "https://www.timesofisrael.com/feed/", "on": true},
-    {"id": "jpost",      "name": "Jerusalem Post",    "group": "ישראל", "lang": "en", "url": "https://www.jpost.com/rss/rssfeedsheadlines.aspx", "on": true},
-
-    {"id": "newsweek",   "name": "Newsweek",          "group": "העולם", "lang": "en", "url": "https://www.newsweek.com/", "on": true},
-    {"id": "thetimes",   "name": "The Times",         "group": "העולם", "lang": "en", "url": "https://www.thetimes.com/feed/index.xml", "on": true, "note": "כותרת ופתיח בלבד (מנויים)"},
-    {"id": "bbc",        "name": "BBC",               "group": "העולם", "lang": "en", "url": "https://feeds.bbci.co.uk/news/world/rss.xml", "on": true},
-    {"id": "guardian",   "name": "The Guardian",      "group": "העולם", "lang": "en", "url": "https://www.theguardian.com/world/rss", "on": true},
-    {"id": "sky",        "name": "Sky News",          "group": "העולם", "lang": "en", "url": "https://feeds.skynews.com/feeds/rss/world.xml", "on": true},
-    {"id": "npr",        "name": "NPR",               "group": "העולם", "lang": "en", "url": "https://feeds.npr.org/1001/rss.xml", "on": true},
-    {"id": "cnbc",       "name": "CNBC",              "group": "העולם", "lang": "en", "url": "https://www.cnbc.com/id/100003114/device/rss/rss.html", "on": true},
-
-    {"id": "wired",      "name": "Wired",             "group": "טכנולוגיה ו־AI", "lang": "en", "url": "https://www.wired.com/feed/rss", "on": true},
-    {"id": "verge",      "name": "The Verge",         "group": "טכנולוגיה ו־AI", "lang": "en", "url": "https://www.theverge.com/rss/index.xml", "on": true},
-    {"id": "techcrunch", "name": "TechCrunch",        "group": "טכנולוגיה ו־AI", "lang": "en", "url": "https://techcrunch.com/feed/", "on": true},
-    {"id": "ars",        "name": "Ars Technica",      "group": "טכנולוגיה ו־AI", "lang": "en", "url": "https://feeds.arstechnica.com/arstechnica/index", "on": true},
-    {"id": "mittr",      "name": "MIT Technology Review", "group": "טכנולוגיה ו־AI", "lang": "en", "url": "https://www.technologyreview.com/feed/", "on": true},
-    {"id": "engadget",   "name": "Engadget",          "group": "טכנולוגיה ו־AI", "lang": "en", "url": "https://www.engadget.com/rss.xml", "on": true},
-    {"id": "tomshw",     "name": "Tom's Hardware",    "group": "טכנולוגיה ו־AI", "lang": "en", "url": "https://www.tomshardware.com/feeds/all", "on": true},
-
-    {"id": "gcaptain",   "name": "gCaptain",          "group": "ספנות ותבואה", "lang": "en", "url": "https://gcaptain.com/feed/", "on": true},
-    {"id": "splash",     "name": "Splash247",         "group": "ספנות ותבואה", "lang": "en", "url": "https://splash247.com/feed/", "on": true},
-    {"id": "hellenic",   "name": "Hellenic Shipping News", "group": "ספנות ותבואה", "lang": "en", "url": "https://www.hellenicshippingnews.com/feed/", "on": true},
-    {"id": "worldgrain", "name": "World Grain",       "group": "ספנות ותבואה", "lang": "en", "url": "https://www.world-grain.com/", "on": true},
-    {"id": "agcensus",   "name": "Agricensus / Fastmarkets Agriculture", "group": "ספנות ותבואה", "lang": "en", "url": "https://www.fastmarkets.com/agriculture/", "on": false},
-
-    {"id": "variety",    "name": "Variety",           "group": "קולנוע ובידור", "lang": "en", "url": "https://variety.com/feed/", "on": true},
-    {"id": "thr",        "name": "The Hollywood Reporter", "group": "קולנוע ובידור", "lang": "en", "url": "https://www.hollywoodreporter.com/feed/", "on": true},
-    {"id": "deadline",   "name": "Deadline",          "group": "קולנוע ובידור", "lang": "en", "url": "https://deadline.com/feed/", "on": true}
+    {
+      "id": "ynet",
+      "name": "ynet",
+      "group": "ישראל",
+      "lang": "he",
+      "url": "https://www.ynet.co.il/Integration/StoryRss2.xml",
+      "on": true
+    },
+    {
+      "id": "ynet-cult",
+      "name": "ynet תרבות",
+      "group": "ישראל",
+      "lang": "he",
+      "url": "https://www.ynet.co.il/Integration/StoryRss538.xml",
+      "on": true
+    },
+    {
+      "id": "walla",
+      "name": "וואלה",
+      "group": "ישראל",
+      "lang": "he",
+      "url": "https://rss.walla.co.il/feed/1",
+      "on": true
+    },
+    {
+      "id": "maariv",
+      "name": "מעריב",
+      "group": "ישראל",
+      "lang": "he",
+      "url": "https://www.maariv.co.il/Rss/RssChadashot",
+      "on": true
+    },
+    {
+      "id": "globes",
+      "name": "גלובס",
+      "group": "ישראל",
+      "lang": "he",
+      "url": "https://www.globes.co.il/webservice/rss/rssfeeder.asmx/FeederNode?iID=585",
+      "on": true
+    },
+    {
+      "id": "calcalist",
+      "name": "כלכליסט",
+      "group": "ישראל",
+      "lang": "he",
+      "url": "https://www.calcalist.co.il/",
+      "on": true
+    },
+    {
+      "id": "geektime",
+      "name": "גיקטיים",
+      "group": "ישראל",
+      "lang": "he",
+      "url": "https://www.geektime.co.il/feed/",
+      "on": true
+    },
+    {
+      "id": "toi",
+      "name": "Times of Israel",
+      "group": "ישראל",
+      "lang": "en",
+      "url": "https://www.timesofisrael.com/feed/",
+      "on": true
+    },
+    {
+      "id": "jpost",
+      "name": "Jerusalem Post",
+      "group": "ישראל",
+      "lang": "en",
+      "url": "https://www.jpost.com/rss/rssfeedsheadlines.aspx",
+      "on": true
+    },
+    {
+      "id": "newsweek",
+      "name": "Newsweek",
+      "group": "העולם",
+      "lang": "en",
+      "url": "https://www.newsweek.com/",
+      "on": true
+    },
+    {
+      "id": "thetimes",
+      "name": "The Times",
+      "group": "העולם",
+      "lang": "en",
+      "url": "https://www.thetimes.com/feed/index.xml",
+      "on": true,
+      "note": "כותרת ופתיח בלבד (מנויים)"
+    },
+    {
+      "id": "bbc",
+      "name": "BBC",
+      "group": "העולם",
+      "lang": "en",
+      "url": "https://feeds.bbci.co.uk/news/world/rss.xml",
+      "on": true
+    },
+    {
+      "id": "guardian",
+      "name": "The Guardian",
+      "group": "העולם",
+      "lang": "en",
+      "url": "https://www.theguardian.com/world/rss",
+      "on": true
+    },
+    {
+      "id": "sky",
+      "name": "Sky News",
+      "group": "העולם",
+      "lang": "en",
+      "url": "https://feeds.skynews.com/feeds/rss/world.xml",
+      "on": true
+    },
+    {
+      "id": "npr",
+      "name": "NPR",
+      "group": "העולם",
+      "lang": "en",
+      "url": "https://feeds.npr.org/1001/rss.xml",
+      "on": true
+    },
+    {
+      "id": "cnbc",
+      "name": "CNBC",
+      "group": "העולם",
+      "lang": "en",
+      "url": "https://www.cnbc.com/id/100003114/device/rss/rss.html",
+      "on": true
+    },
+    {
+      "id": "wired",
+      "name": "Wired",
+      "group": "טכנולוגיה ו־AI",
+      "lang": "en",
+      "url": "https://www.wired.com/feed/rss",
+      "on": true
+    },
+    {
+      "id": "verge",
+      "name": "The Verge",
+      "group": "טכנולוגיה ו־AI",
+      "lang": "en",
+      "url": "https://www.theverge.com/rss/index.xml",
+      "on": true
+    },
+    {
+      "id": "techcrunch",
+      "name": "TechCrunch",
+      "group": "טכנולוגיה ו־AI",
+      "lang": "en",
+      "url": "https://techcrunch.com/feed/",
+      "on": true
+    },
+    {
+      "id": "ars",
+      "name": "Ars Technica",
+      "group": "טכנולוגיה ו־AI",
+      "lang": "en",
+      "url": "https://feeds.arstechnica.com/arstechnica/index",
+      "on": true
+    },
+    {
+      "id": "mittr",
+      "name": "MIT Technology Review",
+      "group": "טכנולוגיה ו־AI",
+      "lang": "en",
+      "url": "https://www.technologyreview.com/feed/",
+      "on": true
+    },
+    {
+      "id": "engadget",
+      "name": "Engadget",
+      "group": "טכנולוגיה ו־AI",
+      "lang": "en",
+      "url": "https://www.engadget.com/rss.xml",
+      "on": true
+    },
+    {
+      "id": "tomshw",
+      "name": "Tom's Hardware",
+      "group": "טכנולוגיה ו־AI",
+      "lang": "en",
+      "url": "https://www.tomshardware.com/feeds/all",
+      "on": true
+    },
+    {
+      "id": "gcaptain",
+      "name": "gCaptain",
+      "group": "ספנות ותבואה",
+      "lang": "en",
+      "url": "https://gcaptain.com/feed/",
+      "on": true
+    },
+    {
+      "id": "splash",
+      "name": "Splash247",
+      "group": "ספנות ותבואה",
+      "lang": "en",
+      "url": "https://splash247.com/feed/",
+      "on": true
+    },
+    {
+      "id": "hellenic",
+      "name": "Hellenic Shipping News",
+      "group": "ספנות ותבואה",
+      "lang": "en",
+      "url": "https://www.hellenicshippingnews.com/feed/",
+      "on": true
+    },
+    {
+      "id": "hsn-drybulk",
+      "name": "Hellenic · Dry Bulk",
+      "group": "ספנות ותבואה",
+      "lang": "en",
+      "url": "https://www.hellenicshippingnews.com/category/shipping-news/dry-bulk-market/feed/",
+      "on": true
+    },
+    {
+      "id": "hsn-commodity",
+      "name": "Hellenic · סחורות (תבואה, פחם, ברזל)",
+      "group": "ספנות ותבואה",
+      "lang": "en",
+      "url": "https://www.hellenicshippingnews.com/category/commodities/commodity-news/feed/",
+      "on": true
+    },
+    {
+      "id": "hsn-freight",
+      "name": "Hellenic · הובלה (Freight)",
+      "group": "ספנות ותבואה",
+      "lang": "en",
+      "url": "https://www.hellenicshippingnews.com/category/commodities/freight-news/feed/",
+      "on": true
+    },
+    {
+      "id": "hsn-ports",
+      "name": "Hellenic · נמלים",
+      "group": "ספנות ותבואה",
+      "lang": "en",
+      "url": "https://www.hellenicshippingnews.com/category/shipping-news/port-news/feed/",
+      "on": true
+    },
+    {
+      "id": "hsn-security",
+      "name": "Hellenic · ביטחון ימי ופיראטיות",
+      "group": "ספנות ותבואה",
+      "lang": "en",
+      "url": "https://www.hellenicshippingnews.com/category/shipping-news/piracy-and-security-news/feed/",
+      "on": true
+    },
+    {
+      "id": "hsn-drytc",
+      "name": "Hellenic · הערכות Time Charter צובר (שבועי)",
+      "group": "ספנות ותבואה",
+      "lang": "en",
+      "url": "https://www.hellenicshippingnews.com/category/report-analysis/weekly-dry-time-charter-estimates/feed/",
+      "on": false
+    },
+    {
+      "id": "hsn-brokers",
+      "name": "Hellenic · דוחות ברוקרים (שבועי)",
+      "group": "ספנות ותבואה",
+      "lang": "en",
+      "url": "https://www.hellenicshippingnews.com/category/report-analysis/weekly-shipbrokers-reports/feed/",
+      "on": false
+    },
+    {
+      "id": "worldgrain",
+      "name": "World Grain",
+      "group": "ספנות ותבואה",
+      "lang": "en",
+      "url": "https://www.world-grain.com/",
+      "on": true
+    },
+    {
+      "id": "agcensus",
+      "name": "Agricensus / Fastmarkets Agriculture",
+      "group": "ספנות ותבואה",
+      "lang": "en",
+      "url": "https://www.fastmarkets.com/agriculture/",
+      "on": false
+    },
+    {
+      "id": "variety",
+      "name": "Variety",
+      "group": "קולנוע ובידור",
+      "lang": "en",
+      "url": "https://variety.com/feed/",
+      "on": true
+    },
+    {
+      "id": "thr",
+      "name": "The Hollywood Reporter",
+      "group": "קולנוע ובידור",
+      "lang": "en",
+      "url": "https://www.hollywoodreporter.com/feed/",
+      "on": true
+    },
+    {
+      "id": "deadline",
+      "name": "Deadline",
+      "group": "קולנוע ובידור",
+      "lang": "en",
+      "url": "https://deadline.com/feed/",
+      "on": true
+    }
   ],
   "limits": {
     "per_section": 14,
