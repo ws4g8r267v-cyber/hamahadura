@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-31T15:20:30Z",
+ "updated": "2026-10-31T16:31:22Z",
  "sections": {
   "ai": [
    {
@@ -129,20 +129,6 @@
     "score": 60
    },
    {
-    "id": "c4dbacf8aa2b8b",
-    "title": "לווין AI של גוגל שידר את התגובה הראשונה שלו מחלל",
-    "summary": "גוגל הצליחה להנעיל לווין המצוד ביחידות TPU וקטגוריית Gemma 4, שיצר הייקו בחלל בתגובה להנחיה על האנושות.",
-    "kicker": "AI בחלל",
-    "url": "https://www.theverge.com/tech/1023528/google-project-suncatcher-ai-satellite-transmission",
-    "src": "verge",
-    "src_name": "The Verge",
-    "lang": "en",
-    "img": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/project-suncatcher-google.png?quality=90&#038;strip=all&#038;crop=0,0,100,100",
-    "credit": "The Verge",
-    "ts": "2026-10-30T18:21:38Z",
-    "score": 80
-   },
-   {
     "id": "25a528e218b108",
     "title": "ענקי ה־AI מאמצים סטנדרט אחיד להסרת אתרים מהכשרה",
     "summary": "OpenAI, Google, Microsoft ו־Anthropic הסכימו לאמץ תקן משותף המאפשר למפרסמים לשלוט בהעדפות ההדרכה שלהם על פני מספר חברות AI במקום להגדיר כל אחת בנפרד.",
@@ -197,6 +183,416 @@
     "credit": "TechCrunch",
     "ts": "2026-10-30T21:17:40Z",
     "score": 75
+   },
+   {
+    "id": "e6a83342c0c51d",
+    "title": "סאם אלטמן: ציוד זיכרון צריך להיות במרכזי נתונים, לא בשולחנך",
+    "summary": "מנכ\"ל OpenAI סאם אלטמן טוען שעדיף להשקיע בזיכרון RAM במרכזי נתונים מאשר במחשבים אישיים, בעקבות בעיות בשרשרת ההיצע. התייחסותו משקפת את כיוונון התעשייה כלפי חישוב מרכוז לפני חישוב מבוזר.",
+    "kicker": "בינה מלאכותית",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/1023820/sam-altman-ram-shortage-cloud-servers",
+    "src": "verge",
+    "src_name": "The Verge",
+    "lang": "en",
+    "img": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/04/gettyimages-1778705436.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100",
+    "credit": "The Verge",
+    "ts": "2026-10-30T20:48:43Z",
+    "score": 65
+   }
+  ],
+  "tech": [
+   {
+    "id": "54b000de8c1be6",
+    "title": "סטארטאפ ישראלי שנבנה כולו ב־AI קיבל השקעה מבעלי Fiverr",
+    "summary": "סטארטאפ ישראלי פיתח פלטפורמה שמרכזת כלי AI לצוותי קריאייטיב, ונבנה כולו ללא כתיבת קוד. המייסדים קיבלו השקעה ממאור שלמה ומיכה קאופמן מ־Fiverr.",
+    "kicker": "סטארטאפים",
+    "url": "https://www.geektime.co.il/plnty-is-out-of-stealth-with-a-check-from-base44-founder/",
+    "src": "geektime",
+    "src_name": "גיקטיים",
+    "lang": "he",
+    "img": "https://cdn.geektime.co.il/wp-content/uploads/2026/10/videoframe_90780-1024x535.jpg",
+    "credit": "גיקטיים",
+    "ts": "2026-10-31T13:03:36Z",
+    "score": 75
+   },
+   {
+    "id": "8e880cf9be53a7",
+    "title": "חוקר קריפטו על עקבות הגניבה בבינאנס שוויון 6 מיליארד דולר",
+    "summary": "חוקר קריפטוגרפיה התעורר לחדשות על התקיפה על בינאנס, המרכז הקריפטוגרפי הגדול בעולם, במהלך פעולה בקוד 'The Misfits'.",
+    "kicker": "סייבר",
+    "url": "https://www.thetimes.com/business/companies-markets/article/binance-hack-crypto-stolen-north-korea-price-qvk9jjj32",
+    "src": "thetimes",
+    "src_name": "The Times",
+    "lang": "en",
+    "img": null,
+    "credit": "The Times",
+    "ts": "2026-10-31T15:14:38Z",
+    "score": 75
+   },
+   {
+    "id": "6188d833a77930",
+    "title": "אינטל משנה את קיבולת הייצור לעבור ל־AI — שבבים לשרתים במקום למחשבים אישיים",
+    "summary": "אינטל מרחיבה יכולות ייצור בארה״ב, אירלנד ומלזיה כדי לעמוד בביקוש חסר תקדים לכלי AI ומחשובי מרכזי נתונים, תוך שוק ה־PC מתכווץ.",
+    "kicker": "שבבים",
+    "url": "https://www.tomshardware.com/pc-components/cpus/intel-shifts-production-capacity-from-consumer-to-server-cpus-in-face-of-unprecedented-ai-demand-company-navigating-one-of-the-most-significant-supply-shortages-in-history",
+    "src": "tomshw",
+    "src_name": "Tom's Hardware",
+    "lang": "en",
+    "img": "https://cdn.mos.cms.futurecdn.net/rVargrx2PRrE3QdGAf22wX-1920-80.jpg",
+    "credit": "Intel",
+    "ts": "2026-10-31T13:00:00Z",
+    "score": 70
+   },
+   {
+    "id": "c9e86b67db5ce1",
+    "title": "הגיע הזמן לצבור דולרים? מומחים על השווקים",
+    "summary": "מומחי השקעות מנתחים את השוק בתקופת ביצוע: הבורסה נחשבת לבלתי אטרקטיבית, הנדלן מיתון, וההמלצה היא אג״ח קצרות וטכנולוגיה דואלית. מניות דרונים צנחו 50%.",
+    "kicker": "שוק ההון",
+    "url": "https://www.globes.co.il/news/article.aspx?did=1001561261#utm_source=RSS",
+    "src": "globes",
+    "src_name": "גלובס",
+    "lang": "he",
+    "img": "https://res.cloudinary.com/globes/image/upload/t_800X392/v1752135463/direct/%D7%98%D7%9C%D7%98%D7%9C%D7%94_%D7%91%D7%A9%D7%95%D7%95%D7%A7%D7%99%D7%9D_%D7%97%D7%93%D7%A9-800_cawpy2.jpg",
+    "credit": "גלובס",
+    "ts": "2026-10-31T13:58:00Z",
+    "score": 65
+   },
+   {
+    "id": "bc2326c848ae38",
+    "title": "תוכנת מדבקה חדשה משתמשת בבינה מלאכותית כדי לאתר ולחשוף קורבנות",
+    "summary": "תוכנת תקיפה בשם \"Volta-Autodoxer\" משתמשת בכלי AI לשיטוט נתונים רחבים על קורבנות, מסיסמאות וכרטיסי אשראי ועד הפעלות בדיסקורד וקבלות אובר.",
+    "kicker": "סייבר",
+    "url": "https://www.wired.com/story/kernel-panic-volta-autodoxer-ai-infostealer-malware/",
+    "src": "wired",
+    "src_name": "Wired",
+    "lang": "en",
+    "img": "https://media.wired.com/photos/6ae4e9f503c2c36f4cfc913c/master/pass/KernelPanic_10312026_v1.jpg",
+    "credit": "Wired",
+    "ts": "2026-10-31T12:00:00Z",
+    "score": 68
+   },
+   {
+    "id": "562aefcae3e2a1",
+    "title": "140 מיליארד דולר נמחקו: מניית אינטל צללה ב־28% ביום אחד",
+    "summary": "מניית אינטל סיימה מסחר עם נפילה דרמטית של 28.58%, מה שהוביל למחיקת 140 מיליארד דולר משווי החברה, בהירידה הגדולה ביותר מאז 1974.",
+    "kicker": "שבבים",
+    "url": "https://www.geektime.co.il/intel-stock-crash-q3-2026-kiryat-gat/",
+    "src": "geektime",
+    "src_name": "גיקטיים",
+    "lang": "he",
+    "img": "https://cdn.geektime.co.il/wp-content/uploads/2025/08/intel-bio-lip-bu-tan-1024x576.jpg",
+    "credit": "גיקטיים",
+    "ts": "2026-10-31T07:00:00Z",
+    "score": 75
+   },
+   {
+    "id": "fa12f6d35e9e55",
+    "title": "מהנדס משכיל ממיקרוסופט יצר זיכרון RAM משלו בעזרת בינה מלאכותית",
+    "summary": "מהנדס לשעבר במיקרוסופט, דיוויד פלאמר, בנה זיכרון PDP-11 מאפס בשל עלויות הזיכרון הגבוהות, תוך שימוש בכלי AI.",
+    "kicker": "טכנולוגיה",
+    "url": "https://www.tomshardware.com/pc-components/ram/veteran-microsoft-engineer-makes-his-own-ram-from-scratch-using-ai-attempts-to-build-4mb-of-1970s-pdp-11-ram-from-scratch",
+    "src": "tomshw",
+    "src_name": "Tom's Hardware",
+    "lang": "en",
+    "img": "https://cdn.mos.cms.futurecdn.net/ZcWNV2jNQTywTDrpaAsqbL-1920-80.png",
+    "credit": "David Plummer",
+    "ts": "2026-10-31T11:40:00Z",
+    "score": 62
+   },
+   {
+    "id": "7b5ed5dd303b81",
+    "title": "Windows 11 משיקה קיצורי דרך חדשים למצב Xbox וחיפוש",
+    "summary": "גרסת Insider של Windows 11 מוסיפה תכונות חיפוש משופרות ותפריטי הגדרות מהירים במצב Xbox, המאפשרים שליטה בבלוטוס וWi-Fi ללא יציאה ממצב הגיימינג.",
+    "kicker": "טכנולוגיה",
+    "url": "https://www.theverge.com/tech/1024058/windows-11-search-improvements-xbox-quick-settings",
+    "src": "verge",
+    "src_name": "The Verge",
+    "lang": "en",
+    "img": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/10d-outlook-filterresults.png?quality=90&#038;strip=all&#038;crop=0,0,100,100",
+    "credit": "The Verge",
+    "ts": "2026-10-31T15:12:19Z",
+    "score": 55
+   },
+   {
+    "id": "a2f28390745f4f",
+    "title": "מדוע האקרים הצפון קוריאנים חשודים בהכי גדול בכתב אישום כנגד Binance",
+    "summary": "צפון קוריאה חשודה בתכנון הגניבה הגדולה ביותר של מטבעות דיגיטליים מהחילופין Binance, משום שמסחריות הקוד שלה הוצג בעבר במקומות אחרים.",
+    "kicker": "סייבר",
+    "url": "https://www.bbc.co.uk/news/articles/ck9dz3v7z7v3o?at_medium=RSS&at_campaign=rss",
+    "src": "bbc",
+    "src_name": "BBC",
+    "lang": "en",
+    "img": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7b98/live/c9241530-d4aa-11f1-b441-2b33b063138f.jpg",
+    "credit": "BBC",
+    "ts": "2026-10-31T02:12:19Z",
+    "score": 75
+   },
+   {
+    "id": "5715fa5099a5fb",
+    "title": "בינאנס: 90% מהנכסים הגנובים בהאקינג הוחזרו",
+    "summary": "בעקבות האקינג גדול בחילופי המטבעות הקריפטוגרפי, בינאנס הודיעה כי כ-90% מנכסי הקריפטו שנגנבו כבר הוחזרו.",
+    "kicker": "סייבר",
+    "url": "https://news.sky.com/story/majority-of-funds-stolen-in-cryptocurrency-hack-replenished-binance-says-13606152",
+    "src": "sky",
+    "src_name": "Sky News",
+    "lang": "en",
+    "img": "https://e3.365dm.com/26/08/1920x1080/skynews-breakingnews-uk_7322499.jpg?20260826125921",
+    "credit": "Sky News",
+    "ts": "2026-10-31T14:39:00Z",
+    "score": 55
+   },
+   {
+    "id": "4a61817e966fe3",
+    "title": "תחזוקות קודרות של יוצרי משאבים עוקפות את Anthropic לנתיב הנאסדק",
+    "summary": "חברות ענק בענן כמו אמזון וגוגל פרסמו הערכות כנסות משברות השבוע, מה שהכניס בולט לטכנולוגיה וגרם לנאסדק לסבול מחוטא שלוש שבועות, המאיים על טיוטת הברחת ההון של Anthropic.",
+    "kicker": "מודלים",
+    "url": "https://www.cnbc.com/2026/10/31/anthropic-ipo-ai-spending.html",
+    "src": "cnbc",
+    "src_name": "CNBC",
+    "lang": "en",
+    "img": null,
+    "credit": "CNBC",
+    "ts": "2026-10-31T11:00:01Z",
+    "score": 65
+   },
+   {
+    "id": "31077fabb6a095",
+    "title": "Binance מנסה להחזיר 6.3 מיליארד דולר שנגנבו בפריצה הקשורה לקוריאה הצפונית",
+    "summary": "ענקית ההצפנה Binance מעבדת את ההשלכות של פריצה מורכבת שהיא מתארת כגדולה ביותר מסוגה, עם עלויות אסטרונומיות והשפעות בשוק.",
+    "kicker": "סייבר",
+    "url": "https://www.bbc.co.uk/news/articles/cwe8lp7zy07zo?at_medium=RSS&at_campaign=rss",
+    "src": "bbc",
+    "src_name": "BBC",
+    "lang": "en",
+    "img": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/61df/live/2d4de870-d487-11f1-b441-2b33b063138f.jpg",
+    "credit": "BBC",
+    "ts": "2026-10-30T20:10:56Z",
+    "score": 80
+   },
+   {
+    "id": "a4d9cfbdc2f59d",
+    "title": "לוחם צה\"ל פיתח משחק יריות בעברית בהשראת הלחימה בעזה",
+    "summary": "סטודנט למדעי המחשב ששירת כלוחם בגזה פיתח משחק יריות בעברית בשם \"הניצחון המוחלט\", בהשראת חוויות הקרב שלו. המשחק משקף מגמה חדשה בתעשיית הגיימינג הישראלית להוצאת משחקי אקשן מורכבים.",
+    "kicker": "משחקים",
+    "url": "https://www.geektime.co.il/nitzachon-video-game/",
+    "src": "geektime",
+    "src_name": "גיקטיים",
+    "lang": "he",
+    "img": "https://cdn.geektime.co.il/wp-content/uploads/2026/10/nitzachon-1024x640.jpg",
+    "credit": "גיקטיים",
+    "ts": "2026-10-31T10:19:27Z",
+    "score": 55
+   },
+   {
+    "id": "bf82cd3f7bfc6b",
+    "title": "מניות טכנולוגיה מתרסקות בוול סטריט: נאסד״ק צולל 3.5%, אינטל מוכה ב-31%",
+    "summary": "מניות הטכנולוגיה נמצאות בנפילה חדה בוול סטריט, עם מדד נאסד״ק בירידה של 3.5% ואינטל מאבדת שליש מערכה.",
+    "kicker": "שוק ההון",
+    "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9oN3R5bXZXNjl0ejRSeXFUR1FwM0ItdUZjbGc3aVA1azB5R2V4MmZfTVFXYkV0NFZNamh5eFgwTmtLeW9LdGo0aFUtQURzamhLNEd3RFBKQ290YzRybnM4dHh3?oc=5",
+    "src": "calcalist",
+    "src_name": "כלכליסט",
+    "lang": "he",
+    "img": null,
+    "credit": "כלכליסט",
+    "ts": "2026-10-30T18:40:48Z",
+    "score": 85
+   }
+  ],
+  "il": [
+   {
+    "id": "90ae39cb44d8a4",
+    "title": "גורם צבאי בכיר: נתניהו דחף לתקיפה איראנית לפני הבחירות",
+    "summary": "מקורות ביטחוניים חושפים שנתניהו לחץ לפעולה צבאית שהייתה אמורה לגרום לתגובה איראנית, בניסיון להצית מלחמה לפני הבחירות. הצמרת הביטחונית התנגדה והמהלך ירד מהפרק.",
+    "kicker": "בחירות 2026",
+    "url": "https://www.ynet.co.il/news/article/yokra14942037",
+    "src": "ynet",
+    "src_name": "ynet",
+    "lang": "he",
+    "img": "https://ynet-pic1.yit.co.il/picserver6/crop_images/2026/10/29/yk14942417/yk14942417_1_102_1280_721_0_medium.jpg",
+    "credit": "ynet",
+    "ts": "2026-10-31T13:35:31Z",
+    "score": 85
+   },
+   {
+    "id": "ab3c584d62f6bf",
+    "title": "ההצעה של טראמפ הגיעה לטהרן: האיתות של עראקצ'י והאזהרה",
+    "summary": "שר החוץ האיראני אישר כי טהרן בחנה את מכתבו של סגן נשיא ארה\"ב אך הבהיר שאינה רואה צורך בפגישה עם נציגים אמריקנים, כאשר מאמצים ממשיכים לגבש מתווה לחידוש משא ומתן.",
+    "kicker": "דיפלומטיה",
+    "url": "https://www.maariv.co.il/news/world/article-1383195",
+    "src": "maariv",
+    "src_name": "מעריב",
+    "lang": "he",
+    "img": "https://images.maariv.co.il/image/upload/f_auto,fl_lossy/c_fill,g_faces:center,h_438,w_778/1133582",
+    "credit": "מעריב",
+    "ts": "2026-10-31T15:10:36Z",
+    "score": 80
+   },
+   {
+    "id": "dd31cdfdf2c520",
+    "title": "התנהלות מסתורית של ראש השב״כ וקמפיין הליכוד נגד המפלגות הערביות",
+    "summary": "חקירה חדשה בחדשות יוני על טעויות תקשורתיות של השב\"כ, מכתב חריג של סולברג וקמפיין הליכוד שהכריז מראש על גניבת בחירות מגלים פער עמוק בין הודעות רשמיות למציאות בעת בחירות 2026.",
+    "kicker": "בחירות",
+    "url": "https://www.ynet.co.il/news/elections2026/article/rkyoav7aze",
+    "src": "ynet",
+    "src_name": "ynet",
+    "lang": "he",
+    "img": "https://ynet-pic1.yit.co.il/picserver6/crop_images/2026/10/31/H1gvxKmaMl/H1gvxKmaMl_0_0_850_479_0_medium.jpg",
+    "credit": "ynet",
+    "ts": "2026-10-31T14:51:37Z",
+    "score": 78
+   },
+   {
+    "id": "59bc6c58b06751",
+    "title": "נתניהו וטראמפ לא מסכימים על תוכנית המהלומה באיראן",
+    "summary": "קטאר הציעה תוכנית דיפלומטית חדשה בשיחות טו״ב, ואם תכשל המו״מ, מהלומה צבאית אפשרית עלולה להיות קצרה ועוצמתית עם כוח אווירי ונחתים, עם יעדים שנבחרו בעזרת מומחי דין בינלאומי.",
+    "kicker": "ביטחון",
+    "url": "https://www.ynet.co.il/news/article/hka00rqxpfe",
+    "src": "ynet",
+    "src_name": "ynet",
+    "lang": "he",
+    "img": "https://ynet-pic1.yit.co.il/picserver6/crop_images/2026/10/31/HyBozBmpGl/HyBozBmpGl_0_0_850_479_0_medium.jpg",
+    "credit": "ynet",
+    "ts": "2026-10-31T10:40:20Z",
+    "score": 80
+   },
+   {
+    "id": "a9f05b93f34341",
+    "title": "בדרך לאיראן: ישראל עלולה לקבל הפתעה לא נעימה מהמדינה הערבית",
+    "summary": "סוריה שוקלת להצטרף לברית צבאית בינלאומית שתחייב אותה לסיוע לבעלי הברית במקרה של מתקפה. אם היא תצטרף, תקיפות ישראליות בשטחה או מעברי מטוסי קרב עשויים להעלות את הסכנה למשבר אזורי.",
+    "kicker": "ביטחון אזורי",
+    "url": "https://www.maariv.co.il/news/world/article-1383168",
+    "src": "maariv",
+    "src_name": "מעריב",
+    "lang": "he",
+    "img": "https://images.maariv.co.il/image/upload/f_auto,fl_lossy/c_fill,g_faces:center,h_438,w_778/1084378",
+    "credit": "מעריב",
+    "ts": "2026-10-31T12:35:56Z",
+    "score": 75
+   },
+   {
+    "id": "46c4611dbe4f20",
+    "title": "חמינאי בהצהרה לוחמנית: \"רק אנחנו נקבע מתי תיגמר הלחימה\"",
+    "summary": "בעקבות התקדמויות בשיחות טו״ב בקטאר, המנהיג העליון של איראן איים בהצהרה לוחמנית שאם ישראל וארה״ב תתקפו שוב, רק איראן תקבע את עיתוי וויתור הלחימה.",
+    "kicker": "איראן",
+    "url": "https://www.ynet.co.il/news/article/bjvvis76gl",
+    "src": "ynet",
+    "src_name": "ynet",
+    "lang": "he",
+    "img": "https://ynet-pic1.yit.co.il/picserver6/crop_images/2026/03/15/SyA006lV5We/SyA006lV5We_0_204_3000_1689_0_medium.jpg",
+    "credit": "ynet",
+    "ts": "2026-10-31T11:01:25Z",
+    "score": 75
+   },
+   {
+    "id": "0e796e7f689659",
+    "title": "ימין על מלא",
+    "summary": "בעבר היו רגעים בהם המחנה הימין היה על מלא — כיום גדי איזנקוט עשוי להצטרף לדפי ההיסטוריה לצד בן גוריון ובגין.",
+    "kicker": "בחירות",
+    "url": "https://www.ynet.co.il/news/article/r19nzpqpge",
+    "src": "ynet",
+    "src_name": "ynet",
+    "lang": "he",
+    "img": "https://ynet-pic1.yit.co.il/picserver6/crop_images/2026/10/29/B1FlxCeaGe/B1FlxCeaGe_0_0_2889_1627_0_medium.jpg",
+    "credit": "ynet",
+    "ts": "2026-10-31T12:51:17Z",
+    "score": 68
+   },
+   {
+    "id": "c2d43ce89ce1ae",
+    "title": "אחדות של טועים",
+    "summary": "ממשלת אחדות לא חייבת להיות פשרה כפויה: היא יכולה לבטא נכונות המחנה הלאומי להשתחרר מן התלות בחרדים ואת הכנסת מחנה השינוי לרפורמה יסודית.",
+    "kicker": "בחירות",
+    "url": "https://www.ynet.co.il/news/article/yokra14941657",
+    "src": "ynet",
+    "src_name": "ynet",
+    "lang": "he",
+    "img": "https://ynet-pic1.yit.co.il/picserver6/crop_images/2026/10/29/yk14942070/yk14942070_1_113_661_373_0_medium.jpg",
+    "credit": "ynet",
+    "ts": "2026-10-31T12:54:09Z",
+    "score": 65
+   },
+   {
+    "id": "4c2aa2a5f19374",
+    "title": "דיווח: השב״כ נותן לגנדלנים של חמאס בחירה לפני חיסול",
+    "summary": "עיתון סעודי טוען כי מודיעין ישראלי מתקשר לגנדלנים של חמאס בעזה לפני חיסולם ומציע להם לבחור בין מות בודד או סיכון למשפחה, מצהרת ישראלית מפרכת טוענת שנדרש זה נעשה אך ורק לאזרחים.",
+    "kicker": "עזה",
+    "url": "https://www.maariv.co.il/news/military/article-1383155",
+    "src": "maariv",
+    "src_name": "מעריב",
+    "lang": "he",
+    "img": "https://images.maariv.co.il/image/upload/f_auto,fl_lossy/c_fill,g_faces:center,h_438,w_778/1127087",
+    "credit": "מעריב",
+    "ts": "2026-10-31T11:02:31Z",
+    "score": 60
+   },
+   {
+    "id": "87741c7a2beaf2",
+    "title": "משלחת אמריקנית אמורה להצטרף לשיחות ישירות עם איראן בדוחה לאחר פריצת דרך בהשגות",
+    "summary": "ארצות הברית מצטרפת לדיוני שלום ישירים עם איראן בקטר בעקבות התקדמות משמעותית במשא ומתן סביב הגרעין והסנקציות.",
+    "kicker": "דיפלומטיה, איראן",
+    "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNS182UmNqZVluQk9Sem90UGYxWW1DMGRJVVp6ZFY5dENlcW5hYTNCZS1CTTdRQ0JsWFVveWpMNG5HOExSQmhiT2sydGZNUnh0TlNzclFOWjJ0aGo5eTlvVFZmS2FPaWdKekVNVC1uZjh0cVgwdDFHNzFWZ09NdXJ4c011UldlS0cySDlLd2JvQ29YUHNNcElIYTFzX1NvQllDRHN5QURlazdIYzRMQWhVNzRtajFfblJjOWk5dnktWVctNHRBOEQ4bUNKRXVhUDRnOHFWMHlYZw?oc=5",
+    "src": "toi",
+    "src_name": "Times of Israel",
+    "lang": "en",
+    "img": null,
+    "credit": "Times of Israel",
+    "ts": "2026-10-31T07:42:57Z",
+    "score": 70
+   },
+   {
+    "id": "ec96671954b0c2",
+    "title": "ארה״ב אישרה עסקת טילים לאוקראינה, אך זלנסקי מזהיר מעיכובים בהספקה",
+    "summary": "ארה״ב אישרה הספקת 500 טילי יירוט לאוקראינה בשווי 2.1 מיליארד דולר, אך עלולה להידחות לשנת 2029. זלנסקי מעביר אזהרה על מחסור קריטי בנשקים לקראת מתקפות רוסיות בחורף.",
+    "kicker": "ביטחון",
+    "url": "https://www.maariv.co.il/news/world/article-1383173",
+    "src": "maariv",
+    "src_name": "מעריב",
+    "lang": "he",
+    "img": "https://images.maariv.co.il/image/upload/f_auto,fl_lossy/c_fill,g_faces:center,h_438,w_778/1105830",
+    "credit": "מעריב",
+    "ts": "2026-10-31T13:04:31Z",
+    "score": 55
+   },
+   {
+    "id": "056243d8bc28c5",
+    "title": "פעם שנייה: אופנועים וטרקטורונים נגנבו מביתו של לוחם השב\"כ שנהרג ב-7 באוקטובר",
+    "summary": "אופנועים וטרקטורונים נגנבו מביתו של יוסי טהר, לוחם שב\"כ שנהרג בתחילת הלחימה בעזה, בפעם השנייה שזה קורה למשפחתו.",
+    "kicker": "ביטחון",
+    "url": "https://www.walla.co.il/news/israel/383959538",
+    "src": "walla",
+    "src_name": "וואלה",
+    "lang": "he",
+    "img": "https://img.wcdn.co.il/3/8/5/3/3853342-46.jpg",
+    "credit": "וואלה",
+    "ts": "2026-10-31T09:43:25Z",
+    "score": 55
+   },
+   {
+    "id": "cf280319e67590",
+    "title": "ניידת עירוני בפתח תקווה פגעה בנער על קורקינט ולא עצרה",
+    "summary": "תיעוד המופץ ברשתות מעלה שאלות על התנהלות צוות ביטחון עירוני בפתח תקווה שפגע בנער על קורקינט בלילה ולכאורה המשיך בנסיעה ללא סיוע, בעוד העירייה טוענת שהצוות לא נמלט מהמקום.",
+    "kicker": "ביטחון",
+    "url": "https://www.walla.co.il/news/israel/383959546",
+    "src": "walla",
+    "src_name": "וואלה",
+    "lang": "he",
+    "img": null,
+    "credit": "וואלה",
+    "ts": "2026-10-31T11:05:52Z",
+    "score": 55
+   },
+   {
+    "id": "bae2c4311a8504",
+    "title": "חקירה בהתערבות זרה בבחירות כוללת גם חשד לתערבות טורקית",
+    "summary": "חקירה בנוגע להתערבות זרה בבחירות הישראליות מתרחבת וכוללת כעת חקר של אפשרות של התערבות טורקית בתהליך הבחירות.",
+    "kicker": "בחירות 2026",
+    "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOOW1NMVY0NmRIdy1wZXA1Y0VIN3cxRUQxdzJSZTY4RTBMcDdfazd2dkVMbjhPVU50UzJTd1duTE90VmZTWDNWSDdsYno0ODgyMmNmZ1Rja1hGdnN4NF9aLURVRjE1b3czeTJiYUQ2OU5xay04VlNEbzBNT3dpSENHUHcxb1JwNVNxVFFfWURrNGx3T0pQOGJqM3dPTUxqbmlkUDdCZFJxcDVSUlVMbFV3SkoyTDM0OUZncGwteFpUN1dsNTA?oc=5",
+    "src": "toi",
+    "src_name": "Times of Israel",
+    "lang": "en",
+    "img": null,
+    "credit": "Times of Israel",
+    "ts": "2026-10-30T15:31:00Z",
+    "score": 85
    }
   ],
   "film": [
@@ -594,402 +990,6 @@
     "ts": "2026-10-30T07:07:29Z",
     "score": 68
    }
-  ],
-  "il": [
-   {
-    "id": "90ae39cb44d8a4",
-    "title": "גורם צבאי בכיר: נתניהו דחף לתקיפה איראנית לפני הבחירות",
-    "summary": "מקורות ביטחוניים חושפים שנתניהו לחץ לפעולה צבאית שהייתה אמורה לגרום לתגובה איראנית, בניסיון להצית מלחמה לפני הבחירות. הצמרת הביטחונית התנגדה והמהלך ירד מהפרק.",
-    "kicker": "בחירות 2026",
-    "url": "https://www.ynet.co.il/news/article/yokra14942037",
-    "src": "ynet",
-    "src_name": "ynet",
-    "lang": "he",
-    "img": "https://ynet-pic1.yit.co.il/picserver6/crop_images/2026/10/29/yk14942417/yk14942417_1_102_1280_721_0_medium.jpg",
-    "credit": "ynet",
-    "ts": "2026-10-31T13:35:31Z",
-    "score": 85
-   },
-   {
-    "id": "ab3c584d62f6bf",
-    "title": "ההצעה של טראמפ הגיעה לטהרן: האיתות של עראקצ'י והאזהרה",
-    "summary": "שר החוץ האיראני אישר כי טהרן בחנה את מכתבו של סגן נשיא ארה\"ב אך הבהיר שאינה רואה צורך בפגישה עם נציגים אמריקנים, כאשר מאמצים ממשיכים לגבש מתווה לחידוש משא ומתן.",
-    "kicker": "דיפלומטיה",
-    "url": "https://www.maariv.co.il/news/world/article-1383195",
-    "src": "maariv",
-    "src_name": "מעריב",
-    "lang": "he",
-    "img": "https://images.maariv.co.il/image/upload/f_auto,fl_lossy/c_fill,g_faces:center,h_438,w_778/1133582",
-    "credit": "מעריב",
-    "ts": "2026-10-31T15:10:36Z",
-    "score": 80
-   },
-   {
-    "id": "dd31cdfdf2c520",
-    "title": "התנהלות מסתורית של ראש השב״כ וקמפיין הליכוד נגד המפלגות הערביות",
-    "summary": "חקירה חדשה בחדשות יוני על טעויות תקשורתיות של השב\"כ, מכתב חריג של סולברג וקמפיין הליכוד שהכריז מראש על גניבת בחירות מגלים פער עמוק בין הודעות רשמיות למציאות בעת בחירות 2026.",
-    "kicker": "בחירות",
-    "url": "https://www.ynet.co.il/news/elections2026/article/rkyoav7aze",
-    "src": "ynet",
-    "src_name": "ynet",
-    "lang": "he",
-    "img": "https://ynet-pic1.yit.co.il/picserver6/crop_images/2026/10/31/H1gvxKmaMl/H1gvxKmaMl_0_0_850_479_0_medium.jpg",
-    "credit": "ynet",
-    "ts": "2026-10-31T14:51:37Z",
-    "score": 78
-   },
-   {
-    "id": "59bc6c58b06751",
-    "title": "נתניהו וטראמפ לא מסכימים על תוכנית המהלומה באיראן",
-    "summary": "קטאר הציעה תוכנית דיפלומטית חדשה בשיחות טו״ב, ואם תכשל המו״מ, מהלומה צבאית אפשרית עלולה להיות קצרה ועוצמתית עם כוח אווירי ונחתים, עם יעדים שנבחרו בעזרת מומחי דין בינלאומי.",
-    "kicker": "ביטחון",
-    "url": "https://www.ynet.co.il/news/article/hka00rqxpfe",
-    "src": "ynet",
-    "src_name": "ynet",
-    "lang": "he",
-    "img": "https://ynet-pic1.yit.co.il/picserver6/crop_images/2026/10/31/HyBozBmpGl/HyBozBmpGl_0_0_850_479_0_medium.jpg",
-    "credit": "ynet",
-    "ts": "2026-10-31T10:40:20Z",
-    "score": 80
-   },
-   {
-    "id": "a9f05b93f34341",
-    "title": "בדרך לאיראן: ישראל עלולה לקבל הפתעה לא נעימה מהמדינה הערבית",
-    "summary": "סוריה שוקלת להצטרף לברית צבאית בינלאומית שתחייב אותה לסיוע לבעלי הברית במקרה של מתקפה. אם היא תצטרף, תקיפות ישראליות בשטחה או מעברי מטוסי קרב עשויים להעלות את הסכנה למשבר אזורי.",
-    "kicker": "ביטחון אזורי",
-    "url": "https://www.maariv.co.il/news/world/article-1383168",
-    "src": "maariv",
-    "src_name": "מעריב",
-    "lang": "he",
-    "img": "https://images.maariv.co.il/image/upload/f_auto,fl_lossy/c_fill,g_faces:center,h_438,w_778/1084378",
-    "credit": "מעריב",
-    "ts": "2026-10-31T12:35:56Z",
-    "score": 75
-   },
-   {
-    "id": "46c4611dbe4f20",
-    "title": "חמינאי בהצהרה לוחמנית: \"רק אנחנו נקבע מתי תיגמר הלחימה\"",
-    "summary": "בעקבות התקדמויות בשיחות טו״ב בקטאר, המנהיג העליון של איראן איים בהצהרה לוחמנית שאם ישראל וארה״ב תתקפו שוב, רק איראן תקבע את עיתוי וויתור הלחימה.",
-    "kicker": "איראן",
-    "url": "https://www.ynet.co.il/news/article/bjvvis76gl",
-    "src": "ynet",
-    "src_name": "ynet",
-    "lang": "he",
-    "img": "https://ynet-pic1.yit.co.il/picserver6/crop_images/2026/03/15/SyA006lV5We/SyA006lV5We_0_204_3000_1689_0_medium.jpg",
-    "credit": "ynet",
-    "ts": "2026-10-31T11:01:25Z",
-    "score": 75
-   },
-   {
-    "id": "c170d799b9c899",
-    "title": "העולם נערך לאי־ודאות בישראל: אירופה דוגרת, טראמפ מהלל, אבו מאזן מקווה לשלום",
-    "summary": "בחזקת הבחירות בתוך מבוי סתום, העולם מפתח תגובות מגוונות: ארה״ב שוקלת תפקיד בהקמת ממשלת אחדות, אירופה דוגרת מפני עיכוב סיוע, ופלסטינים מקווים להשקת דיונים לשלום.",
-    "kicker": "בחירות",
-    "url": "https://www.ynet.co.il/news/article/h1fooszpgx",
-    "src": "ynet",
-    "src_name": "ynet",
-    "lang": "he",
-    "img": "https://ynet-pic1.yit.co.il/picserver6/crop_images/2026/10/28/S1ETMoJTfl/S1ETMoJTfl_0_0_850_479_0_medium.jpg",
-    "credit": "ynet",
-    "ts": "2026-10-31T07:06:48Z",
-    "score": 80
-   },
-   {
-    "id": "0e796e7f689659",
-    "title": "ימין על מלא",
-    "summary": "בעבר היו רגעים בהם המחנה הימין היה על מלא — כיום גדי איזנקוט עשוי להצטרף לדפי ההיסטוריה לצד בן גוריון ובגין.",
-    "kicker": "בחירות",
-    "url": "https://www.ynet.co.il/news/article/r19nzpqpge",
-    "src": "ynet",
-    "src_name": "ynet",
-    "lang": "he",
-    "img": "https://ynet-pic1.yit.co.il/picserver6/crop_images/2026/10/29/B1FlxCeaGe/B1FlxCeaGe_0_0_2889_1627_0_medium.jpg",
-    "credit": "ynet",
-    "ts": "2026-10-31T12:51:17Z",
-    "score": 68
-   },
-   {
-    "id": "c2d43ce89ce1ae",
-    "title": "אחדות של טועים",
-    "summary": "ממשלת אחדות לא חייבת להיות פשרה כפויה: היא יכולה לבטא נכונות המחנה הלאומי להשתחרר מן התלות בחרדים ואת הכנסת מחנה השינוי לרפורמה יסודית.",
-    "kicker": "בחירות",
-    "url": "https://www.ynet.co.il/news/article/yokra14941657",
-    "src": "ynet",
-    "src_name": "ynet",
-    "lang": "he",
-    "img": "https://ynet-pic1.yit.co.il/picserver6/crop_images/2026/10/29/yk14942070/yk14942070_1_113_661_373_0_medium.jpg",
-    "credit": "ynet",
-    "ts": "2026-10-31T12:54:09Z",
-    "score": 65
-   },
-   {
-    "id": "0df49befab6efb",
-    "title": "מוג'תבא חמינאי מכין את צבא איראן להסלמה: \"תגובה ללא גבולות\"",
-    "summary": "מנהיגה הצבא האיראני מתכננת הסלמה מול ישראל ופגשה בכירים צבאיים לתיאום התגובה, בעודה מטענות טורקיות על התקדמות במו\"מ.",
-    "kicker": "ביטחון",
-    "url": "https://www.maariv.co.il/news/world/article-1383149",
-    "src": "maariv",
-    "src_name": "מעריב",
-    "lang": "he",
-    "img": "https://images.maariv.co.il/image/upload/f_auto,fl_lossy/c_fill,g_faces:center,h_438,w_778/1115257",
-    "credit": "מעריב",
-    "ts": "2026-10-31T09:41:11Z",
-    "score": 70
-   },
-   {
-    "id": "c16761a176bfb3",
-    "title": "דיווחים סותרים על משא ומתן בין ארה\"ב לאיראן בתיווך קטאר",
-    "summary": "קטאר מדווחת על \"פריצת דרך\" בשיחות עם אירן ואמריקה צפויה להצטרף לטיהורים הקרובים, בעודה מהודעות קטעי משא ומתן וברייפינג של הפנטגון על התכוננות למלחמה כבר בנובמבר.",
-    "kicker": "דיפלומטיה",
-    "url": "https://www.ynet.co.il/news/article/r1dlow76me",
-    "src": "ynet",
-    "src_name": "ynet",
-    "lang": "he",
-    "img": "https://ynet-pic1.yit.co.il/picserver6/crop_images/2026/05/06/rkwcm8dAbg/rkwcm8dAbg_0_187_3000_1689_0_medium.jpg",
-    "credit": "ynet",
-    "ts": "2026-10-31T06:30:52Z",
-    "score": 75
-   },
-   {
-    "id": "4c2aa2a5f19374",
-    "title": "דיווח: השב״כ נותן לגנדלנים של חמאס בחירה לפני חיסול",
-    "summary": "עיתון סעודי טוען כי מודיעין ישראלי מתקשר לגנדלנים של חמאס בעזה לפני חיסולם ומציע להם לבחור בין מות בודד או סיכון למשפחה, מצהרת ישראלית מפרכת טוענת שנדרש זה נעשה אך ורק לאזרחים.",
-    "kicker": "עזה",
-    "url": "https://www.maariv.co.il/news/military/article-1383155",
-    "src": "maariv",
-    "src_name": "מעריב",
-    "lang": "he",
-    "img": "https://images.maariv.co.il/image/upload/f_auto,fl_lossy/c_fill,g_faces:center,h_438,w_778/1127087",
-    "credit": "מעריב",
-    "ts": "2026-10-31T11:02:31Z",
-    "score": 60
-   },
-   {
-    "id": "87741c7a2beaf2",
-    "title": "משלחת אמריקנית אמורה להצטרף לשיחות ישירות עם איראן בדוחה לאחר פריצת דרך בהשגות",
-    "summary": "ארצות הברית מצטרפת לדיוני שלום ישירים עם איראן בקטר בעקבות התקדמות משמעותית במשא ומתן סביב הגרעין והסנקציות.",
-    "kicker": "דיפלומטיה, איראן",
-    "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNS182UmNqZVluQk9Sem90UGYxWW1DMGRJVVp6ZFY5dENlcW5hYTNCZS1CTTdRQ0JsWFVveWpMNG5HOExSQmhiT2sydGZNUnh0TlNzclFOWjJ0aGo5eTlvVFZmS2FPaWdKekVNVC1uZjh0cVgwdDFHNzFWZ09NdXJ4c011UldlS0cySDlLd2JvQ29YUHNNcElIYTFzX1NvQllDRHN5QURlazdIYzRMQWhVNzRtajFfblJjOWk5dnktWVctNHRBOEQ4bUNKRXVhUDRnOHFWMHlYZw?oc=5",
-    "src": "toi",
-    "src_name": "Times of Israel",
-    "lang": "en",
-    "img": null,
-    "credit": "Times of Israel",
-    "ts": "2026-10-31T07:42:57Z",
-    "score": 70
-   },
-   {
-    "id": "ec96671954b0c2",
-    "title": "ארה״ב אישרה עסקת טילים לאוקראינה, אך זלנסקי מזהיר מעיכובים בהספקה",
-    "summary": "ארה״ב אישרה הספקת 500 טילי יירוט לאוקראינה בשווי 2.1 מיליארד דולר, אך עלולה להידחות לשנת 2029. זלנסקי מעביר אזהרה על מחסור קריטי בנשקים לקראת מתקפות רוסיות בחורף.",
-    "kicker": "ביטחון",
-    "url": "https://www.maariv.co.il/news/world/article-1383173",
-    "src": "maariv",
-    "src_name": "מעריב",
-    "lang": "he",
-    "img": "https://images.maariv.co.il/image/upload/f_auto,fl_lossy/c_fill,g_faces:center,h_438,w_778/1105830",
-    "credit": "מעריב",
-    "ts": "2026-10-31T13:04:31Z",
-    "score": 55
-   }
-  ],
-  "tech": [
-   {
-    "id": "54b000de8c1be6",
-    "title": "סטארטאפ ישראלי שנבנה כולו ב־AI קיבל השקעה מבעלי Fiverr",
-    "summary": "סטארטאפ ישראלי פיתח פלטפורמה שמרכזת כלי AI לצוותי קריאייטיב, ונבנה כולו ללא כתיבת קוד. המייסדים קיבלו השקעה ממאור שלמה ומיכה קאופמן מ־Fiverr.",
-    "kicker": "סטארטאפים",
-    "url": "https://www.geektime.co.il/plnty-is-out-of-stealth-with-a-check-from-base44-founder/",
-    "src": "geektime",
-    "src_name": "גיקטיים",
-    "lang": "he",
-    "img": "https://cdn.geektime.co.il/wp-content/uploads/2026/10/videoframe_90780-1024x535.jpg",
-    "credit": "גיקטיים",
-    "ts": "2026-10-31T13:03:36Z",
-    "score": 75
-   },
-   {
-    "id": "8e880cf9be53a7",
-    "title": "חוקר קריפטו על עקבות הגניבה בבינאנס שוויון 6 מיליארד דולר",
-    "summary": "חוקר קריפטוגרפיה התעורר לחדשות על התקיפה על בינאנס, המרכז הקריפטוגרפי הגדול בעולם, במהלך פעולה בקוד 'The Misfits'.",
-    "kicker": "סייבר",
-    "url": "https://www.thetimes.com/business/companies-markets/article/binance-hack-crypto-stolen-north-korea-price-qvk9jjj32",
-    "src": "thetimes",
-    "src_name": "The Times",
-    "lang": "en",
-    "img": null,
-    "credit": "The Times",
-    "ts": "2026-10-31T15:14:38Z",
-    "score": 75
-   },
-   {
-    "id": "6188d833a77930",
-    "title": "אינטל משנה את קיבולת הייצור לעבור ל־AI — שבבים לשרתים במקום למחשבים אישיים",
-    "summary": "אינטל מרחיבה יכולות ייצור בארה״ב, אירלנד ומלזיה כדי לעמוד בביקוש חסר תקדים לכלי AI ומחשובי מרכזי נתונים, תוך שוק ה־PC מתכווץ.",
-    "kicker": "שבבים",
-    "url": "https://www.tomshardware.com/pc-components/cpus/intel-shifts-production-capacity-from-consumer-to-server-cpus-in-face-of-unprecedented-ai-demand-company-navigating-one-of-the-most-significant-supply-shortages-in-history",
-    "src": "tomshw",
-    "src_name": "Tom's Hardware",
-    "lang": "en",
-    "img": "https://cdn.mos.cms.futurecdn.net/rVargrx2PRrE3QdGAf22wX-1920-80.jpg",
-    "credit": "Intel",
-    "ts": "2026-10-31T13:00:00Z",
-    "score": 70
-   },
-   {
-    "id": "c9e86b67db5ce1",
-    "title": "הגיע הזמן לצבור דולרים? מומחים על השווקים",
-    "summary": "מומחי השקעות מנתחים את השוק בתקופת ביצוע: הבורסה נחשבת לבלתי אטרקטיבית, הנדלן מיתון, וההמלצה היא אג״ח קצרות וטכנולוגיה דואלית. מניות דרונים צנחו 50%.",
-    "kicker": "שוק ההון",
-    "url": "https://www.globes.co.il/news/article.aspx?did=1001561261#utm_source=RSS",
-    "src": "globes",
-    "src_name": "גלובס",
-    "lang": "he",
-    "img": "https://res.cloudinary.com/globes/image/upload/t_800X392/v1752135463/direct/%D7%98%D7%9C%D7%98%D7%9C%D7%94_%D7%91%D7%A9%D7%95%D7%95%D7%A7%D7%99%D7%9D_%D7%97%D7%93%D7%A9-800_cawpy2.jpg",
-    "credit": "גלובס",
-    "ts": "2026-10-31T13:58:00Z",
-    "score": 65
-   },
-   {
-    "id": "bc2326c848ae38",
-    "title": "תוכנת מדבקה חדשה משתמשת בבינה מלאכותית כדי לאתר ולחשוף קורבנות",
-    "summary": "תוכנת תקיפה בשם \"Volta-Autodoxer\" משתמשת בכלי AI לשיטוט נתונים רחבים על קורבנות, מסיסמאות וכרטיסי אשראי ועד הפעלות בדיסקורד וקבלות אובר.",
-    "kicker": "סייבר",
-    "url": "https://www.wired.com/story/kernel-panic-volta-autodoxer-ai-infostealer-malware/",
-    "src": "wired",
-    "src_name": "Wired",
-    "lang": "en",
-    "img": "https://media.wired.com/photos/6ae4e9f503c2c36f4cfc913c/master/pass/KernelPanic_10312026_v1.jpg",
-    "credit": "Wired",
-    "ts": "2026-10-31T12:00:00Z",
-    "score": 68
-   },
-   {
-    "id": "562aefcae3e2a1",
-    "title": "140 מיליארד דולר נמחקו: מניית אינטל צללה ב־28% ביום אחד",
-    "summary": "מניית אינטל סיימה מסחר עם נפילה דרמטית של 28.58%, מה שהוביל למחיקת 140 מיליארד דולר משווי החברה, בהירידה הגדולה ביותר מאז 1974.",
-    "kicker": "שבבים",
-    "url": "https://www.geektime.co.il/intel-stock-crash-q3-2026-kiryat-gat/",
-    "src": "geektime",
-    "src_name": "גיקטיים",
-    "lang": "he",
-    "img": "https://cdn.geektime.co.il/wp-content/uploads/2025/08/intel-bio-lip-bu-tan-1024x576.jpg",
-    "credit": "גיקטיים",
-    "ts": "2026-10-31T07:00:00Z",
-    "score": 75
-   },
-   {
-    "id": "fa12f6d35e9e55",
-    "title": "מהנדס משכיל ממיקרוסופט יצר זיכרון RAM משלו בעזרת בינה מלאכותית",
-    "summary": "מהנדס לשעבר במיקרוסופט, דיוויד פלאמר, בנה זיכרון PDP-11 מאפס בשל עלויות הזיכרון הגבוהות, תוך שימוש בכלי AI.",
-    "kicker": "טכנולוגיה",
-    "url": "https://www.tomshardware.com/pc-components/ram/veteran-microsoft-engineer-makes-his-own-ram-from-scratch-using-ai-attempts-to-build-4mb-of-1970s-pdp-11-ram-from-scratch",
-    "src": "tomshw",
-    "src_name": "Tom's Hardware",
-    "lang": "en",
-    "img": "https://cdn.mos.cms.futurecdn.net/ZcWNV2jNQTywTDrpaAsqbL-1920-80.png",
-    "credit": "David Plummer",
-    "ts": "2026-10-31T11:40:00Z",
-    "score": 62
-   },
-   {
-    "id": "7b5ed5dd303b81",
-    "title": "Windows 11 משיקה קיצורי דרך חדשים למצב Xbox וחיפוש",
-    "summary": "גרסת Insider של Windows 11 מוסיפה תכונות חיפוש משופרות ותפריטי הגדרות מהירים במצב Xbox, המאפשרים שליטה בבלוטוס וWi-Fi ללא יציאה ממצב הגיימינג.",
-    "kicker": "טכנולוגיה",
-    "url": "https://www.theverge.com/tech/1024058/windows-11-search-improvements-xbox-quick-settings",
-    "src": "verge",
-    "src_name": "The Verge",
-    "lang": "en",
-    "img": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/10d-outlook-filterresults.png?quality=90&#038;strip=all&#038;crop=0,0,100,100",
-    "credit": "The Verge",
-    "ts": "2026-10-31T15:12:19Z",
-    "score": 55
-   },
-   {
-    "id": "a2f28390745f4f",
-    "title": "מדוע האקרים הצפון קוריאנים חשודים בהכי גדול בכתב אישום כנגד Binance",
-    "summary": "צפון קוריאה חשודה בתכנון הגניבה הגדולה ביותר של מטבעות דיגיטליים מהחילופין Binance, משום שמסחריות הקוד שלה הוצג בעבר במקומות אחרים.",
-    "kicker": "סייבר",
-    "url": "https://www.bbc.co.uk/news/articles/ck9dz3v7z7v3o?at_medium=RSS&at_campaign=rss",
-    "src": "bbc",
-    "src_name": "BBC",
-    "lang": "en",
-    "img": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7b98/live/c9241530-d4aa-11f1-b441-2b33b063138f.jpg",
-    "credit": "BBC",
-    "ts": "2026-10-31T02:12:19Z",
-    "score": 75
-   },
-   {
-    "id": "5715fa5099a5fb",
-    "title": "בינאנס: 90% מהנכסים הגנובים בהאקינג הוחזרו",
-    "summary": "בעקבות האקינג גדול בחילופי המטבעות הקריפטוגרפי, בינאנס הודיעה כי כ-90% מנכסי הקריפטו שנגנבו כבר הוחזרו.",
-    "kicker": "סייבר",
-    "url": "https://news.sky.com/story/majority-of-funds-stolen-in-cryptocurrency-hack-replenished-binance-says-13606152",
-    "src": "sky",
-    "src_name": "Sky News",
-    "lang": "en",
-    "img": "https://e3.365dm.com/26/08/1920x1080/skynews-breakingnews-uk_7322499.jpg?20260826125921",
-    "credit": "Sky News",
-    "ts": "2026-10-31T14:39:00Z",
-    "score": 55
-   },
-   {
-    "id": "4a61817e966fe3",
-    "title": "תחזוקות קודרות של יוצרי משאבים עוקפות את Anthropic לנתיב הנאסדק",
-    "summary": "חברות ענק בענן כמו אמזון וגוגל פרסמו הערכות כנסות משברות השבוע, מה שהכניס בולט לטכנולוגיה וגרם לנאסדק לסבול מחוטא שלוש שבועות, המאיים על טיוטת הברחת ההון של Anthropic.",
-    "kicker": "מודלים",
-    "url": "https://www.cnbc.com/2026/10/31/anthropic-ipo-ai-spending.html",
-    "src": "cnbc",
-    "src_name": "CNBC",
-    "lang": "en",
-    "img": null,
-    "credit": "CNBC",
-    "ts": "2026-10-31T11:00:01Z",
-    "score": 65
-   },
-   {
-    "id": "a96cd691c49f7f",
-    "title": "חוקר טכנולוגיה מצא את יישום ה-GUI העתיק ביותר שעדיין עובד ב-Windows 11",
-    "summary": "חובב טכנולוגיה טוען שגילה את תוכנת ה-GUI העתיקה ביותר שעדיין פעילה ב-Windows 11, CDPLAYER.EXE משנובמבר 1992.",
-    "kicker": "טכנולוגיה",
-    "url": "https://www.tomshardware.com/software/windows/tech-sleuth-claims-to-have-found-the-oldest-gui-application-that-still-works-with-windows-11-cdplayer-exe-from-windows-nt-in-november-1992-wins-the-prize",
-    "src": "tomshw",
-    "src_name": "Tom's Hardware",
-    "lang": "en",
-    "img": "https://cdn.mos.cms.futurecdn.net/9WfJEJAx6SPbbBbEXKuZCM-1920-80.jpg",
-    "credit": "Microsoft and Wikipedia",
-    "ts": "2026-10-31T10:00:00Z",
-    "score": 60
-   },
-   {
-    "id": "31077fabb6a095",
-    "title": "Binance מנסה להחזיר 6.3 מיליארד דולר שנגנבו בפריצה הקשורה לקוריאה הצפונית",
-    "summary": "ענקית ההצפנה Binance מעבדת את ההשלכות של פריצה מורכבת שהיא מתארת כגדולה ביותר מסוגה, עם עלויות אסטרונומיות והשפעות בשוק.",
-    "kicker": "סייבר",
-    "url": "https://www.bbc.co.uk/news/articles/cwe8lp7zy07zo?at_medium=RSS&at_campaign=rss",
-    "src": "bbc",
-    "src_name": "BBC",
-    "lang": "en",
-    "img": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/61df/live/2d4de870-d487-11f1-b441-2b33b063138f.jpg",
-    "credit": "BBC",
-    "ts": "2026-10-30T20:10:56Z",
-    "score": 80
-   },
-   {
-    "id": "a4d9cfbdc2f59d",
-    "title": "לוחם צה\"ל פיתח משחק יריות בעברית בהשראת הלחימה בעזה",
-    "summary": "סטודנט למדעי המחשב ששירת כלוחם בגזה פיתח משחק יריות בעברית בשם \"הניצחון המוחלט\", בהשראת חוויות הקרב שלו. המשחק משקף מגמה חדשה בתעשיית הגיימינג הישראלית להוצאת משחקי אקשן מורכבים.",
-    "kicker": "משחקים",
-    "url": "https://www.geektime.co.il/nitzachon-video-game/",
-    "src": "geektime",
-    "src_name": "גיקטיים",
-    "lang": "he",
-    "img": "https://cdn.geektime.co.il/wp-content/uploads/2026/10/nitzachon-1024x640.jpg",
-    "credit": "גיקטיים",
-    "ts": "2026-10-31T10:19:27Z",
-    "score": 55
-   }
   ]
  },
  "sport": [
@@ -1005,7 +1005,7 @@
      "away": "נוטינגהאם פורסט",
      "home_s": "BRE",
      "away_s": "NOT",
-     "hg": 0,
+     "hg": 1,
      "ag": 0
     },
     {
@@ -1015,8 +1015,8 @@
      "away": "איפסוויץ׳",
      "home_s": "HUL",
      "away_s": "IPS",
-     "hg": 0,
-     "ag": 0
+     "hg": 1,
+     "ag": 1
     },
     {
      "ts": "2026-10-31T15:00:00Z",
@@ -1025,8 +1025,8 @@
      "away": "סנדרלנד",
      "home_s": "COV",
      "away_s": "SUN",
-     "hg": 0,
-     "ag": 0
+     "hg": 3,
+     "ag": 1
     },
     {
      "ts": "2026-10-31T15:00:00Z",
@@ -1035,8 +1035,8 @@
      "away": "לידס",
      "home_s": "BOU",
      "away_s": "LEE",
-     "hg": 0,
-     "ag": 1
+     "hg": 1,
+     "ag": 0
     },
     {
      "ts": "2026-10-31T15:00:00Z",
@@ -1127,47 +1127,47 @@
    "matches": [
     {
      "ts": "2026-10-31T14:30:00Z",
-     "status": "live",
+     "status": "done",
      "home": "לברקוזן",
      "away": "שטוטגרט",
      "home_s": "B04",
      "away_s": "VFB",
-     "hg": 1,
-     "ag": 2
+     "hg": 2,
+     "ag": 4
     },
     {
      "ts": "2026-10-31T14:30:00Z",
-     "status": "live",
+     "status": "done",
      "home": "ורדר ברמן",
      "away": "הופנהיים",
      "home_s": "SVW",
      "away_s": "TSG",
-     "hg": 0,
+     "hg": 2,
      "ag": 0
     },
     {
      "ts": "2026-10-31T14:30:00Z",
-     "status": "live",
+     "status": "done",
      "home": "אאוגסבורג",
      "away": "פרייבורג",
      "home_s": "FCA",
      "away_s": "SCF",
      "hg": 1,
-     "ag": 0
+     "ag": 2
     },
     {
      "ts": "2026-10-31T14:30:00Z",
-     "status": "live",
+     "status": "done",
      "home": "שאלקה",
      "away": "לייפציג",
      "home_s": "S04",
      "away_s": "RBL",
      "hg": 0,
-     "ag": 1
+     "ag": 2
     },
     {
      "ts": "2026-10-31T14:30:00Z",
-     "status": "live",
+     "status": "done",
      "home": "גלדבאך",
      "away": "פאדרבורן",
      "home_s": "BMG",
@@ -1243,6 +1243,26 @@
    "flag": "🇮🇱",
    "matches": [
     {
+     "ts": "2026-10-31T16:00:00Z",
+     "status": "live",
+     "home": "בני סכנין",
+     "away": "עירוני טבריה",
+     "home_s": "BS",
+     "away_s": "IT",
+     "hg": 0,
+     "ag": 1
+    },
+    {
+     "ts": "2026-10-31T15:30:00Z",
+     "status": "live",
+     "home": "הפועל חיפה",
+     "away": "הפועל פתח תקווה",
+     "home_s": "HH",
+     "away_s": "HPT",
+     "hg": 1,
+     "ag": 0
+    },
+    {
      "ts": "2026-10-31T13:00:00Z",
      "status": "done",
      "home": "בית״ר ירושלים",
@@ -1251,26 +1271,6 @@
      "away_s": "HIK",
      "hg": 1,
      "ag": 1
-    },
-    {
-     "ts": "2026-10-31T15:30:00Z",
-     "status": "next",
-     "home": "הפועל חיפה",
-     "away": "הפועל פתח תקווה",
-     "home_s": "HH",
-     "away_s": "HPT",
-     "hg": null,
-     "ag": null
-    },
-    {
-     "ts": "2026-10-31T16:00:00Z",
-     "status": "next",
-     "home": "בני סכנין",
-     "away": "עירוני טבריה",
-     "home_s": "BS",
-     "away_s": "IT",
-     "hg": null,
-     "ag": null
     },
     {
      "ts": "2026-10-31T17:30:00Z",
@@ -1291,6 +1291,26 @@
      "away_s": "HBS",
      "hg": null,
      "ag": null
+    },
+    {
+     "ts": "2026-11-02T18:00:00Z",
+     "status": "next",
+     "home": "הפועל רמת גן",
+     "away": "מכבי תל אביב",
+     "home_s": "HRG",
+     "away_s": "MTA",
+     "hg": null,
+     "ag": null
+    },
+    {
+     "ts": "2026-11-02T18:30:00Z",
+     "status": "next",
+     "home": "הפועל תל אביב",
+     "away": "מכבי חיפה",
+     "home_s": "HT",
+     "away_s": "MH",
+     "hg": null,
+     "ag": null
     }
    ]
   }
@@ -1298,11 +1318,11 @@
  "weather": [
   {
    "name": "חיפה",
-   "t": 21,
-   "txt": "מעונן",
-   "ic": "☁️",
-   "code": 3,
-   "wind": 18,
+   "t": 20,
+   "txt": "בהיר ברובו",
+   "ic": "🌤",
+   "code": 1,
+   "wind": 15,
    "hum": 78,
    "days": [
     {
@@ -1310,7 +1330,7 @@
      "max": 25,
      "min": 16,
      "ic": "☁️",
-     "rain": 3
+     "rain": 0
     },
     {
      "date": "2026-11-01",
@@ -1330,12 +1350,12 @@
   },
   {
    "name": "תל אביב",
-   "t": 24,
-   "txt": "מעונן",
-   "ic": "☁️",
-   "code": 3,
-   "wind": 11,
-   "hum": 62,
+   "t": 23,
+   "txt": "בהיר ברובו",
+   "ic": "🌤",
+   "code": 1,
+   "wind": 9,
+   "hum": 69,
    "days": [
     {
      "date": "2026-10-31",
@@ -1349,25 +1369,25 @@
      "max": 26,
      "min": 17,
      "ic": "☁️",
-     "rain": 3
+     "rain": 0
     },
     {
      "date": "2026-11-02",
      "max": 29,
      "min": 17,
      "ic": "☁️",
-     "rain": 3
+     "rain": 0
     }
    ]
   },
   {
    "name": "ירושלים",
-   "t": 19,
-   "txt": "מעונן חלקית",
-   "ic": "⛅",
-   "code": 2,
-   "wind": 12,
-   "hum": 68,
+   "t": 17,
+   "txt": "מעונן",
+   "ic": "☁️",
+   "code": 3,
+   "wind": 10,
+   "hum": 80,
    "days": [
     {
      "date": "2026-10-31",
@@ -1394,12 +1414,12 @@
   },
   {
    "name": "טבריה",
-   "t": 27,
+   "t": 25,
    "txt": "מעונן",
    "ic": "☁️",
    "code": 3,
-   "wind": 2,
-   "hum": 39,
+   "wind": 5,
+   "hum": 47,
    "days": [
     {
      "date": "2026-10-31",
@@ -1426,12 +1446,12 @@
   },
   {
    "name": "באר שבע",
-   "t": 22,
+   "t": 21,
    "txt": "מעונן",
    "ic": "☁️",
    "code": 3,
-   "wind": 16,
-   "hum": 58,
+   "wind": 13,
+   "hum": 64,
    "days": [
     {
      "date": "2026-10-31",
@@ -1452,18 +1472,18 @@
      "max": 30,
      "min": 16,
      "ic": "☁️",
-     "rain": 0
+     "rain": 3
     }
    ]
   },
   {
    "name": "אילת",
-   "t": 27,
-   "txt": "בהיר ברובו",
-   "ic": "🌤",
-   "code": 1,
-   "wind": 14,
-   "hum": 42,
+   "t": 26,
+   "txt": "בהיר",
+   "ic": "☀️",
+   "code": 0,
+   "wind": 9,
+   "hum": 48,
    "days": [
     {
      "date": "2026-10-31",
@@ -1500,23 +1520,23 @@
    "ok": true,
    "fresh": 12,
    "error": null,
-   "ms": 157
+   "ms": 127
   },
   {
    "id": "ynet-cult",
    "name": "ynet תרבות",
    "ok": true,
-   "fresh": 7,
+   "fresh": 6,
    "error": null,
-   "ms": 201
+   "ms": 269
   },
   {
    "id": "walla",
    "name": "וואלה",
    "ok": true,
-   "fresh": 10,
+   "fresh": 8,
    "error": null,
-   "ms": 1076
+   "ms": 853
   },
   {
    "id": "maariv",
@@ -1524,7 +1544,7 @@
    "ok": true,
    "fresh": 12,
    "error": null,
-   "ms": 706
+   "ms": 1059
   },
   {
    "id": "globes",
@@ -1532,7 +1552,7 @@
    "ok": true,
    "fresh": 12,
    "error": null,
-   "ms": 584
+   "ms": 1218
   },
   {
    "id": "calcalist",
@@ -1540,7 +1560,7 @@
    "ok": true,
    "fresh": 12,
    "error": null,
-   "ms": 398,
+   "ms": 309,
    "via": "Google News",
    "first_error": "403 Client Error: Forbidden for url: https://www.calcalist.co.il/"
   },
@@ -1550,7 +1570,7 @@
    "ok": true,
    "fresh": 6,
    "error": null,
-   "ms": 2605
+   "ms": 2302
   },
   {
    "id": "toi",
@@ -1558,7 +1578,7 @@
    "ok": true,
    "fresh": 12,
    "error": null,
-   "ms": 525,
+   "ms": 567,
    "via": "Google News",
    "first_error": "403 Client Error: Forbidden for url: https://www.timesofisrael.com/feed/"
   },
@@ -1568,7 +1588,7 @@
    "ok": true,
    "fresh": 0,
    "error": null,
-   "ms": 145
+   "ms": 164
   },
   {
    "id": "newsweek",
@@ -1576,9 +1596,8 @@
    "ok": true,
    "fresh": 12,
    "error": null,
-   "ms": 467,
-   "via": "Google News",
-   "first_error": "406 Client Error: Not Acceptable for url: https://www.newsweek.com/rss"
+   "feed": "https://www.newsweek.com/rss",
+   "ms": 534
   },
   {
    "id": "thetimes",
@@ -1586,7 +1605,7 @@
    "ok": true,
    "fresh": 12,
    "error": null,
-   "ms": 847
+   "ms": 789
   },
   {
    "id": "bbc",
@@ -1594,7 +1613,7 @@
    "ok": true,
    "fresh": 12,
    "error": null,
-   "ms": 72
+   "ms": 34
   },
   {
    "id": "guardian",
@@ -1602,7 +1621,7 @@
    "ok": true,
    "fresh": 12,
    "error": null,
-   "ms": 190
+   "ms": 228
   },
   {
    "id": "sky",
@@ -1610,7 +1629,7 @@
    "ok": true,
    "fresh": 6,
    "error": null,
-   "ms": 561
+   "ms": 73
   },
   {
    "id": "npr",
@@ -1618,7 +1637,7 @@
    "ok": true,
    "fresh": 10,
    "error": null,
-   "ms": 81
+   "ms": 72
   },
   {
    "id": "cnbc",
@@ -1626,7 +1645,7 @@
    "ok": true,
    "fresh": 12,
    "error": null,
-   "ms": 202
+   "ms": 88
   },
   {
    "id": "wired",
@@ -1634,7 +1653,7 @@
    "ok": true,
    "fresh": 12,
    "error": null,
-   "ms": 148
+   "ms": 77
   },
   {
    "id": "verge",
@@ -1642,7 +1661,7 @@
    "ok": true,
    "fresh": 10,
    "error": null,
-   "ms": 88
+   "ms": 41
   },
   {
    "id": "techcrunch",
@@ -1650,7 +1669,7 @@
    "ok": true,
    "fresh": 12,
    "error": null,
-   "ms": 96
+   "ms": 54
   },
   {
    "id": "ars",
@@ -1658,7 +1677,7 @@
    "ok": true,
    "fresh": 12,
    "error": null,
-   "ms": 122
+   "ms": 76
   },
   {
    "id": "mittr",
@@ -1666,7 +1685,7 @@
    "ok": true,
    "fresh": 2,
    "error": null,
-   "ms": 116
+   "ms": 185
   },
   {
    "id": "engadget",
@@ -1674,7 +1693,7 @@
    "ok": true,
    "fresh": 12,
    "error": null,
-   "ms": 159
+   "ms": 59
   },
   {
    "id": "tomshw",
@@ -1682,7 +1701,7 @@
    "ok": true,
    "fresh": 12,
    "error": null,
-   "ms": 713
+   "ms": 502
   },
   {
    "id": "gcaptain",
@@ -1690,7 +1709,7 @@
    "ok": true,
    "fresh": 8,
    "error": null,
-   "ms": 141
+   "ms": 71
   },
   {
    "id": "splash",
@@ -1698,7 +1717,7 @@
    "ok": true,
    "fresh": 10,
    "error": null,
-   "ms": 655
+   "ms": 437
   },
   {
    "id": "hellenic",
@@ -1706,7 +1725,7 @@
    "ok": true,
    "fresh": 12,
    "error": null,
-   "ms": 345
+   "ms": 192
   },
   {
    "id": "hsn-drybulk",
@@ -1714,7 +1733,7 @@
    "ok": true,
    "fresh": 2,
    "error": null,
-   "ms": 117
+   "ms": 127
   },
   {
    "id": "hsn-commodity",
@@ -1722,7 +1741,7 @@
    "ok": true,
    "fresh": 5,
    "error": null,
-   "ms": 129
+   "ms": 125
   },
   {
    "id": "hsn-freight",
@@ -1730,7 +1749,7 @@
    "ok": true,
    "fresh": 1,
    "error": null,
-   "ms": 125
+   "ms": 105
   },
   {
    "id": "hsn-ports",
@@ -1738,7 +1757,7 @@
    "ok": true,
    "fresh": 12,
    "error": null,
-   "ms": 326
+   "ms": 113
   },
   {
    "id": "hsn-security",
@@ -1746,15 +1765,15 @@
    "ok": true,
    "fresh": 0,
    "error": null,
-   "ms": 132
+   "ms": 135
   },
   {
    "id": "worldgrain",
    "name": "World Grain",
    "ok": true,
-   "fresh": 8,
+   "fresh": 9,
    "error": null,
-   "ms": 261,
+   "ms": 198,
    "via": "Google News",
    "first_error": "הפיד ריק או לא תקין"
   },
@@ -1764,7 +1783,7 @@
    "ok": true,
    "fresh": 10,
    "error": null,
-   "ms": 95
+   "ms": 99
   },
   {
    "id": "thr",
@@ -1772,7 +1791,7 @@
    "ok": true,
    "fresh": 10,
    "error": null,
-   "ms": 317
+   "ms": 98
   },
   {
    "id": "deadline",
@@ -1780,17 +1799,17 @@
    "ok": true,
    "fresh": 12,
    "error": null,
-   "ms": 101
+   "ms": 58
   },
   {
    "id": "ai",
    "name": "תרגום ועריכה (Claude)",
-   "ok": true,
-   "fresh": 140,
-   "error": null,
+   "ok": false,
+   "fresh": 0,
+   "error": "400 Client Error: Bad Request for url: https://api.anthropic.com/v1/messages",
    "tokens": {
-    "in": 34364,
-    "out": 18888
+    "in": 0,
+    "out": 0
    }
   },
   {
@@ -1811,7 +1830,7 @@
    "id": "sport-ISR",
    "name": "ליגת העל",
    "ok": true,
-   "fresh": 5,
+   "fresh": 7,
    "error": null
   },
   {
